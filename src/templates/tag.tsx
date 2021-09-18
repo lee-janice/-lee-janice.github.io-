@@ -35,7 +35,7 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
                                     <Link to={node.fields.slug}>{title}</Link>
                                 </h3>
                                 <small>{node.frontmatter.date}</small>
-                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.excerpt }} />
                             </div>
                         )
                     })}
@@ -55,19 +55,20 @@ interface PageQueryData {
         totalCount: number
         edges: {
             node: {
-                excerpt: string
                 fields: {
                     slug: string
                 }
                 frontmatter: {
                     date: string
                     title: string
+                    excerpt: string
                 }
             }
         }[]
     }
 }
 
+//   excerpt(pruneLength: 2500)
 export const pageQuery = graphql`
   query TagPage($tag: String) {
     site {
@@ -79,13 +80,13 @@ export const pageQuery = graphql`
       totalCount
       edges {
         node {
-          excerpt(pruneLength: 2500)
           fields {
             slug
           }
           frontmatter {
             date
             title
+            excerpt
           }
         }
       }

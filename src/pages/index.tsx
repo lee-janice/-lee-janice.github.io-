@@ -37,7 +37,7 @@ const Index: React.FC<Props> = ({ data }) => {
                   <Link to={node.fields.slug}>{title}</Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.excerpt }} />
               </div>
             )
           })}
@@ -56,13 +56,13 @@ interface PageQueryData {
   allMarkdownRemark: {
     edges: {
       node: {
-        excerpt: string
         fields: {
           slug: string
         }
         frontmatter: {
           date: string
           title: string
+          excerpt: string
         }
       }
     }[]
@@ -82,13 +82,13 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            excerpt
           }
         }
       }

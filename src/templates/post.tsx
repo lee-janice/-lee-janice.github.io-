@@ -31,7 +31,7 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
 
     return (
         <Layout title={siteTitle}>
-            <Head title={post.frontmatter.title} description={post.excerpt} />
+            <Head title={post.frontmatter.title} description={post.frontmatter.excerpt} />
             <article>
                 <header>
                     <h1>{post.frontmatter.title}</h1>
@@ -69,15 +69,17 @@ interface PageQueryData {
     }
     markdownRemark: {
         id?: string
-        excerpt?: string
+        // excerpt?: string
         html: string
         frontmatter: {
             title: string
             date: string
+            excerpt: string
         }
     }
 }
 
+//   excerpt(pruneLength: 2500)
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
     site {
@@ -87,11 +89,11 @@ export const pageQuery = graphql`
     }
     markdownRemark(fields: {slug: {eq: $slug}}) {
       id
-      excerpt(pruneLength: 2500)
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        excerpt
       }
     }
   }
