@@ -5,26 +5,37 @@ import Layout from '../components/layout'
 import Head from '../components/head'
 
 interface Props {
-    readonly data: PageQueryData
+  readonly data: PageQueryData
 }
 
 const About: React.FC<Props> = ({ data }) => {
-    const siteTitle = data.site.siteMetadata.title
+  const siteTitle = data.site.siteMetadata.title
+  const social = data.site.siteMetadata.social
 
-    return (
-        <Layout title={siteTitle}>
-            <Head title="All tags" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
-            <article>About Janice Lee...</article>
-        </Layout>
-    )
+  return (
+    <Layout title={siteTitle}>
+      <Head title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+      <div>
+        <h1>About me.</h1>
+        <p>
+          By Janice Lee
+          <br />
+          <a href={social.github}>Github</a>
+        </p>
+      </div>
+    </Layout>
+  )
 }
 
 interface PageQueryData {
-    site: {
-        siteMetadata: {
-            title: string
-        }
+  site: {
+    siteMetadata: {
+      title: string
+      social: {
+        github: string
+      }
     }
+  }
 }
 
 export const pageQuery = graphql`
@@ -32,6 +43,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        social {
+          github
+        }
       }
     }
   }

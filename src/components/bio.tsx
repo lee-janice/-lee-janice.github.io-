@@ -6,7 +6,6 @@ type StaticQueryData = {
         siteMetadata: {
             description: string
             social: {
-                twitter: string
                 github: string
             }
         }
@@ -21,21 +20,19 @@ const Bio: React.FC = () => (
           siteMetadata {
             description
             social {
-              twitter
+              github
             }
           }
         }
       }
     `}
         render={(data: StaticQueryData): React.ReactElement | null => {
-            const { description, social } = data.site.siteMetadata
+            const { social } = data.site.siteMetadata
             return (
                 <div>
-                    <h1>{description}</h1>
+                    <h1>Welcome to my website. Why don't you stay a while?</h1>
                     <p>
                         By Janice Lee
-                        <br />
-                        <a href={social.twitter}>Twitter</a>
                         <br />
                         <a href={social.github}>Github</a>
                     </p>

@@ -67,15 +67,15 @@
 }
 
 html {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 body {
-    width: 50%;
+    width: 81.25%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    padding-right: 37.5%;
+    padding-right: 6.25%;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: var(--mainBg);
     color: var(--fontColor);
@@ -91,13 +91,22 @@ h1 {
     line-height: 1;
 }
 
+h1.article {
+    font-variant: small-caps;
+}
+
 h2 {
     font-style: italic;
     font-weight: 400;
-    margin-top: 2.1rem;
+    margin-top: 3.5rem;
     margin-bottom: 1.4rem;
     font-size: 2.2rem;
     line-height: 1;
+}
+
+h2.article {
+    font-style: normal;
+    font-variant: small-caps;
 }
 
 h3 {
@@ -112,7 +121,8 @@ h3 {
 hr {
     display: block;
     height: 1px;
-    width: 55%;
+    /* width: 55%; */
+    width: 100%;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
@@ -123,7 +133,7 @@ p.subtitle {
     font-style: italic;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     display: block;
     line-height: 1;
 }
@@ -137,7 +147,8 @@ p.subtitle {
 }
 
 article {
-    padding: 5rem 0rem;
+    width: 62.25%;
+    padding: 0rem 0rem 5rem 0rem;
 }
 
 section {
@@ -160,7 +171,10 @@ p {
     vertical-align: baseline;
 }
 
-/* ----- 3. Chapter Epigraphs ----- */
+/* ----- 3. Navigation ----- */
+
+
+/* ----- 4. Chapter Epigraphs ----- */
 div.epigraph {
     margin: 5em 0;
 }
@@ -246,7 +260,7 @@ figure.fullwidth figcaption {
     margin-right: 24%;
 }
 
-/* ----- 4. Links: replicate underline that clears descenders ----- */
+/* ----- 5. Links: replicate underline that clears descenders ----- */
 a:link,
 a:visited {
     color: inherit;
@@ -281,7 +295,7 @@ a:link::-moz-selection {
     background: #b4d5fe;
 }
 
-/* ----- 5. Sidenotes, margin notes, figures, captions ----- */
+/* ----- 6. Sidenotes, margin notes, figures, captions ----- */
 img {
     max-width: 100%;
 }

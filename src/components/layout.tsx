@@ -1,10 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { GlobalStyle, styled } from '../styles/theme'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 import DarkModeToggler from '../components/darkmode-toggler'
 
 const StyledNav = styled.nav`
+  // position: absolute;
+  // left: 64px;
+  // width: 100px;
+  // padding-left: 0%;
+  
   ul {
     list-style-type: none;
     margin: 0;
@@ -14,7 +18,9 @@ const StyledNav = styled.nav`
   li {
     display: inline-block;
     margin: 16px;
+    margin-right: 48px;
     margin-left: auto;
+    font-variant: small-caps;
 
     a {
       background: none;
@@ -37,7 +43,7 @@ const Layout: React.FC<Props> = ({ children }) => (
     <StyledNav className="navigation">
       <ul>
         <li>
-          <Link to={`/`}>~</Link>
+          <Link to={`/`}>Home</Link>
         </li>
         <li>
           <Link to={`/tags`}>Topics</Link>

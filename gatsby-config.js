@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: `a cozy space`,
-    description: `This is my website.`,
     author: {
       name: `Janice Lee`,
       email: `janice.lee@pomona.edu`,

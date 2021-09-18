@@ -19,12 +19,12 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Posts tagged "${tag}"`}
+                title={`Posts about '${tag}'`}
                 keywords={[`blog`, `gatsby`, `javascript`, `react`, tag]}
             />
             <article>
                 <header>
-                    <h1>Posts tagged {tag}</h1>
+                    <h1>Articles about `{tag}`</h1>
                 </header>
                 <div className={`page-content`}>
                     {posts.map(({ node }) => {
