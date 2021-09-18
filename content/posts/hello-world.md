@@ -5,7 +5,6 @@ published: true
 layout: post
 tags: ['markdown', 'hello', 'world']
 category: example
-excerpt: 'Hello, this is an exciting post with three main points.'
 ---
 
 Hello, this is an exciting post with three main points:
