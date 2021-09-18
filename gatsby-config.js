@@ -4,10 +4,11 @@ module.exports = {
     description: `This is my website.`,
     author: {
       name: `Janice Lee`,
-      email: `janice.lee@pomona.edu`
+      email: `janice.lee@pomona.edu`,
     },
     social: {
-      github: `https://github.com/lee-janice`
+      twitter: `https://twitter.com/`,
+      github: `https://github.com/lee-janice`,
     },
     siteUrl: `https://acozy.space.com`,
   },
@@ -43,6 +44,8 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          // sidenotes and margins ala tufte css 
+          `gatsby-remark-tufte`,
           // autosizes images
           {
             resolve: `gatsby-remark-images`,
@@ -72,6 +75,8 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    // dark mode theme toggler
+    'gatsby-plugin-dark-mode',
     // favicon
     {
       resolve: `gatsby-plugin-manifest`,
@@ -91,12 +96,12 @@ module.exports = {
         siteUrl: `https://acozy.space.com`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     // trackingId: `ADD YOUR TRACKING ID HERE`,
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

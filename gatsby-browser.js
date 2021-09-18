@@ -4,4 +4,5 @@
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
 
+require('./src/styles/tufte.css')
 require('prismjs/themes/prism.css')
