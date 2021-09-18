@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "acozy-space",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Janice Lee <janice.lee@pomona.edu>",
   "dependencies": {
     "@types/react-helmet": "^6.1.2",
     "babel-plugin-styled-components": "^1.13.2",
@@ -58,7 +58,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "repository": {
     "type": "git",
