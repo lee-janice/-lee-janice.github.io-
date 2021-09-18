@@ -60,7 +60,13 @@ module.exports = {
             },
           },
           // adds link for each header in a post  
-          `gatsby-remark-autolink-headers`,
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              className: `no-tufte-underline`,
+            }
+
+          },
           // syntax highlighting for code blocks
           `gatsby-remark-prismjs`,
           // copies externally linked files to project on build

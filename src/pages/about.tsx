@@ -17,6 +17,7 @@ const About: React.FC<Props> = ({ data }) => {
       <Head title="About" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
       <div>
         <h1>About me.</h1>
+        <p className='subtitle'></p>
         <p>
           By Janice Lee
           <br />

@@ -17,15 +17,15 @@ const Index: React.FC<Props> = ({ data }) => {
       <Head title="Home" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
       <h1>Welcome to my website. Why don't you stay a while?</h1>
       <p className='subtitle'>Website homepage; a short description; recent posts</p>
-      <h2 className='article'>Description</h2>
+      <h2>Description</h2>
       <hr />
       <p>
-        This is the website of Janice Lee.
-        I created this website primarily for experiential use as a centralized knowledge/content base and as an outlet for my increasingly erratic thoughts and curiosities.
+        This is my website.
+        I created it primarily for experiential use as a centralized knowledge/content base and as an outlet for my increasingly erratic thoughts and curiosities.
         I hope that it will be a comprehensible introduction into some of the machinations of my mind, and I hope that you will enjoy your stay here!
         For information about me, see the About page; for information about the purpose and design of this site, see the Design page; to contact me, email me at janice.lee@pomona.edu.
       </p>
-      <h2 className='article'>Recent posts</h2>
+      <h2>Recent posts</h2>
       <hr />
       <article>
         <div className={`page-content`}>
@@ -37,7 +37,7 @@ const Index: React.FC<Props> = ({ data }) => {
                   <Link to={node.fields.slug}>{title}</Link>
                 </h3>
                 <small>{node.frontmatter.date}</small>
-                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
               </div>
             )
           })}
@@ -63,6 +63,7 @@ interface PageQueryData {
         frontmatter: {
           date: string
           title: string
+          subtitle: string
         }
       }
     }[]
@@ -89,6 +90,7 @@ export const pageQuery = graphql`
           frontmatter {
             date
             title
+            subtitle
           }
         }
       }
