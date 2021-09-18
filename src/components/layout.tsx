@@ -4,11 +4,6 @@ import { GlobalStyle, styled } from '../styles/theme'
 import DarkModeToggler from '../components/darkmode-toggler'
 
 const StyledNav = styled.nav`
-  // position: absolute;
-  // left: 64px;
-  // width: 100px;
-  // padding-left: 0%;
-  
   ul {
     list-style-type: none;
     margin: 0;
@@ -40,6 +35,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }) => (
   <>
     <GlobalStyle />
+    <DarkModeToggler />
     <StyledNav className="navigation">
       <ul>
         <li>
@@ -49,7 +45,10 @@ const Layout: React.FC<Props> = ({ children }) => (
           <Link to={`/tags`}>Topics</Link>
         </li>
         <li>
-          <Link to={`/about-me`}>About</Link>
+          <Link to={`/journal`}>Journal</Link>
+        </li>
+        <li>
+          <Link to={`/about-me`}>About Me</Link>
         </li>
       </ul>
     </StyledNav>
@@ -58,10 +57,9 @@ const Layout: React.FC<Props> = ({ children }) => (
     </main>
     <StyledFooter className="footer">
       © {new Date().getFullYear()},{` `}
-      <a href="https://acozy.space">acozy.space</a>. Built with
+      <a href="https://lee-janice.github.io">a cozy space</a>. Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>.
-      <DarkModeToggler />
     </StyledFooter>
   </>
 )

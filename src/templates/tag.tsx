@@ -35,7 +35,7 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
                                     <Link to={node.fields.slug}>{title}</Link>
                                 </h3>
                                 <small>{node.frontmatter.date}</small>
-                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
                             </div>
                         )
                     })}
@@ -62,6 +62,7 @@ interface PageQueryData {
                 frontmatter: {
                     date: string
                     title: string
+                    subtitle: string
                 }
             }
         }[]
@@ -86,6 +87,7 @@ export const pageQuery = graphql`
           frontmatter {
             date
             title
+            subtitle
           }
         }
       }

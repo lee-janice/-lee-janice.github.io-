@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 /* ----- 1. Fonts ----- */
@@ -86,14 +85,13 @@ body {
 h1 {
     font-weight: 400;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.4rem;
     font-size: 3.2rem;
     line-height: 1;
 }
 
 h2 {
-    /* font-style: italic; */
-    font-style: normal;
+    /* font-style: normal; */
     font-variant: small-caps;
     font-weight: 400;
     margin-top: 2rem;
@@ -111,10 +109,18 @@ h3 {
     line-height: 1;
 }
 
+h4 {
+    font-variant: small-caps;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.4rem;
+    line-height: 1;
+}
+
 hr {
     display: block;
     height: 1px;
-    /* width: 55%; */
     width: 100%;
     border: 0;
     border-top: 1px solid #ccc;
@@ -156,7 +162,7 @@ p {
     vertical-align: baseline;
 }
 
-/* ----- 3. Custom CSS ----- */
+/* ----- 3. Custom changes ----- */
 
 p.subtitle {
     font-style: italic;
@@ -176,9 +182,9 @@ p.pageinfo {
     line-height: 1;
 }
 
-/* div.page-content {
-    margin-top: 3rem;
-} */
+::-moz-selection, ::selection { 
+    background: #fde396;
+}
 
 /* ----- 4. Chapter Epigraphs ----- */
 div.epigraph {
@@ -296,7 +302,7 @@ a:link, .tufte-underline, .hover-tufte-underline:hover {
 
 a:link::selection,
 a:link::-moz-selection {
-    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+    /* text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe; */
     background: #b4d5fe;
 }
 

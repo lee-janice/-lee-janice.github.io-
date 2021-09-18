@@ -5,4 +5,5 @@
  */
 
 require('./src/styles/tufte.css')
+require('./src/styles/style.css')
 require('prismjs/themes/prism.css')

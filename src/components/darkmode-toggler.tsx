@@ -5,7 +5,7 @@ const DarkModeToggler: React.FC = () => {
     return (
         <ThemeToggler>
             {({ theme, toggleTheme }) => (
-                <label style={{ float: 'right' }}>
+                <label style={{ float: 'right', position: 'fixed', right: 5, bottom: 5 }}>
                     <input
                         type="checkbox"
                         onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
