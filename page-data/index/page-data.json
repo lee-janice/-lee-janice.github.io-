@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Hello, this is an exciting post with three main points: You can format your content using markdown You can refer to images You can include…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"2019-05-25","title":"Hello World"}}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"This is where you can read all about me. “Knowing yourself is the beginning of all wisdom.”  — Aristotle  “Who in the world am I? Ah, that’s…","fields":{"slug":"/about-me/"},"frontmatter":{"date":"2021-09-17","title":"About me.","subtitle":"Information about me; what I'm up to; current interests and favorites; how to contact me"}}}]}},"pageContext":{}},
     "staticQueryHashes": ["712016698"]}
