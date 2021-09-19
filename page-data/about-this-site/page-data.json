@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-tsx",
+    "path": "/about-this-site/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"markdownRemark":{"id":"62193df1-4734-5cd7-aac9-e876a2f3178e","excerpt":"","html":"","frontmatter":{"title":"About this site.","subtitle":"Information about this site; the purpose and goals; organization; design","date":"2021-09-18","lastupdated":"2021-09-18","tags":["meta","personal"]}}},"pageContext":{"slug":"/about-this-site/","previous":{"fields":{"slug":"/about-me/"},"frontmatter":{"tags":["personal","autobiographical"],"title":"About me."}},"next":null}},
+    "staticQueryHashes": ["712016698"]}

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"Who are you?\nThis seemingly innocuous question is one that has plagued me (and no doubt countless others, asking this of themselves) to no…","fields":{"slug":"/about-me/"},"frontmatter":{"date":"2021-09-17","title":"About me.","subtitle":"Information about me; what I'm up to now; major influences; current interests and favorites; how to contact me"}}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"","fields":{"slug":"/about-this-site/"},"frontmatter":{"date":"2021-09-18","title":"About this site.","subtitle":"Information about this site; the purpose and goals; organization; design"}}},{"node":{"excerpt":"Who are you?\nThis seemingly innocuous question is one that has plagued me (and no doubt countless others, asking this of themselves) to no…","fields":{"slug":"/about-me/"},"frontmatter":{"date":"2021-09-17","title":"About me.","subtitle":"Information about me; what I'm up to now; current interests and favorites; major influences; how to contact me"}}}]}},"pageContext":{}},
     "staticQueryHashes": ["712016698"]}
