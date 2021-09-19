@@ -73,8 +73,8 @@ body {
     width: 81.25%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12.5%;
-    padding-right: 6.25%;
+    padding-left: 6.25%;
+    padding-right: 12.25%;
     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     background-color: var(--mainBg);
     color: var(--fontColor);
@@ -182,10 +182,6 @@ p.pageinfo {
     line-height: 1;
 }
 
-::-moz-selection, ::selection { 
-    background: #fde396;
-}
-
 /* ----- 4. Chapter Epigraphs ----- */
 div.epigraph {
     margin: 3em 0;
@@ -208,7 +204,8 @@ div.epigraph > blockquote > footer {
 div.epigraph > blockquote > footer > cite {
     font-style: italic;
 }
-/* end chapter epigraphs styles */
+
+/* ----- Blockquotes, lists, figures ----- */
 
 blockquote {
     font-size: 1.4rem;
@@ -271,7 +268,7 @@ figure.fullwidth figcaption {
     margin-right: 24%;
 }
 
-/* ----- 5. Links: replicate underline that clears descenders ----- */
+/* ----- Links: replicate underline that clears descenders ----- */
 a:link,
 a:visited {
     color: inherit;
@@ -306,7 +303,7 @@ a:link::-moz-selection {
     background: #b4d5fe;
 }
 
-/* ----- 6. Sidenotes, margin notes, figures, captions ----- */
+/* ----- Sidenotes, margin notes ----- */
 img {
     max-width: 100%;
 }
@@ -443,11 +440,18 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
+/* ----- Smaller screens ----- */
+
 @media (max-width: 760px) {
     body {
         width: 84%;
         padding-left: 8%;
         padding-right: 8%;
+    }
+
+    article {
+        width: 95%;
+        padding: 0rem 0rem 5rem 0rem;
     }
 
     hr,

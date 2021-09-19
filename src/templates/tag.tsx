@@ -24,7 +24,7 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
             />
             <article>
                 <header>
-                    <h1>Articles about `{tag}`</h1>
+                    <h1>Topic:{tag}</h1>
                 </header>
                 <div className={`page-content`}>
                     {posts.map(({ node }) => {

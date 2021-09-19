@@ -23,7 +23,7 @@ const Index: React.FC<Props> = ({ data }) => {
         This is my website.
         I created it primarily for experiential use as a centralized knowledge/content base and as an outlet for my increasingly erratic thoughts and curiosities.
         I hope that it will be a comprehensible introduction into some of the machinations of my mind, and I hope that you will enjoy your stay here!
-        For information about me, see the <Link to={`/about-me`}>About page</Link>; for information about the purpose and design of this site, see the Design page; to contact me, email me at <a href='mailto: janice.lee@pomona.edu'>janice.lee@pomona.edu</a>.
+        For information about me, see the <Link to={`/about-me`}>About me page</Link>; for information about the purpose and design of this site, see the <Link to={`/about-this-site`}>About this site page</Link>; to contact me, email me at <a href='mailto: janice.lee@pomona.edu'>janice.lee@pomona.edu</a>.
       </p>
       <h2>Recent posts</h2>
       <hr />
