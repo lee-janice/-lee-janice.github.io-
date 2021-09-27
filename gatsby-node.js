@@ -9,7 +9,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 // transforms markdown files into html
 exports.createPages = ({ graphql, actions }) => {
-    // grabs tags and title from frontmatter - these must be set for each markdown file
+    // grabs topics and title from frontmatter - these must be set for each markdown file
     return graphql(
         `
       {
@@ -20,7 +20,7 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
-                tags
+                topics
                 title
               }
             }
@@ -35,7 +35,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Get the templates
         const postTemplate = path.resolve(`./src/templates/post.tsx`)
-        const tagTemplate = path.resolve('./src/templates/tag.tsx')
+        const topicTemplate = path.resolve('./src/templates/topic.tsx')
 
         // Create post pages
         const posts = result.data.allMarkdownRemark.edges
@@ -54,23 +54,23 @@ exports.createPages = ({ graphql, actions }) => {
             })
         })
 
-        // Iterate through each post, putting all found tags into `tags`
-        let tags = []
+        // Iterate through each post, putting all found topic into `topics`
+        let topics = []
         posts.forEach(post => {
-            if (post.node.frontmatter.tags) {
-                tags = tags.concat(post.node.frontmatter.tags)
+            if (post.node.frontmatter.topics) {
+                topics = topics.concat(post.node.frontmatter.topics)
             }
         })
-        const uniqTags = [...new Set(tags)]
+        const uniqTopics = [...new Set(topics)]
 
-        // Create tag pages
-        uniqTags.forEach(tag => {
-            if (!tag) return
+        // Create topic pages
+        uniqTopics.forEach(topic => {
+            if (!topic) return
             actions.createPage({
-                path: `/tags/${tag}/`,
-                component: tagTemplate,
+                path: `/topics/${topic}/`,
+                component: topicTemplate,
                 context: {
-                    tag,
+                    topic,
                 },
             })
         })

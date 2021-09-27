@@ -344,6 +344,20 @@ img {
     content: counter(sidenote-counter) " ";
     font-size: 1rem;
     top: -0.5rem;
+    position: absolute;
+    right: calc(100% + 0.5em);
+}
+
+.sidenote p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin: 1em 0;
+}
+.sidenote p:first-child {
+    margin-top: 0;
+}
+.sidenote p:last-child {
+    margin-bottom: 0;
 }
 
 blockquote .sidenote,

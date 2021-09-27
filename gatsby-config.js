@@ -9,7 +9,7 @@ module.exports = {
       twitter: `https://twitter.com/`,
       github: `https://github.com/lee-janice`,
     },
-    siteUrl: `https://acozy.space.com`,
+    siteUrl: `https://lee-janice.github.io`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -41,7 +41,14 @@ module.exports = {
     // remark transformer to convert markdown to html
     {
       resolve: `gatsby-transformer-remark`,
+      // resolve: `gatsby-plugin-mdx`,
       options: {
+        // extensions: [`.mdx`, `.md`],
+        // defaultLayouts: {
+        //   post: require.resolve('./src/templates/post.tsx'),
+        //   tag: require.resolve('./src/templates/tag.tsx'),
+        // },
+        // gatsbyRemarkPlugins: [
         plugins: [
           // sidenotes and margins ala tufte css 
           `gatsby-remark-tufte`,
@@ -92,14 +99,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        // icon: `static/img/icons/tea.png`, // This path is relative to the root of the site.
         icon: `src/images/tea.png`, // This path is relative to the root of the site.
       },
     },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://acozy.space.com`,
+        siteUrl: `https://lee-janice.github.io`,
       },
     },
     // {

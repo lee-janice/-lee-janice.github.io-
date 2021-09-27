@@ -7,24 +7,24 @@ import Head from '../components/head'
 interface Props {
     readonly data: PageQueryData
     readonly pageContext: {
-        tag: string
+        topic: string
     }
 }
 
-const TagTemplate: React.FC<Props> = ({ data, pageContext }) => {
-    const { tag } = pageContext
+const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
+    const { topic } = pageContext
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
 
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Posts about '${tag}'`}
-                keywords={[`blog`, `gatsby`, `javascript`, `react`, tag]}
+                title={`Posts about '${topic}'`}
+                keywords={[`blog`, `gatsby`, `javascript`, `react`, topic]}
             />
             <article>
                 <header>
-                    <h1>Topic:{tag}</h1>
+                    <h1>Topic:{topic}</h1>
                 </header>
                 <div className={`page-content`}>
                     {posts.map(({ node }) => {
@@ -70,13 +70,13 @@ interface PageQueryData {
 }
 
 export const pageQuery = graphql`
-  query TagPage($tag: String) {
+  query TopicPage($topic: String) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(limit: 1000, filter: {frontmatter: {tags: {in: [$tag]}}}) {
+    allMarkdownRemark(limit: 1000, filter: {frontmatter: {topics: {in: [$topic]}}}) {
       totalCount
       edges {
         node {
@@ -95,4 +95,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default TagTemplate
+export default TopicTemplate

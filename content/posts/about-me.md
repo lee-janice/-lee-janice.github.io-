@@ -5,7 +5,7 @@ date: '2021-09-17'
 lastupdated: '2021-09-19'
 published: true
 layout: post
-tags: ['personal', 'autobiographical']
+topics: ['personal', 'autobiographical']
 category: me
 ---
 
@@ -17,24 +17,18 @@ This seemingly innocuous question is one that has plagued me (and no doubt count
 That being said, the concept of myself still exists, floating around in the ambient space of consciousness.
 I created this document to capture some of those concepts. 
 I hope that it will lend itself to a picture in your mind of who I am or who I was at some point in time. 
-However, I do have trouble describing myself (see above), so if you really want to get to know me, contact me! ☺
+However, I do have trouble describing myself (see above), so if you really want to get to know me, [contact me](#contact)! ☺
 
 <div class='epigraph'>
 
-> “Knowing yourself is the beginning of all wisdom.” <footer> — Aristotle </footer>
-
-> “Who in the world am I? Ah, that's the great puzzle.” <footer> — Lewis Carroll, *Alice in Wonderland* </footer>
+> “Who in the world am I? Ah, that's the great puzzle.” <footer> — Lewis Carroll; *Alice in Wonderland* </footer>
 
 </div>
 
 
 
-
-
 ## Where have I been and what have I done? 
 ---
-
-
 
 
 
@@ -48,17 +42,18 @@ I'm interviewing for a technical research analyst position at the NYU-hosted Res
 Fingers crossed!
 
 
+
 ## What do I like? 
 --- 
 <div class='epigraph'>
 
-> Dogen-zenji said, "Although everything has Buddha nature, we love flowers, and we do not care for weeds." This is true of human nature. But that we are attached  to  some beauty is itself Buddha's  activity.  That we do not care for weeds is also Buddha's activity. We should know that.  If you know that, it is all right to attach to something.  If it is Buddha's attachment, that is non-attachment.  So in love  there should be hate, or non-attachment.  And in hate there should be love, or acceptance.  Love and hate are one thing. <footer> - Shunryu Suzuki, *Zen Mind, Beginner's Mind* </footer>
+> Dogen-zenji said, "Although everything has Buddha nature, we love flowers, and we do not care for weeds." This is true of human nature. But that we are attached  to  some beauty is itself Buddha's  activity.  That we do not care for weeds is also Buddha's activity. We should know that.  If you know that, it is all right to attach to something.  If it is Buddha's attachment, that is non-attachment.  So in love  there should be hate, or non-attachment.  And in hate there should be love, or acceptance.  Love and hate are one thing. <footer> -- Shunryu Suzuki; *Zen Mind, Beginner's Mind* </footer>
 
 <div class='epigraph'>
 
 In short, I like everything.
-What's not to like about the miracles of the universe, whether conventionally good or bad?
-But while I do like everything, I get attached to particular things. 
+What's not to love about the miracles of the universe, whether conventionally good or bad?
+But while I do like everything, I am particularly fond of certain things. 
 Here are some of those things.
 
 ### Current interests
@@ -89,10 +84,11 @@ In general, I'm currently interested in metaphysics, phenomenology, Buddhism, me
     - Comedy: [Rush Hour 2](https://www.youtube.com/watch?v=OfORiypbhkg&list=PLVtbcbkh_DGAwK0QDDA8vHKIXV9JNrwaS) starring Jackie Chan and Chris Tucker, directed by Brett Ratner
     - Psychological horror: [The Truman Show](https://www.youtube.com/watch?v=z9lBvg5clr0) directed by Peter Weir
 
-[^liszt]: From the [Hollywood Bowl](https://www.hollywoodbowl.com/musicdb/pieces/458/les-jeux-deau-a-la-villa-deste): At the midpoint of Franz Liszt’s *Les jeux d’eaux à la Villa d’Este* (The Fountains of the Villa d’Este), as the music modulates into a radiant D major, the composer places in the score the following inscription from the Gospel According to John: *Sed aqua quam ego dabo ei, fiet in eo fons aquae salientis in vitam aeternam* (But the water that I shall give him shall become in him a well of water springing up into eternal life)... While *Les jeux d’eaux à la Villa d’Este* is the progenitor of all pianistic water-music to come (Ravel and Debussy lay decades ahead), its intent goes beyond the musical depiction of the rilling and leaping of waters in fountains. It offers water as the symbolic focus of profound contemplation. 
+[^liszt]: From the [Hollywood Bowl](https://www.hollywoodbowl.com/musicdb/pieces/458/les-jeux-deau-a-la-villa-deste): At the midpoint of Franz Liszt’s *Les jeux d’eaux à la Villa d’Este* (The Fountains of the Villa d’Este), as the music modulates into a radiant D major, the composer places in the score the following inscription from the Gospel According to John: *Sed aqua quam ego dabo ei, fiet in eo fons aquae salientis in vitam aeternam* (But the water that I shall give him shall become in him a well of water springing up into eternal life)...
+    While *Les jeux d’eaux à la Villa d’Este* is the progenitor of all pianistic water-music to come (Ravel and Debussy lay decades ahead), its intent goes beyond the musical depiction of the rilling and leaping of waters in fountains. It offers water as the symbolic focus of profound contemplation.  
 
 #### Tools
-- Notebook: Any from the [Maruman Mnemosyne](https://www.jetpens.com/Maruman-Mnemosyne-Notebooks/ct/765) line
+- Notebook: Any from the [Maruman Mnemosyne](https://www.jetpens.com/Maruman-Mnemosyne-Notebooks/ct/765) line, I use the [N181A Imagination Notebook](https://www.jetpens.com/Maruman-Mnemosyne-N181A-Imagination-Notebook-A4-Unruled/pd/4077)
 - Pencil: Mitsubishi Hi-Uni - 2B
 - Multi-pen: Uni Jetstream 4&1 pen - 0.5 mm
 - Text editor: Anything with a Vim extention - I use VSCode or [NeoVim](https://neovim.io/) for programming, [Overleaf](https://www.overleaf.com/) for writing in LaTeX, and [Obsidian](https://obsidian.md/) for note-taking
@@ -127,8 +123,6 @@ Wikipedia; Armor Games/Addicting Games; JiJi and ST Math; PBS Kids' CyberChase; 
 
 
 
-
-
 ## What am I like? 
 --- 
 
@@ -148,9 +142,7 @@ Although I am hesitant to prescribe much credence to psychological and personali
 
 [^open]: According to the site, this factor is also called Openness to experience, which I would say is a more accurate term.
 
-Here are some words that I may describe myself with: optimistic; bold-at-times; incredibly-shy-at-others; unconditionally accepting; chromatic; oscillating; rippling; ideating; bubbling; paradoxical; dialectical, nonsensical.
-
-
+Here are some words that I may describe myself with: optimistic; bold-at-times; incredibly-shy-at-others; goofy; awkward; a little cringy; a hopeful romantic; unconditionally accepting; chromatic; oscillating; rippling; ideating; bubbling; paradoxical; dialectical, nonsensical.
 
 
 
@@ -160,8 +152,6 @@ Here are some words that I may describe myself with: optimistic; bold-at-times; 
 - [GitHub](https://github.com/lee-janice) 
 - [The Story Graph](https://app.thestorygraph.com/profile/janicelee) - a non-Jeffy Bezos-owned alternative to Goodreads 
 - [Spotify](https://open.spotify.com/user/janicel375?si=5791df024f794ce7)
-
-
 
 
 

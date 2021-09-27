@@ -6,3 +6,8 @@ a[href*='github.com']::after {
     margin: 0 0 2px 3px;
     opacity: .6;
 }
+
+/* ----- Other ------ */
+span.concept {
+    font-variant: small-caps;
+}

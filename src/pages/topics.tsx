@@ -8,27 +8,28 @@ interface Props {
     readonly data: PageQueryData
 }
 
-const Tags: React.FC<Props> = ({ data }) => {
+const Topics: React.FC<Props> = ({ data }) => {
     const siteTitle = data.site.siteMetadata.title
     const group = data.allMarkdownRemark && data.allMarkdownRemark.group
 
     return (
         <Layout title={siteTitle}>
-            <Head title="Topics" keywords={[`blog`, `gatsby`, `javascript`, `react`]} />
+            <Head title="Topics." keywords={[]} />
             <article>
-                <h1>Topics</h1>
+                <h1>Topics.</h1>
+                <p className='subtitle'>Collection of topics that are discussed on my website, listed alphabetically</p>
                 <div className={`page-content`}>
                     {group &&
                         group.map(
-                            tag =>
-                                tag && (
-                                    <div key={tag.fieldValue}>
+                            topic =>
+                                topic && (
+                                    <div key={topic.fieldValue}>
                                         <h3>
-                                            <Link to={`/tags/${tag.fieldValue}/`}>{tag.fieldValue}</Link>
+                                            <Link to={`/topics/${topic.fieldValue}/`}>{topic.fieldValue}</Link>
                                         </h3>
                                         <small>
-                                            {tag.totalCount} post
-                                            {tag.totalCount === 1 ? '' : 's'}
+                                            {topic.totalCount} post
+                                            {topic.totalCount === 1 ? '' : 's'}
                                         </small>
                                     </div>
                                 ),
@@ -61,7 +62,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(filter: {frontmatter: {published: {ne: false}}}) {
-      group(field: frontmatter___tags) {
+      group(field: frontmatter___topics) {
         fieldValue
         totalCount
       }
@@ -69,4 +70,4 @@ export const pageQuery = graphql`
   }
 `
 
-export default Tags
+export default Topics

@@ -42,13 +42,16 @@ const Layout: React.FC<Props> = ({ children }) => (
           <Link to={`/`}>Home</Link>
         </li>
         <li>
-          <Link to={`/tags`}>Topics</Link>
+          <Link to={`/topics`}>Topics</Link>
         </li>
         <li>
           <Link to={`/journal`}>Journal</Link>
         </li>
         <li>
           <Link to={`/about-me`}>About Me</Link>
+        </li>
+        <li>
+          <Link to={`/about-this-site`}>About This Site</Link>
         </li>
       </ul>
     </StyledNav>

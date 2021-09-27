@@ -38,7 +38,7 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     <p className='subtitle'>{post.frontmatter.subtitle}</p>
                     <p className='pageinfo'>{post.frontmatter.date} ○
                         last updated: {post.frontmatter.lastupdated} ○
-                        tags: {post.frontmatter.tags.map((tag, i, arr) => <Link to={`/tags/${tag}/`}>{(i < arr.length - 1) ? tag + ', ' : tag}</Link>)}
+                        topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
                     </p>
                 </header>
                 <div className={`page-content`}>
@@ -80,7 +80,7 @@ interface PageQueryData {
             subtitle: string
             date: string
             lastupdated: string
-            tags: [string]
+            topics: [string]
         }
     }
 }
@@ -101,7 +101,7 @@ export const pageQuery = graphql`
         subtitle
         date
         lastupdated
-        tags
+        topics
       }
     }
   }
