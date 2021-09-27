@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-month-tsx",
+    "path": "/journal/2021/08",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{"year":"2021","month":"08","dirRegexByYearAndMonth":"/journal/2021/08/"}},
+    "staticQueryHashes": ["712016698"]}
