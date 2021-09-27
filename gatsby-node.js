@@ -6,6 +6,7 @@
 
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { ENGINE_METHOD_PKEY_ASN1_METHS } = require("constants")
 
 // transforms markdown files into html
 exports.createPages = ({ graphql, actions }) => {
@@ -26,6 +27,21 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
+        years: allDirectory(filter: {relativeDirectory: {regex: "/journal$/"}}) {
+            edges {
+              node {
+                name
+              }
+            }
+        }
+        months: allDirectory(filter: {relativeDirectory: {regex: "/journal/[0-9]{4}$/"}}) {
+            edges {
+              node {
+                name
+                relativeDirectory
+              }
+            }
+        }
       }
     `,
     ).then(result => {
@@ -36,6 +52,8 @@ exports.createPages = ({ graphql, actions }) => {
         // Get the templates
         const postTemplate = path.resolve(`./src/templates/post.tsx`)
         const topicTemplate = path.resolve('./src/templates/topic.tsx')
+        const yearTemplate = path.resolve('./src/templates/year.tsx')
+        const monthTemplate = path.resolve('./src/templates/month.tsx')
 
         // Create post pages
         const posts = result.data.allMarkdownRemark.edges
@@ -72,6 +90,34 @@ exports.createPages = ({ graphql, actions }) => {
                 context: {
                     topic,
                 },
+            })
+        })
+
+        // Create year pages 
+        const years = result.data.years.edges
+        years.forEach(year => {
+            actions.createPage({
+                path: `/journal/${year.node.name}/`,
+                component: yearTemplate,
+                context: {
+                    year: year.node.name,
+                    mthDirRegexByYear: `/journal/${year.node.name}/[0-9]{2}/`,
+                },
+            })
+        })
+
+        // Create month pages
+        const months = result.data.months.edges
+        months.forEach(month => {
+            const year = month.node.relativeDirectory.slice(-4)
+            actions.createPage({
+                path: `${month.node.relativeDirectory}/${month.node.name}`,
+                component: monthTemplate,
+                context: {
+                    year: year,
+                    month: month.node.name,
+                    dirRegexByYearAndMonth: `/journal/${year}/${month.node.name}/`,
+                }
             })
         })
     })

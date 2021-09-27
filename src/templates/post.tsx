@@ -32,15 +32,16 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
     return (
         <Layout title={siteTitle}>
             <Head title={post.frontmatter.title} description={post.excerpt} />
+            <header>
+                <h1>{post.frontmatter.title}</h1>
+                <p className='subtitle'>{post.frontmatter.subtitle}</p>
+                <p className='pageinfo'>
+                    {post.frontmatter.date} ○
+                    last updated: {post.frontmatter.lastupdated} ○
+                    topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+                </p>
+            </header>
             <article>
-                <header>
-                    <h1>{post.frontmatter.title}</h1>
-                    <p className='subtitle'>{post.frontmatter.subtitle}</p>
-                    <p className='pageinfo'>{post.frontmatter.date} ○
-                        last updated: {post.frontmatter.lastupdated} ○
-                        topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
-                    </p>
-                </header>
                 <div className={`page-content`}>
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
                     <StyledUl>

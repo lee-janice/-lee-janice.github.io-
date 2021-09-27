@@ -6,7 +6,7 @@ lastupdated: '2021-09-26'
 published: true
 layout: post
 topics: ['meta', 'personal']
-category: website
+category: about
 ---
 
 <span class='newthought'> This website </span> has been simmering in my mind since I first began programming in 2018.
@@ -185,7 +185,7 @@ Look at me now!
 I still don't *really* understand, but I'm far closer now than I was back then!
 Through Tumblr, I found myself gravitating towards more simplistic and minimal layouts. 
 
-[^tumblr]: If you dare, take a look at my Tumblr blog [here](https://luxstellae.tumblr.com/) and be transported into my middle-to-early-high-school mind and aesthetic sensibilities. I never wrote posts of my own, though. I simply let reblogs be the voice of my mind.
+[^tumblr]: If you dare, take a look at my Tumblr blog [here](https://luxstellae.tumblr.com/) and be transported into my middle-school-to-early-high-school mind and aesthetic sensibilities. I never wrote posts of my own, though. I was a reblogging lurker.
 
 - Wikipedia
 - LaTeX

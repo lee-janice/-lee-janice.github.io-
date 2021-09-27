@@ -1,12 +1,12 @@
 ---
 title: About me.
 subtitle: Information about me; what I'm up to now; current interests and favorites; major influences; how to contact me
-date: '2021-09-17'
+date: '2021-09-18'
 lastupdated: '2021-09-19'
 published: true
 layout: post
 topics: ['personal', 'autobiographical']
-category: me
+category: about
 ---
 
 <span class='newthought'>Who are you?</span>

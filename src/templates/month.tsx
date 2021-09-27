@@ -3,36 +3,40 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import monthNumberToName from '../util/monthNumberToName'
 
 interface Props {
     readonly data: PageQueryData
     readonly pageContext: {
-        topic: string
+        year: string
+        month: string
+        dirRegexByYearAndMonth: string
     }
 }
 
-const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
-    const { topic } = pageContext
+const MonthTemplate: React.FC<Props> = ({ data, pageContext }) => {
+    const { year, month } = pageContext
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
+    const entries = data.allMarkdownRemark.edges
 
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Topic:${topic}.'`}
-                keywords={[`blog`, `gatsby`, `javascript`, `react`, topic]}
+                title={`Year:${year}, month:${month}.`}
+                keywords={[`journal`, year, month]}
             />
             <header>
-                <h1>Topic:{topic}.</h1>
-                <p className='subtitle'>Collection of posts on the topic `{topic}`</p>
+                <h1>Year:{year}, month:{month}.</h1>
+                <p className='subtitle'>Collection of journal entries for {monthNumberToName(month)} {year}</p>
                 <p className='pageinfo'>
-                    2021-09-27 ○
-                    last updated: 2021-09-27
+                    2021-09-18 ○
+                    last updated: 2021-09-26
                 </p>
             </header>
+            <br />
             <article>
                 <div className={`page-content`}>
-                    {posts.map(({ node }) => {
+                    {entries.map(({ node }) => {
                         const title = node.frontmatter.title || node.fields.slug
                         return (
                             <div key={node.fields.slug}>
@@ -40,7 +44,7 @@ const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
                                     <Link to={node.fields.slug}>{title}</Link>
                                 </h3>
                                 <small>{node.frontmatter.date}</small>
-                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
+                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                             </div>
                         )
                     })}
@@ -57,7 +61,6 @@ interface PageQueryData {
         }
     }
     allMarkdownRemark: {
-        totalCount: number
         edges: {
             node: {
                 excerpt: string
@@ -75,29 +78,31 @@ interface PageQueryData {
 }
 
 export const pageQuery = graphql`
-  query TopicPage($topic: String) {
+  query MonthPage($dirRegexByYearAndMonth: String) {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(limit: 1000, filter: {frontmatter: {topics: {in: [$topic]}}}) {
-      totalCount
-      edges {
-        node {
-          excerpt(pruneLength: 2500)
-          fields {
-            slug
-          }
-          frontmatter {
-            date
-            title
-            subtitle
+    allMarkdownRemark(
+        filter: {fields: {slug: {regex: $dirRegexByYearAndMonth}}}
+        sort: {fields: [frontmatter___date], order: DESC}
+      ) {
+        edges {
+          node {
+            excerpt(pruneLength: 1000)
+            fields {
+              slug
+            }
+            frontmatter {
+              date
+              title
+              subtitle
+            }
           }
         }
       }
-    }
   }
 `
 
-export default TopicTemplate
+export default MonthTemplate

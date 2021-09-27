@@ -15,9 +15,15 @@ const Topics: React.FC<Props> = ({ data }) => {
     return (
         <Layout title={siteTitle}>
             <Head title="Topics." keywords={[]} />
-            <article>
+            <header>
                 <h1>Topics.</h1>
                 <p className='subtitle'>Collection of topics that are discussed on my website, listed alphabetically</p>
+                <p className='pageinfo'>
+                    2021-09-18 ○
+                    last updated: 2021-09-27
+                </p>
+            </header>
+            <article>
                 <div className={`page-content`}>
                     {group &&
                         group.map(

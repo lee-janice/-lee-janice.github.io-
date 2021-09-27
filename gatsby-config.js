@@ -41,14 +41,7 @@ module.exports = {
     // remark transformer to convert markdown to html
     {
       resolve: `gatsby-transformer-remark`,
-      // resolve: `gatsby-plugin-mdx`,
       options: {
-        // extensions: [`.mdx`, `.md`],
-        // defaultLayouts: {
-        //   post: require.resolve('./src/templates/post.tsx'),
-        //   tag: require.resolve('./src/templates/tag.tsx'),
-        // },
-        // gatsbyRemarkPlugins: [
         plugins: [
           // sidenotes and margins ala tufte css 
           `gatsby-remark-tufte`,

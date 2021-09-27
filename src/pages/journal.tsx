@@ -6,41 +6,50 @@ import Head from '../components/head'
 
 interface Props {
     readonly data: PageQueryData
-    readonly pageContext: {
-        topic: string
-    }
 }
 
-const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
-    const { topic } = pageContext
+const Journal: React.FC<Props> = ({ data }) => {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
+    const years = data.allDirectory.edges
 
     return (
         <Layout title={siteTitle}>
-            <Head
-                title={`Topic:${topic}.'`}
-                keywords={[`blog`, `gatsby`, `javascript`, `react`, topic]}
-            />
+            <Head title="Journal." keywords={[`journal`]} />
             <header>
-                <h1>Topic:{topic}.</h1>
-                <p className='subtitle'>Collection of posts on the topic `{topic}`</p>
+                <h1>Journal.</h1>
+                <p className='subtitle'>Collection of all journal entries; entries by year; recent entries</p>
                 <p className='pageinfo'>
-                    2021-09-27 ○
+                    2021-09-26 ○
                     last updated: 2021-09-27
                 </p>
             </header>
             <article>
                 <div className={`page-content`}>
+                    <h2>Entries by year</h2>
+                    <hr />
+                    {years.map(({ node }) => {
+                        return (
+                            <div key={node.name}>
+                                <h3>
+                                    <Link to={`/journal/${node.name}/`}>{node.name}</Link>
+                                </h3>
+                            </div>
+                        )
+                    })}
+                    <br />
+                    <h2>Recent entries</h2>
+                    <hr />
                     {posts.map(({ node }) => {
                         const title = node.frontmatter.title || node.fields.slug
+                        console.log(node.excerpt)
                         return (
                             <div key={node.fields.slug}>
                                 <h3>
                                     <Link to={node.fields.slug}>{title}</Link>
                                 </h3>
                                 <small>{node.frontmatter.date}</small>
-                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
+                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                             </div>
                         )
                     })}
@@ -57,7 +66,6 @@ interface PageQueryData {
         }
     }
     allMarkdownRemark: {
-        totalCount: number
         edges: {
             node: {
                 excerpt: string
@@ -71,21 +79,35 @@ interface PageQueryData {
                 }
             }
         }[]
+        group: {
+            fieldValue: string
+            totalCount: number
+        }[]
+    }
+    allDirectory: {
+        edges: {
+            node: {
+                name: string
+            }
+        }[]
     }
 }
 
 export const pageQuery = graphql`
-  query TopicPage($topic: String) {
+  query {
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(limit: 1000, filter: {frontmatter: {topics: {in: [$topic]}}}) {
-      totalCount
+    allMarkdownRemark(
+      filter: {frontmatter: {category: {eq: "journal"}}}
+      sort: {fields: [frontmatter___date], order: DESC}
+      limit: 10
+    ) {
       edges {
         node {
-          excerpt(pruneLength: 2500)
+          excerpt(pruneLength: 1000)
           fields {
             slug
           }
@@ -97,7 +119,17 @@ export const pageQuery = graphql`
         }
       }
     }
+    allDirectory(
+        filter: {relativeDirectory: {regex: "/journal$/"}}
+        sort: {fields: name, order: DESC}
+    ) {
+        edges {
+          node {
+            name
+          }
+        }
+      }
   }
 `
 
-export default TopicTemplate
+export default Journal
