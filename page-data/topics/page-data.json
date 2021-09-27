@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-tags-tsx",
-    "path": "/tags/",
+    "componentChunkName": "component---src-pages-topics-tsx",
+    "path": "/topics/",
     "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"group":[{"fieldValue":"autobiographical","totalCount":1},{"fieldValue":"meta","totalCount":1},{"fieldValue":"personal","totalCount":2}]}},"pageContext":{}},
     "staticQueryHashes": ["712016698"]}

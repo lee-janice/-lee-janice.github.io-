@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-tag-tsx",
-    "path": "/tags/meta/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/about-this-site/"},"frontmatter":{"date":"2021-09-18","title":"About this site.","subtitle":"Information about this site; the purpose and goals; organization; design"}}}]}},"pageContext":{"tag":"meta"}},
-    "staticQueryHashes": ["712016698"]}
