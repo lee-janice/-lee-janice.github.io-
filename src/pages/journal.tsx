@@ -42,7 +42,6 @@ const Journal: React.FC<Props> = ({ data }) => {
                     <hr />
                     {posts.map(({ node }) => {
                         const title = node.frontmatter.title || node.fields.slug
-                        console.log(node.excerpt)
                         return (
                             <div key={node.fields.slug}>
                                 <h3>

@@ -9,8 +9,8 @@ topics: ['meta', 'personal']
 category: about
 ---
 
-<span class='newthought'> This website </span> has been simmering in my mind since I first began programming in 2018.
-One of the first projects that I wanted to complete after my first programming course was the creation of a personal website, but there were numerous psychological barriers that stood in the way of its birth -- perfectionism, lack of confidence in my programming and writing capabilities, decision paralysis with respect to organization, form, and design -- all of your classic self-sabatoging mentalities.
+<span class='newthought'> This website </span> has been simmering in my mind since I began programming in 2018.
+One of the initial projects that I wanted to complete after my first programming course was the creation of a personal website, but there were numerous psychological barriers that stood in the way of its birth -- perfectionism, lack of confidence in my programming and writing capabilities, decision paralysis with respect to organization, form, and design -- all of your classic self-sabatoging mentalities.
 But one day, riding on the coattails of my existential crisis-fueled euphoria (or as some would say, delusion), I woke up and declared "F@$*, I'm just going to send it!"[^fix]. 
 And send it I did, and herein lies the product of that sending. 
 
@@ -117,7 +117,7 @@ I hope that it will be a resource that helps me come to a better understanding o
 </div>
 
 I often have the urge to drive to the coast in midst of the night and shout at the ocean. 
-There's something cathartic about the idea -- one's existential angst being subsumed by the calming static of the waves, the hypnotic-harmonic push and pull of the tides, and the immovable void of the sea.
+There's something cathartic about the idea -- one's existential angst being subsumed by the calming static of the waves, the hypnotic pitch and roll of the tides, and the immovable void of the sea.
 In general, the concept of a shout into the void is very appealing to me. 
 I think it's because I struggle immensely with the possibility of being a burden on others: I abhor the idea of people doing things for me simply because they feel obligated to do so.
 The void feels no such obligation. 
