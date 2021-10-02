@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/static/img`,
+        path: `${__dirname}/src/images`,
       },
     },
     // remark transformer to convert markdown to html
@@ -47,6 +47,9 @@ module.exports = {
           `gatsby-remark-tufte`,
           // autosizes images
           {
+            // It's important to specify the maxWidth (in pixels) of
+            // the content container as this plugin uses this as the
+            // base for generating different widths of each image.
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1280,

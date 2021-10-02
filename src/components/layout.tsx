@@ -42,10 +42,25 @@ const Layout: React.FC<Props> = ({ children }) => (
           <Link to={`/`}>Home</Link>
         </li>
         <li>
+          |
+        </li>
+        <li>
           <Link to={`/topics`}>Topics</Link>
         </li>
         <li>
+          |
+        </li>
+        <li>
+          <Link to={`/essays`}>Essays</Link>
+        </li>
+        <li>
+          <Link to={`/notes`}>Notes</Link>
+        </li>
+        <li>
           <Link to={`/journal`}>Journal</Link>
+        </li>
+        <li>
+          |
         </li>
         <li>
           <Link to={`/about-me`}>About Me</Link>

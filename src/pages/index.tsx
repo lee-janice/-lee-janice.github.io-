@@ -14,7 +14,7 @@ const Index: React.FC<Props> = ({ data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <Head title="Home" keywords={[`blog`, `janice`, `lee`, `pomona`]} />
+      <Head title="Home." keywords={[`blog`, `janice`, `lee`, `pomona`]} />
       <header>
         <h1>Welcome to my website. Why don't you stay a while?</h1>
         <p className='subtitle'>Website homepage; a short description; recent posts</p>

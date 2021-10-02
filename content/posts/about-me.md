@@ -5,7 +5,7 @@ date: '2021-09-18'
 lastupdated: '2021-09-19'
 published: true
 layout: post
-topics: ['personal', 'autobiographical']
+topics: ['autobiographical']
 category: about
 ---
 

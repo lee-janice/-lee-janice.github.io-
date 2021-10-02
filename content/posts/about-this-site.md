@@ -2,10 +2,10 @@
 title: About this site.
 subtitle: Information about this site; the structure, purpose, philosophy, and inspiration; implementation details; to-dos
 date: '2021-09-18'
-lastupdated: '2021-09-26'
+lastupdated: '2021-10-01'
 published: true
 layout: post
-topics: ['meta', 'personal']
+topics: ['meta']
 category: about
 ---
 
@@ -24,8 +24,8 @@ In the remainder of this page, I'll describe the overarching structure of my web
 I've settled on a tripartite structure, although this may shift down the line as my needs and wants for this website change. 
 The three components are as follows:
 
-1. <span class='concept'> Blog </span> -- opinion-based essays, containing a more thorough analysis of chosen topics and the interweaving of various themes
-2. <span class='concept'> Article </span> -- information-based text, similar to a Wikipedia article or encyclopedia entry 
+1. <span class='concept'> Essays </span> -- opinion-based, longer-form content, containing a more thorough analysis of chosen topics and the interweaving of various themes
+2. <span class='concept'> Notes </span> -- information-based text, similar to a Wikipedia article or encyclopedia entry, or other more comprehensive notes on a specific topic
 3. <span class='concept'> Journal </span> -- my personal thought/word/content vomit receptacle, containing the various brain farts and questions that pop into my head at random and the large or small moments from my day that I'd like to remember 
 
 Every page under each of these branches will be tagged, and these tags will serve as the operator to link the three together. 
@@ -211,3 +211,5 @@ There are many features that I'd like to add to this website, such as:
 - [ ] Support multi-paragraph text in sidenotes
 - [ ] Change checkbox lists to not display a bullet point
 - [ ] Add a scroll-to-the-top button
+- [ ] Add more fine-grained organization of the Topics page, like topic organization by letter 
+- [ ]
