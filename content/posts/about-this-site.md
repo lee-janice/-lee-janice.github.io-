@@ -48,7 +48,7 @@ As such, I wish to endow this website with a sense of purpose and being.
 [^raison]: French for "reason for being." I learned this phrase from *Pedagogy of the Oppressed* by Paulo Freire!
 
 I think that the main force behind its creation is the hope that it will be an extension of my limited self.
-For most of my life, I've suffered from a slight feeling of lack -- the universe is brimming with information and the computational power of my pea-sized brain is no match for the immensity of it all.
+For most of my life, I've suffered from a slight (well, maybe a sizable) feeling of lack -- the universe is brimming with information and the computational power of my pea-sized brain is no match for the immensity of it all.
 I've even forgotten much of what it was like to be myself at any moment in time besides the current one!
 Although I've mostly come to terms with this fact, I realized that there are a plethora of tools at my disposal that I can use to enrich my views of the world and of myself.
 With that in mind, I identified a few ways in which I hope this website will extend my concept of my self and my understanding.
