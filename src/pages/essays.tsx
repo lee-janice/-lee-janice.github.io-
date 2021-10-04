@@ -11,7 +11,6 @@ interface Props {
 const Essays: React.FC<Props> = ({ data }) => {
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-    const years = data.allDirectory.edges
 
     return (
         <Layout title={siteTitle}>
@@ -20,25 +19,13 @@ const Essays: React.FC<Props> = ({ data }) => {
                 <h1>Essays.</h1>
                 <p className='subtitle'>Collection of all essays; recent essays</p>
                 <p className='pageinfo'>
-                    2021-09-26 ○
-                    last updated: 2021-09-27
+                    2021-10-01 ○
+                    last updated: 2021-10-02
                 </p>
             </header>
             <article>
                 <div className={`page-content`}>
-                    <h2>Entries by year</h2>
-                    <hr />
-                    {years.map(({ node }) => {
-                        return (
-                            <div key={node.name}>
-                                <h3>
-                                    <Link to={`/journal/${node.name}/`}>{node.name}</Link>
-                                </h3>
-                            </div>
-                        )
-                    })}
-                    <br />
-                    <h2>Recent entries</h2>
+                    <h2>Recent essays</h2>
                     <hr />
                     {posts.map(({ node }) => {
                         const title = node.frontmatter.title || node.fields.slug
@@ -100,7 +87,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "journal"}}}
+      filter: {frontmatter: {category: {eq: "essays"}}}
       sort: {fields: [frontmatter___date], order: DESC}
       limit: 10
     ) {
@@ -118,16 +105,6 @@ export const pageQuery = graphql`
         }
       }
     }
-    allDirectory(
-        filter: {relativeDirectory: {regex: "/journal$/"}}
-        sort: {fields: name, order: DESC}
-    ) {
-        edges {
-          node {
-            name
-          }
-        }
-      }
   }
 `
 
