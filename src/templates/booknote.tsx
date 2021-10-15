@@ -24,88 +24,88 @@ const StyledUl = styled('ul')`
   }
 `
 
-const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
-    const post = data.markdownRemark
-    const siteTitle = data.site.siteMetadata.title
-    const { previous, next } = pageContext
+// const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
+//     const post = data.markdownRemark
+//     const siteTitle = data.site.siteMetadata.title
+//     const { previous, next } = pageContext
 
-    return (
-        <Layout title={siteTitle}>
-            <Head title={post.frontmatter.title} description={post.excerpt} />
-            <header>
-                <h1>{post.frontmatter.title}</h1>
-                <p className='subtitle'>{post.frontmatter.subtitle}</p>
-                <p className='pageinfo'>
-                    {post.frontmatter.date} ○
-                    last updated: {post.frontmatter.lastupdated} ○
-                    topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
-                </p>
-            </header>
-            <article>
-                <div className={`page-content`}>
-                    <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                    <StyledUl>
-                        {previous && (
-                            <li>
-                                <Link to={previous.fields.slug} rel="prev">
-                                    ← {previous.frontmatter.title}
-                                </Link>
-                            </li>
-                        )}
-                        {next && (
-                            <li>
-                                <Link to={next.fields.slug} rel="next">
-                                    {next.frontmatter.title} →
-                                </Link>
-                            </li>
-                        )}
-                    </StyledUl>
-                </div>
-            </article>
-        </Layout>
-    )
-}
+//     return (
+//         <Layout title={siteTitle}>
+//             <Head title={post.frontmatter.title} description={post.excerpt} />
+//             <header>
+//                 <h1>{post.frontmatter.title}</h1>
+//                 <p className='subtitle'>{post.frontmatter.subtitle}</p>
+//                 <p className='pageinfo'>
+//                     {post.frontmatter.date} ○
+//                     last updated: {post.frontmatter.lastupdated} ○
+//                     topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+//                 </p>
+//             </header>
+//             <article>
+//                 <div className={`page-content`}>
+//                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
+//                     <StyledUl>
+//                         {previous && (
+//                             <li>
+//                                 <Link to={previous.fields.slug} rel="prev">
+//                                     ← {previous.frontmatter.title}
+//                                 </Link>
+//                             </li>
+//                         )}
+//                         {next && (
+//                             <li>
+//                                 <Link to={next.fields.slug} rel="next">
+//                                     {next.frontmatter.title} →
+//                                 </Link>
+//                             </li>
+//                         )}
+//                     </StyledUl>
+//                 </div>
+//             </article>
+//         </Layout>
+//     )
+// }
 
-interface PageQueryData {
-    site: {
-        siteMetadata: {
-            title: string
-        }
-    }
-    markdownRemark: {
-        id?: string
-        excerpt?: string
-        html: string
-        frontmatter: {
-            title: string
-            subtitle: string
-            date: string
-            lastupdated: string
-            topics: [string]
-        }
-    }
-}
+// interface PageQueryData {
+//     site: {
+//         siteMetadata: {
+//             title: string
+//         }
+//     }
+//     markdownRemark: {
+//         id?: string
+//         excerpt?: string
+//         html: string
+//         frontmatter: {
+//             title: string
+//             subtitle: string
+//             date: string
+//             lastupdated: string
+//             topics: [string]
+//         }
+//     }
+// }
 
-export const pageQuery = graphql`
-  query BookNoteBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    markdownRemark(fields: {slug: {eq: $slug}}) {
-      id
-      excerpt(pruneLength: 2500)
-      html
-      frontmatter {
-        title
-        subtitle
-        date
-        lastupdated
-        topics
-      }
-    }
-  }
-`
+// export const pageQuery = graphql`
+//   query BookNoteBySlug($slug: String!) {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//     markdownRemark(fields: {slug: {eq: $slug}}) {
+//       id
+//       excerpt(pruneLength: 2500)
+//       html
+//       frontmatter {
+//         title
+//         subtitle
+//         date
+//         lastupdated
+//         topics
+//       }
+//     }
+//   }
+// `
 
-export default BookNoteTemplate
+// export default BookNoteTemplate

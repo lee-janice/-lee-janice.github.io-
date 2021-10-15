@@ -2,7 +2,7 @@
 title: About this site.
 subtitle: Information about this site; the structure, purpose, philosophy, and inspiration; implementation details; to-dos
 date: '2021-09-18'
-lastupdated: '2021-10-01'
+lastupdated: '2021-10-14'
 published: true
 layout: post
 topics: ['meta']
@@ -206,10 +206,10 @@ There are many features that I'd like to add to this website, such as:
 - [ ] Support bi-directional links, à la [digital gardens](https://github.com/MaggieAppleton/digital-gardeners/)
 - [ ] Implement a [knowledge graph](https://markmarijnissen.com/200602-about-this-wiki.html) visualisation
 - [ ] Switch from .md to .mdx
-- [ ] Change the footnote symbol on narrower screens from a tiny number to something more noticable
+- [ ] Change the footnote symbol on narrower screens from a tiny number to something more noticeable
 - [ ] Automatically generate and display a table of contents
 - [ ] Support multi-paragraph text in sidenotes
 - [ ] Change checkbox lists to not display a bullet point
 - [ ] Add a scroll-to-the-top button
 - [ ] Add more fine-grained organization of the Topics page, like topic organization by letter 
-- [ ]
+- [ ] Add search functionality
