@@ -9,6 +9,10 @@ topics: ['notes', 'dreams', 'personal', 'liminality', 'subconscious']
 category: notes
 ---
 
+## 2021-10-06
+---
+dream flew to san francisco and went biking and out of the park there was this super steep hill and by the end it was almost vertical and there were 3 bikers behind me (2 guys 1 girl) who made it up w their bikes and i was hanging vertically on the street and finally made it up and they told me not to take a shower here bc the showers are gross and the second guy told me i looked extremely beautiful then i checked google maps and i was really far from where i wanted to be (looked like prospect park on gmaps, but i was way south) and i saw this golden lighted village to my right (north east) and i went there and rode up some stairs and an asian couple said that they didnt know what they were doing here and i woke up
+
 ## 2021-09-23
 ---
 dream about mom and Kanye west and building with old Korean lady giving massage and something rly scary was happening and the same woman/man were appearing everywhere and I had to run away

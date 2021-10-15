@@ -10,15 +10,16 @@ interface Props {
     readonly pageContext: {
         year: string
         mthDirRegexByYear: string
+        mthDirMdRegexByYear: string
     }
 }
 
 const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
     const { year } = pageContext
     const siteTitle = data.site.siteMetadata.title
-    const group = data.allFile.group
+    const group = data.numEntries.group
     const months = data.allDirectory.edges
-    const entries = data.allMarkdownRemark.edges
+    const entries = data.entries.edges
 
     return (
         <Layout title={siteTitle}>
@@ -89,13 +90,13 @@ interface PageQueryData {
             }
         }[]
     }
-    allFile: {
+    numEntries: {
         group: {
             fieldValue: string
             totalCount: number
         }[]
     }
-    allMarkdownRemark: {
+    entries: {
         edges: {
             node: {
                 excerpt: string
@@ -113,7 +114,7 @@ interface PageQueryData {
 }
 
 export const pageQuery = graphql`
-  query YearPage($mthDirRegexByYear: String) {
+  query YearPage($mthDirRegexByYear: String, $mthDirMdRegexByYear: String) {
     site {
       siteMetadata {
         title
@@ -129,13 +130,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    allFile(filter: {relativePath: {regex: $mthDirRegexByYear}}) {
-        group(field: relativeDirectory) {
-          fieldValue
+    numEntries: allMarkdownRemark(filter: {fields: {slug: {regex: $mthDirMdRegexByYear}}}) {
+        totalCount
+        group(field: frontmatter___group) {
           totalCount
+          fieldValue
         }
-      }
-    allMarkdownRemark(
+    }
+    entries: allMarkdownRemark(
         filter: {fields: {slug: {regex: $mthDirRegexByYear}}}
         sort: {fields: [frontmatter___date], order: DESC}
       ) {

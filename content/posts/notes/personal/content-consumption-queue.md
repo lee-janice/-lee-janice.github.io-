@@ -9,10 +9,18 @@ topics: ['notes']
 category: notes
 ---
 
+## Currently X-ing
+---
+
+- Reading: Douglas Hofstader; Gödel, Escher, Bach: An Eternal Golden Braid
+- Listening: N/A
+- Watching: N/A
+
+
 ## Books
 --- 
 
-- Madeline L'Engle; A Wind in the Door
+- ~Madeline L'Engle; A Wind in the Door~
 - Hermann Hesse; Siddhartha
 - Kurt Vonnegut; Slaughterhouse Five
 
@@ -21,13 +29,14 @@ category: notes
 --- 
 - Turing, Alan; *Computing Machinery and Intelligence*
 - Kafka, Franz; *Letter to My Father*
+- Woolf, Virginia; *A Room of One's Own*
 
 
 ## Albums or artists
 ---
 
 - Al Green
-
+- Stevie Wonder
 
 ## Movies
 ---
