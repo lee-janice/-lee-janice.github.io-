@@ -79,6 +79,15 @@ module.exports = {
         ],
       },
     },
+    // transformer to parse yaml data
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data`,
+        name: `data`,
+      },
+    },
     // enhances and resizes images
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,

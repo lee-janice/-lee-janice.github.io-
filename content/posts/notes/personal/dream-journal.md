@@ -1,5 +1,5 @@
 ---
-title: Dream Journal
+title: Dream journal
 subtitle: A log of my more memorable dreams in reverse-chronological order
 date: '2021-10-03'
 lastupdated: '2021-10-03'
@@ -20,7 +20,7 @@ dream about climbing table rock and having been there before and streets were fl
 
 ## 2021-08-04
 ---
-dream Andrew was in it and he was walking w his friend talking Abt hs classes and I followed them and somehow we all stopped and his friend started glowing light and I started vibrating really really fast and I turned to Andrew to ask if he saw his friend glowing and he said no 
+dream where A was in it and he was walking w his friend talking Abt hs classes and I followed them and somehow we all stopped and his friend started glowing light and I started vibrating really really fast and I turned to A to ask if he saw his friend glowing and he said no 
 continuation of dream, driving in the mountains and it was nighttime and saw this guy w dog attached to his chest w a leash, and something about mapping some human emotions to a topology and the results corresponding w some skeleton (hip bone) of ancient ppl I had in the backseat of my car, and someone else was in my car, and he said good job look what you've done w ur potential, and I said we are our potential, and he said yes... that's what they want me to say and lunged at me (right lower abdomen) 
 
 ## 2021-08-04
@@ -30,7 +30,7 @@ dream about visiting new York and going to grand central station and forgot my l
 
 ## 2021-07-24
 ---
-dream about vacation on a place along the coast and there was a temple slash house thing with lots of pictures on the wall and the first floor was like a dojo or something and Andrew met me there but then my mom and sister came and then he disappeared and then switched to this other place with a house and mom said she wasnt going to support me anymore and was going to take the money from my account so I asked Jamie if she could hold my money in her account and then she started spending it 
+dream about vacation on a place along the coast and there was a temple slash house thing with lots of pictures on the wall and the first floor was like a dojo or something and A met me there but then my mom and sister came and then he disappeared and then switched to this other place with a house and mom said she wasnt going to support me anymore and was going to take the money from my account so I asked Jamie if she could hold my money in her account and then she started spending it 
 
 ## 2021-07-13
 ---
@@ -59,7 +59,7 @@ it was like the ground was an ocean
 ## 2021-04-20
 ---
 dream with eliz and Claire
-andrew was there?
+and A was there?
 monkeys and dogs doing crazy stuff on the street, monkeys riding brooms and dogs driving cars 
 
 ## 2021-03-07

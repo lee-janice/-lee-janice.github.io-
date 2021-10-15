@@ -2,7 +2,7 @@
 title: About me.
 subtitle: Information about me; what I'm up to now; current interests and favorites; major influences; how to contact me
 date: '2021-09-18'
-lastupdated: '2021-09-19'
+lastupdated: '2021-10-14'
 published: true
 layout: post
 topics: ['autobiographical']
@@ -10,7 +10,7 @@ category: about
 ---
 
 <span class='newthought'>Who are you?</span>
-This seemingly innocuous question is one that has plagued me (and no doubt countless others, asking this of themselves) to no foreseeable end. After a long bout of mental anguish and intense contemplation regarding myself, my memories, my relationships, and my place in the grand scheme of the universe, I've come to the conclusion that the concept of a unified, cohesive self may very well be illusory, and that accepting myself as *everchanging and interconnected potential* rather than trying to cram the totality of who I am[^self] into a concrete, fixed reality does wonders for my wellbeing.
+This seemingly innocuous question is one that has plagued me (and no doubt countless others, asking this of themselves) to no foreseeable end. After a long bout of mental anguish and intense contemplation regarding myself, my memories, my relationships, and my place in the grand symphony of the universe, I've come to the conclusion that the concept of a unified, cohesive self may very well be illusory, and that accepting myself as *everchanging and interconnected potential* rather than trying to cram the totality of who I am[^self] into a concrete, fixed reality does wonders for my wellbeing.
 
 [^self]: Even this website - its design, its content, my writing style - makes me slightly uncomfortable because of the image of me that it might paint in your mind. The goofier, meme-ier me is cringing at myself for taking things and myself so seriously; the contemplative, solemn me is resisting this ridicule. *What then shall we choose? Weight or lightness? - Milan Kundera, The Unbearable Lightness of Being*
 
