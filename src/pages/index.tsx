@@ -20,7 +20,7 @@ const Index: React.FC<Props> = ({ data }) => {
         <p className='subtitle'>Website homepage; a short description; recent posts</p>
         <p className='pageinfo'>
           2021-09-18 ○
-          last updated: 2021-09-26
+          last updated: 2021-10-14
         </p>
       </header>
       <div className={`page-content`}>
@@ -41,7 +41,10 @@ const Index: React.FC<Props> = ({ data }) => {
               <h3>
                 <Link to={node.fields.slug}>{title}</Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small>
+                {node.frontmatter.date} ○
+                topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+              </small>
               <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
             </div>
           )
@@ -72,6 +75,7 @@ interface PageQueryData {
           date: string
           title: string
           subtitle: string
+          topics: [string]
         }
       }
     }[]
@@ -99,6 +103,7 @@ export const pageQuery = graphql`
             date
             title
             subtitle
+            topics
           }
         }
       }

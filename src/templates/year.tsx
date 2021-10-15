@@ -32,7 +32,7 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <p className='subtitle'>Collection of journal entries for {year}; entries by month</p>
                 <p className='pageinfo'>
                     2021-09-18 ○
-                    last updated: 2021-09-26
+                    last updated: 2021-10-14
                 </p>
             </header>
             <article>
@@ -66,7 +66,10 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
                                 <h3>
                                     <Link to={node.fields.slug}>{title}</Link>
                                 </h3>
-                                <small>{node.frontmatter.date}</small>
+                                <small>
+                                    {node.frontmatter.date} ○
+                                    topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+                                </small>
                                 <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                             </div>
                         )
@@ -107,6 +110,7 @@ interface PageQueryData {
                     date: string
                     title: string
                     subtitle: string
+                    topics: [string]
                 }
             }
         }[]
@@ -151,6 +155,7 @@ export const pageQuery = graphql`
               date
               title
               subtitle
+              topics
             }
           }
         }
