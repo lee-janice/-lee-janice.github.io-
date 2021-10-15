@@ -10,7 +10,6 @@ interface Props {
     readonly pageContext: {
         year: string
         mthDirRegexByYear: string
-        mthDirMdRegexByYear: string
     }
 }
 
@@ -42,6 +41,7 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     {months.map(({ node }) => {
                         const monthName = monthNumberToName(node.name)
                         const month = group.filter((monthDir) => monthDir.fieldValue.slice(-2) === node.name)[0]
+                        console.log(group.map((monthDir) => monthDir.fieldValue.slice(-2)))
                         // if the year/month folder doesn't contain .md files, return
                         if (!month) return
                         return (
@@ -118,7 +118,7 @@ interface PageQueryData {
 }
 
 export const pageQuery = graphql`
-  query YearPage($mthDirRegexByYear: String, $mthDirMdRegexByYear: String) {
+  query YearPage($mthDirRegexByYear: String) {
     site {
       siteMetadata {
         title
@@ -134,7 +134,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    numEntries: allMarkdownRemark(filter: {fields: {slug: {regex: $mthDirMdRegexByYear}}}) {
+    numEntries: allMarkdownRemark(filter: {fields: {slug: {regex: $mthDirRegexByYear}}}) {
         totalCount
         group(field: frontmatter___group) {
           totalCount

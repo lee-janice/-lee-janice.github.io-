@@ -102,7 +102,6 @@ exports.createPages = ({ graphql, actions }) => {
                 context: {
                     year: year.node.name,
                     mthDirRegexByYear: `/journal/${year.node.name}/[0-9]{2}/`,
-                    mthDirMdRegexByYear: `/journal/${year.node.name}/[0-9]{2}/*.md/`,
                 },
             })
         })
