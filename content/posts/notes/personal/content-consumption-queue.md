@@ -12,7 +12,7 @@ category: notes
 ## Currently X-ing
 ---
 
-- Reading: Douglas Hofstader; Gödel, Escher, Bach: An Eternal Golden Braid
+- Reading: Douglas Hofstader; *Gödel, Escher, Bach: An Eternal Golden Braid*
 - Listening: N/A
 - Watching: N/A
 
@@ -20,9 +20,9 @@ category: notes
 ## Books
 --- 
 
-- ~Madeline L'Engle; A Wind in the Door~
-- Hermann Hesse; Siddhartha
-- Kurt Vonnegut; Slaughterhouse Five
+- ~Madeline L'Engle; *A Wind in the Door*~
+- Hermann Hesse; *Siddhartha*
+- Kurt Vonnegut; *Slaughterhouse Five*
 
 
 ## Essays and letters
@@ -48,8 +48,10 @@ category: notes
 - Studio Ghibli; The Secret World of Arrietty
 
 
-## TV shows
+## TV shows or anime
 --- 
+
+- Hideaki Anno; Neon Genesis Evangelion 
 
 
 

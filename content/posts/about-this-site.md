@@ -33,8 +33,8 @@ The concepts identified in these tags can be perused in the [Topics](/topics) pa
 
 I hope that these three components will serve to encourage the flow and growth of information from a seed to a flourishing plant to a whole meal.
 My vision is that the seeds of thought will be planted in my journal, where there is no pressure to have a coherent opinion or view on anything -- just small beginnings. 
-From the journal, I can cherry-pick interesting topics and do more in-depth research, posting the fruits of my labor as an article.
-Then, from the research in the articles, and other random tid-bits from my journal, I can weave it together into the grand feast of a blog post. 
+From the journal, I can cherry-pick interesting topics and do more in-depth research, posting the fruits of my labor as a note.
+Then, from the research in the notes, and other random tid-bits from my journal, I can weave it together into the grand feast of an essay. 
 We'll see if this strategy pans out, but I have high hopes!
 
 
