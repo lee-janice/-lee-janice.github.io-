@@ -38,6 +38,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `quotes`,
+        path: `${__dirname}/src/data/quotes`,
+      },
+    },
     // remark transformer to convert markdown to html
     {
       resolve: `gatsby-transformer-remark`,
@@ -80,13 +87,20 @@ module.exports = {
       },
     },
     // transformer to parse yaml data
-    `gatsby-transformer-yaml`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-transformer-yaml`,
       options: {
-        path: `${__dirname}/src/data`,
-        name: `data`,
-      },
+        // allows us to make a query called allQuotesYaml
+        // to query yaml in subdirectories of a filesystem source
+        // https://meaganwaller.com/render-dynamic-pages-gatsby-file-system-route-api-yaml
+        typeName: ({ node }) => {
+          const name = node.sourceInstanceName
+          if (name === `quotes`) {
+            return `QuotesYaml`
+          }
+          return name
+        }
+      }
     },
     // enhances and resizes images
     `gatsby-plugin-image`,
@@ -119,6 +133,7 @@ module.exports = {
     //     // trackingId: `ADD YOUR TRACKING ID HERE`,
     //   },
     // },
+    //
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

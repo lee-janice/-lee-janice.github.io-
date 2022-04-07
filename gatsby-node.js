@@ -8,7 +8,29 @@ const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const { ENGINE_METHOD_PKEY_ASN1_METHS } = require("constants")
 
-// transforms markdown files into html
+// create own GraphQL schema to allow for nullable types in frontmatter
+// https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization/#nested-types
+exports.createSchemaCustomization = ({ actions }) => {
+    const { createTypes } = actions;
+    const typeDefs = `
+        type MarkdownRemark implements Node {
+            frontmatter: FrontMatter
+        }
+        type FrontMatter {
+            title: String
+            topics: [String]
+            category: String
+            booknote: [BookNote]
+        }
+        type BookNote {
+            author: String
+            title: String
+        }
+    `;
+    createTypes(typeDefs);
+};
+
+// create pages of the website by transforming markdown files into html
 exports.createPages = ({ graphql, actions }) => {
     // grabs topics and title from frontmatter - these must be set for each markdown file
     return graphql(
@@ -23,6 +45,11 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter {
                 topics
                 title
+                layout
+                booknote {
+                    author
+                    title
+                }
               }
             }
           }
@@ -49,30 +76,48 @@ exports.createPages = ({ graphql, actions }) => {
             throw result.errors
         }
 
-        // Get the templates
+        // get the templates
         const postTemplate = path.resolve(`./src/templates/post.tsx`)
         const topicTemplate = path.resolve('./src/templates/topic.tsx')
         const yearTemplate = path.resolve('./src/templates/year.tsx')
         const monthTemplate = path.resolve('./src/templates/month.tsx')
+        const bookNoteTemplate = path.resolve('./src/templates/booknote.tsx')
 
-        // Create post pages
+        // create post pages
         const posts = result.data.allMarkdownRemark.edges
         posts.forEach((post, index) => {
             const previous = index === posts.length - 1 ? null : posts[index + 1].node
             const next = index === 0 ? null : posts[index - 1].node
 
-            actions.createPage({
-                path: post.node.fields.slug,
-                component: postTemplate,
-                context: {
-                    slug: post.node.fields.slug,
-                    previous,
-                    next,
-                },
-            })
+            // use booknote template for book note pages 
+            // author and title in the frontmatter of the markdown file must match 
+            // the author and title in the yaml book quote file 
+            if (post.node.frontmatter.layout === 'booknote') {
+                actions.createPage({
+                    path: post.node.fields.slug,
+                    component: bookNoteTemplate,
+                    context: {
+                        slug: post.node.fields.slug,
+                        author: post.node.frontmatter.booknote[0].author,
+                        title: post.node.frontmatter.booknote[0].title,
+                        previous,
+                        next,
+                    },
+                })
+            } else { // use general post template for everything else
+                actions.createPage({
+                    path: post.node.fields.slug,
+                    component: postTemplate,
+                    context: {
+                        slug: post.node.fields.slug,
+                        previous,
+                        next,
+                    },
+                })
+            }
         })
 
-        // Iterate through each post, putting all found topic into `topics`
+        // iterate through each post, putting all found topics into `topics`
         let topics = []
         posts.forEach(post => {
             if (post.node.frontmatter.topics) {
@@ -81,7 +126,7 @@ exports.createPages = ({ graphql, actions }) => {
         })
         const uniqTopics = [...new Set(topics)]
 
-        // Create topic pages
+        // create topic pages
         uniqTopics.forEach(topic => {
             if (!topic) return
             actions.createPage({
@@ -93,7 +138,7 @@ exports.createPages = ({ graphql, actions }) => {
             })
         })
 
-        // Create year pages 
+        // create year pages 
         const years = result.data.years.edges
         years.forEach(year => {
             actions.createPage({
@@ -106,7 +151,7 @@ exports.createPages = ({ graphql, actions }) => {
             })
         })
 
-        // Create month pages
+        // create month pages
         const months = result.data.months.edges
         months.forEach(month => {
             const year = month.node.relativeDirectory.slice(-4)
