@@ -15,7 +15,7 @@ quotes:
     chapter_number: 1
     page_number: 8
     notes: ""
-    importance: 4
+    importance: 2
     tags: ["bureaucracy"]
   - item: 
     quote: >
@@ -27,19 +27,19 @@ quotes:
     chapter_number: 2
     page_number: 31
     notes: 
-    importance: 3
+    importance: 6
     tags: []
   - item: 
     quote: >
-      "...before falling asleep he reflected briefly on his conduct: he was pleased 
+      ...before falling asleep he reflected briefly on his conduct: he was pleased 
       with it, but was surprised that he didn't feel even more pleased; he was seriously 
-      concerned on Fräulein Bürstner's behalf because of the captain."
+      concerned on Fräulein Bürstner's behalf because of the captain.
     description: ""
     chapter_title: Conversation with Frau Grubach; then Fräulein Bürstner
     chapter_number: 2
     page_number: 33
     notes: 
-    importance: 3
+    importance: 5
     tags: []
   - item: 
     quote: >
@@ -53,7 +53,7 @@ quotes:
     chapter_number: 3
     page_number: 41
     notes: 
-    importance: 4
+    importance: 3
     tags: []
   - item: 
     quote: >
@@ -67,7 +67,7 @@ quotes:
     chapter_number: 3
     page_number: 42
     notes: 
-    importance: 4
+    importance: 3
     tags: []
   - item: 
     quote: >
@@ -93,7 +93,7 @@ quotes:
     chapter_number: 3
     page_number: 45
     notes: 
-    importance: 1
+    importance: 10
     tags: []
   - item: 
     quote: >
@@ -107,8 +107,11 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 49
-    notes: 
-    importance: 2
+    notes: >
+      The blinding white glare in this quote parallels Camus' descriptions of overbearing, oppressive light in The Stranger: 
+      "the glare from the sky was unbearable", Meursault being "almost blinded by the glaze of light," and
+      his "trial opened with the sun glaring outside." Slightly uncanny...
+    importance: 8
     tags: []
   - item: 
     quote: >
@@ -120,5 +123,5 @@ quotes:
     chapter_number: 3
     page_number: 52
     notes: 
-    importance: 1
+    importance: 8
     tags: []

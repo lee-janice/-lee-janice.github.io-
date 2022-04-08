@@ -22,16 +22,22 @@ const Quote: React.FC<Props> = ({
     tags = null,
     children = null
 }) => {
-    let desc = description.length > 0 ? description + '; ' : ''
+    // let desc = description ? description + '; ' : ''
+    // let note = notes ? notes : ''
     return (
-        <blockquote>
-            <p>{children || quote}</p>
-            <footer>
-                {desc}
-                <em>chapter {chapternum} ({chaptertitle}), page {pagenum}</em>;
-                importance: {importance}
-            </footer>
-        </blockquote>
+        <div>
+            <blockquote>
+                <p>{children || quote}</p>
+                <footer>
+                    {description ? description + "; " : ""}
+                    <em>chapter {chapternum} ({chaptertitle}), page {pagenum}</em>;
+                    importance: {importance}
+                </footer>
+            </blockquote>
+            {/* {notes ? <span className="sidenote">{notes}</span> : ""} */}
+            {notes ? <div><span className="newthought">Note: </span>{notes}</div> : ""}
+            <br />
+        </div>
     )
 }
 

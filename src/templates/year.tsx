@@ -41,7 +41,6 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     {months.map(({ node }) => {
                         const monthName = monthNumberToName(node.name)
                         const month = group.filter((monthDir) => monthDir.fieldValue.slice(-2) === node.name)[0]
-                        console.log(group.map((monthDir) => monthDir.fieldValue.slice(-2)))
                         // if the year/month folder doesn't contain .md files, return
                         if (!month) return
                         return (

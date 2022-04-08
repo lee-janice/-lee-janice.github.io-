@@ -336,6 +336,7 @@ img {
     font-family: et-book-roman-old-style;
     position: relative;
     vertical-align: baseline;
+    color: #f00000
 }
 
 .sidenote-number:after {

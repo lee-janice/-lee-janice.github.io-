@@ -6,7 +6,7 @@ lastupdated: '2021-10-01'
 published: true
 layout: booknote
 topics: ['notes', 'the trial', 'kafka, franz', 'philosophy', 'absurdism']
-category: booknotes
+category: notes
 booknote:
   - author: Franz Kafka  
     title: The Trial

@@ -2,56 +2,51 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: '2021-10-04'
-lastupdated: '2021-10-04'
+lastupdated: '2022-04-07'
 published: true
 layout: post
 topics: ['notes']
 category: notes
 ---
 
-## Currently X-ing
+## Currently
 ---
 
-- Reading: Douglas Hofstader; *Gödel, Escher, Bach: An Eternal Golden Braid*
-- Listening: N/A
-- Watching: N/A
-
+|                                       READING                                        |                                                               WATCHING                                                               |
+| :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+|                                   ???; *The Bible*                                   |              Robert Sapolosky; [Human Behavioral Biology (Lecture Series)](https://www.youtube.com/watch?v=NNnIGh9g6fA)              |
+|                    Thich Nhat Hahn; *The Miracle of Mindfulness*                     | Michael Sugrue; [The Great Minds of the Western Intellectual Tradition (Lecture Series)](https://www.youtube.com/watch?v=8ZoQ7wh9pS) |
+|          Douglas Hofstader; *Gödel, Escher, Bach: An Eternal Golden Braid*           |                                                                                                                                      |
+| Apostolos Doxiadis and Christos Papadimitriou; *Logicomix: An epic search for truth* |                                                                                                                                      |
 
 ## Books
 --- 
+|      AUTHOR       |         TITLE          | DATE COMPLETED |
+| :---------------: | :--------------------: | :------------: |
+| Fyodor Dostoevsky | The Brothers Karamazov |                |
+| Fyodor Dostoevsky |  Crime and Punishment  |                |
+|    Umberto Eco    |  The Name of the Rose  |                |
+|       Plato       |      The Republic      |                |
 
-- ~Madeline L'Engle; *A Wind in the Door*~
-- Hermann Hesse; *Siddhartha*
-- Kurt Vonnegut; *Slaughterhouse Five*
 
 
 ## Essays and letters
 --- 
-- Turing, Alan; *Computing Machinery and Intelligence*
-- Kafka, Franz; *Letter to My Father*
-- Woolf, Virginia; *A Room of One's Own*
+|   AUTHOR    |                TITLE                 | DATE COMPLETED |
+| :---------: | :----------------------------------: | :------------: |
+| Alan Turing | Computing Machinery and Intelligence |                |
+| Franz Kafka |        A Letter to My Father         |                |
 
 
-## Albums or artists
----
-
-- Al Green
-- Stevie Wonder
 
 ## Movies
 ---
 
-- Charlie Kaufman; Synecdoche, New York
-- Wong Kar-wai; In the Mood for Love
-- Studio Ghibli; Grave of the Fireflies
-- Studio Ghibli; The Cat Returns
-- Studio Ghibli; The Secret World of Arrietty
+|    DIRECTOR     |        TITLE         | DATE COMPLETED |
+| :-------------: | :------------------: | :------------: |
+| Charlie Kaufman | Synecdoche, New York |                |
+|  Wong Kar-wai   | In the Mood for Love |                |
 
-
-## TV shows or anime
---- 
-
-- Hideaki Anno; Neon Genesis Evangelion 
 
 
 
