@@ -51,7 +51,7 @@ const Journal: React.FC<Props> = ({ data }) => {
                                     {node.frontmatter.date} ○
                                     topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
                                 </small>
-                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
                             </div>
                         )
                     })}
