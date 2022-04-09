@@ -10,6 +10,7 @@ interface Props {
 
 const Index: React.FC<Props> = ({ data }) => {
   const siteTitle = data.site.siteMetadata.title
+  const lastUpdated = data.site.siteMetadata.lastUpdated
   const posts = data.allMarkdownRemark.edges
 
   return (
@@ -20,7 +21,7 @@ const Index: React.FC<Props> = ({ data }) => {
         <p className='subtitle'>Website homepage; a short description; recent posts</p>
         <p className='pageinfo'>
           2021-09-18 ○
-          last updated: 2021-10-14
+          last updated: {lastUpdated}
         </p>
       </header>
       <div className={`page-content`}>
@@ -62,6 +63,7 @@ interface PageQueryData {
   site: {
     siteMetadata: {
       title: string
+      lastUpdated: string
     }
   }
   allMarkdownRemark: {
@@ -87,6 +89,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        lastUpdated
       }
     }
     allMarkdownRemark(

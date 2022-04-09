@@ -10,6 +10,7 @@ interface Props {
 
 const Topics: React.FC<Props> = ({ data }) => {
     const siteTitle = data.site.siteMetadata.title
+    const lastUpdated = data.site.siteMetadata.lastUpdated
     const group = data.allMarkdownRemark && data.allMarkdownRemark.group
 
     return (
@@ -20,7 +21,7 @@ const Topics: React.FC<Props> = ({ data }) => {
                 <p className='subtitle'>Collection of topics that are discussed on my website, listed alphabetically</p>
                 <p className='pageinfo'>
                     2021-09-18 ○
-                    last updated: 2021-09-27
+                    last updated: {lastUpdated}
                 </p>
             </header>
             <article>
@@ -65,6 +66,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        lastUpdated
       }
     }
     allMarkdownRemark(filter: {frontmatter: {published: {ne: false}}}) {
