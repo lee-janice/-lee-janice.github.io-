@@ -46,14 +46,14 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
                     <StyledUl>
                         {previous && (
-                            <li>
+                            <li key={previous.fields.slug}>
                                 <Link to={previous.fields.slug} rel="prev">
                                     ← {previous.frontmatter.title}
                                 </Link>
                             </li>
                         )}
                         {next && (
-                            <li>
+                            <li key={next.fields.slug}>
                                 <Link to={next.fields.slug} rel="next">
                                     {next.frontmatter.title} →
                                 </Link>

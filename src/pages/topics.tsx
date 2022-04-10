@@ -51,6 +51,7 @@ interface PageQueryData {
     site: {
         siteMetadata: {
             title: string
+            lastUpdated: string
         }
     }
     allMarkdownRemark: {

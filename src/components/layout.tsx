@@ -1,27 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { GlobalStyle, styled } from '../styles/theme'
-import DarkModeToggler from '../components/darkmode-toggler'
-
-const StyledNav = styled.nav`
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 16px;
-    margin-right: 48px;
-    margin-left: auto;
-    font-variant: small-caps;
-
-    a {
-      background: none;
-    }
-  }
-`
+import DarkModeToggler from './darkmode-toggler'
+import NavBar from './navbar'
 
 const StyledFooter = styled.footer`
   padding-bottom: 36px;
@@ -36,40 +16,7 @@ const Layout: React.FC<Props> = ({ children }) => (
   <>
     <GlobalStyle />
     <DarkModeToggler />
-    <StyledNav className="navigation">
-      <ul>
-        <li>
-          <Link to={`/`}>Home</Link>
-        </li>
-        <li>
-          |
-        </li>
-        <li>
-          <Link to={`/topics`}>Topics</Link>
-        </li>
-        <li>
-          |
-        </li>
-        <li>
-          <Link to={`/essays`}>Essays</Link>
-        </li>
-        <li>
-          <Link to={`/notes`}>Notes</Link>
-        </li>
-        <li>
-          <Link to={`/journal`}>Journal</Link>
-        </li>
-        <li>
-          |
-        </li>
-        <li>
-          <Link to={`/about-me`}>About Me</Link>
-        </li>
-        <li>
-          <Link to={`/about-this-site`}>About This Site</Link>
-        </li>
-      </ul>
-    </StyledNav>
+    <NavBar />
     <main className="content" role="main">
       {children}
     </main>
@@ -79,6 +26,7 @@ const Layout: React.FC<Props> = ({ children }) => (
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>.
     </StyledFooter>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   </>
 )
 
