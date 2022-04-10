@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-year-tsx",
+    "path": "/journal/2022/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allDirectory":{"edges":[]},"numEntries":{"totalCount":0,"group":[]},"entries":{"edges":[]}},"pageContext":{"year":"2022","mthDirRegexByYear":"/journal/2022/[0-9]{2}/"}},
+    "staticQueryHashes": ["712016698"]}
