@@ -2,7 +2,7 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: '2021-10-04'
-lastupdated: '2022-04-07'
+lastupdated: '2022-04-09'
 published: true
 layout: post
 topics: ['notes']
@@ -47,6 +47,24 @@ category: notes
 | Charlie Kaufman | Synecdoche, New York |                |
 |  Wong Kar-wai   | In the Mood for Love |                |
 
+
+## Completed
+---
+
+|                   NAME                    |      AUTHOR       | DATE COMPLETED |
+| :---------------------------------------: | :---------------: | :------------: |
+|          Scholastic Metaphysics           |   Edward Feser    |                |
+|                 The Trial                 |    Franz Kafka    |                |
+| The Doors of Perception & Heaven and Hell |   Aldous Huxley   |                |
+|         Pedagogy of the Oppressed         |   Paulo Freire    |                |
+|               East of Eden                |  John Steinbeck   |                |
+|       The Universe in a Single Atom       |  Dalai Lama XIV   |                |
+|                 Galápagos                 | Kurt Vonnegut Jr. |                |
+|           At Home in the World            |  Thich Nhat Hahn  |                |
+|             The Sun My Heart              |  Thich Nhat Hahn  |                |
+|                  Kokoro                   |  Natsume Sōseki   |                |
+|         Zen Mind, Beginner's Mind         |  Shunryu Suzuki   |                |
+|           Phantoms in the Brain           | V.S. Ramachandran |                |
 
 
 

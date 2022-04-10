@@ -68,36 +68,57 @@ In general, I'm currently interested in metaphysics, phenomenology, Buddhism, me
 ### Current favorites
 
 #### Media
-- Books 
-    - American literature: East of Eden by John Steinbeck
-    - Nonfiction: [Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach) by Douglas Hofstader
-- Songs
-    - Classical: [Franz Liszt - Années de pèlerinage III, S. 163: No. 4, Les jeux d'eaux à la Villa d'Este](https://www.youtube.com/watch?v=z5CurVGtarI)[^liszt]
-    - Hip hop: [Kanye West - All Falls Down](https://www.youtube.com/watch?v=8kyWDhB_QeI)
-    - Jazz: [Mulatu Astatke - Tezeta (Nostalgia)](https://www.youtube.com/watch?v=Wy-v-FgiUD8)
-    - Soul: [Al Green - For the Good Times](https://www.youtube.com/watch?v=Y2IpoTKnDPw)
-    - Psychedelic rock: [Os Mutantes - Baby](https://www.youtube.com/watch?v=--uRcXZQcoI)
-    - Honorable mentions: Durand Jones and the Indications - Can't Keep My Cool (Live); Ms. Lauryn Hill - Doo Wop (That Thing); The Velvet Underground - I Found a Reason; Dee-Yan Key - Automatic Loving
-- Music video: [Thundercat - Dragonball Durag](https://www.youtube.com/watch?v=ormQQG2UhtQ)
-- Movies 
-    - Animated: [Night Is Short, Walk On Girl](https://www.youtube.com/watch?v=8ujyCdKrreQ) directed by Masaaki Yuasa
-    - Comedy: [Rush Hour 2](https://www.youtube.com/watch?v=OfORiypbhkg&list=PLVtbcbkh_DGAwK0QDDA8vHKIXV9JNrwaS) starring Jackie Chan and Chris Tucker, directed by Brett Ratner
-    - Psychological horror: [The Truman Show](https://www.youtube.com/watch?v=z9lBvg5clr0) directed by Peter Weir
+*Books* 
+|        GENRE        |                                                 TITLE                                                  |      AUTHOR       |
+| :-----------------: | :----------------------------------------------------------------------------------------------------: | :---------------: |
+| American literature |                                              East of Eden                                              |  John Steinbeck   |
+|     Nonfiction      | [Gödel, Escher, Bach: An Eternal Golden Braid](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach) | Douglas Hofstader |
 
+*Music*
+|      GENRE       |                                                           TITLE                                                            | ARTIST/COMPOSER |
+| :--------------: | :------------------------------------------------------------------------------------------------------------------------: | :-------------: |
+|    Classical     | [Années de pèlerinage III, S. 163: No. 4, Les jeux d'eaux à la Villa d'Este*](https://www.youtube.com/watch?v=z5CurVGtarI) |   Franz Liszt   |
+|     Hip hop      |                               [All Falls Down](https://www.youtube.com/watch?v=8kyWDhB_QeI)                                |   Kanye West    |
+|       Jazz       |                             [Tezeta (Nostalgia)](https://www.youtube.com/watch?v=Wy-v-FgiUD8)                              | Mulatu Astatke  |
+|       Soul       |                             [For the Good Times](https://www.youtube.com/watch?v=Y2IpoTKnDPw)                              |    Al Green     |
+| Psychedelic rock |                                    [Baby](https://www.youtube.com/watch?v=--uRcXZQcoI)                                     |   Os Mutantes   |
+|   Music video    |                              [Dragonball Durag](https://www.youtube.com/watch?v=ormQQG2UhtQ)                               |   Thundercat    |
+
+*on Liszt[^liszt] 
 [^liszt]: From the [Hollywood Bowl](https://www.hollywoodbowl.com/musicdb/pieces/458/les-jeux-deau-a-la-villa-deste): At the midpoint of Franz Liszt’s *Les jeux d’eaux à la Villa d’Este* (The Fountains of the Villa d’Este), as the music modulates into a radiant D major, the composer places in the score the following inscription from the Gospel According to John: *Sed aqua quam ego dabo ei, fiet in eo fons aquae salientis in vitam aeternam* (But the water that I shall give him shall become in him a well of water springing up into eternal life)...
     While *Les jeux d’eaux à la Villa d’Este* is the progenitor of all pianistic water-music to come (Ravel and Debussy lay decades ahead), its intent goes beyond the musical depiction of the rilling and leaping of waters in fountains. It offers water as the symbolic focus of profound contemplation.  
 
+**honorable mentions[^hon] 
+[^hon]: Durand Jones and the Indications - Can't Keep My Cool (Live); Ms. Lauryn Hill - Doo Wop (That Thing); Dee-Yan Key - Automatic Loving
+
+*Movies*
+|        GENRE         |                                               TITLE                                                |   DIRECTOR    |
+| :------------------: | :------------------------------------------------------------------------------------------------: | :-----------: |
+|       Animated       |            [Night Is Short, Walk On Girl](https://www.youtube.com/watch?v=8ujyCdKrreQ)             | Masaaki Yuasa |
+|        Comedy        | [Rush Hour 2](https://www.youtube.com/watch?v=OfORiypbhkg&list=PLVtbcbkh_DGAwK0QDDA8vHKIXV9JNrwaS) | Brett Ratner  |
+| Psychological horror |                   [The Truman Show](https://www.youtube.com/watch?v=z9lBvg5clr0)                   |  Peter Weir   |
+
+
 #### Tools
-- Notebook: Any from the [Maruman Mnemosyne](https://www.jetpens.com/Maruman-Mnemosyne-Notebooks/ct/765) line, I use the [N181A Imagination Notebook](https://www.jetpens.com/Maruman-Mnemosyne-N181A-Imagination-Notebook-A4-Unruled/pd/4077)
-- Pencil: Mitsubishi Hi-Uni - 2B
-- Multi-pen: Uni Jetstream 4&1 pen - 0.5 mm
-- Text editor: Anything with a Vim extention - I use VSCode or [NeoVim](https://neovim.io/) for programming, [Overleaf](https://www.overleaf.com/) for writing in LaTeX, and [Obsidian](https://obsidian.md/) for note-taking
-    - Theme: I stand by the [Darcula](https://marketplace.visualstudio.com/items?itemName=rokoroku.vscode-theme-darcula) theme for any text editor that I use for programming. (Fight me on this!) For Obsidian, I like the [Notation](https://github.com/deathau/Notation-for-Obsidian) theme, which riffs off of Notion.
+|    TYPE     |                                                         NAME                                                          |
+| :---------: | :-------------------------------------------------------------------------------------------------------------------: |
+|  Notebook   | [N181A Imagination Notebook](https://www.jetpens.com/Maruman-Mnemosyne-N181A-Imagination-Notebook-A4-Unruled/pd/4077) |
+|   Pencil    |                                                   Mitsubishi Hi-Uni                                                   |
+|  Multi-pen  |                                                 Uni Jetstream 4&1 pen                                                 |
+| Text editor |                              Anything with a Vim extension (VSCode, Overleaf, Obsidian)                               |
 
 #### Places
-- Restaurant: [Lucky Number 1 Chinese Restaurant](https://www.yelp.com/biz/lucky-number-1-chinese-restaurant-harbor-city) in Harbor City, CA
-- Coffee shop: [Coffee Cartel](https://www.instagram.com/coffeecartelredondo/?hl=en) in Redondo Beach, CA
-- Park: LA State Historic Park in Chinatown, Los Angeles
+*New York City* 
+| TYPE |           NAME            |
+| :--: | :-----------------------: |
+| Cafe | the Hungarian Pastry Shop |
+
+*Los Angeles* 
+|    TYPE     |                                                    NAME                                                     |
+| :---------: | :---------------------------------------------------------------------------------------------------------: |
+| Restaurant  | [Lucky Number 1 Chinese Restaurant](https://www.yelp.com/biz/lucky-number-1-chinese-restaurant-harbor-city) |
+| Coffee shop |                    [Coffee Cartel](https://www.instagram.com/coffeecartelredondo/?hl=en)                    |
+|    Park     |                                           LA State Historic Park                                            |
 
 #### Other
 Farmers' markets; walking dogs; picnics with friends; scorching hot baths; exploring and relishing in the wonders of nature; spontaneous expressions of love between strangers who will never see each other again; Japanese stationery; hexanal; goofiness and dorkiness and general tomfoolery; animals in the wild; color as a theme; tomatoes in the summer; miniature versions of regular things (such as ice cream sample spoons[^sample-spoon]);
