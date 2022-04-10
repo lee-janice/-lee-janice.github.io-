@@ -4,27 +4,29 @@ import { styled } from '../styles/theme'
 
 // style navigation bar using styled-components
 const StyledNav = styled.nav`
-  @media screen and (max-width: 1100px) {
-    display: none;
-  }
+    padding-top: 0px;
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    margin: 16px;
-    margin-right: 48px;
-    margin-left: auto;
-    font-variant: small-caps;
-
-    a {
-      background: none;
+    @media screen and (max-width: 1100px) {
+        display: none;
     }
-  }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 16px;
+        margin-right: 48px;
+        margin-left: auto;
+        font-variant: small-caps;
+
+        a {
+            background: none;
+        }
+    }
 `
 
 // burger for mobile 
@@ -32,7 +34,7 @@ const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
   position: fixed;
-  top: 35px;
+  top: 25px;
   right: 25px;
   display: none;
 
@@ -93,7 +95,6 @@ const MobileNav = styled.ul`
         display: ${({ open }) => open ? 'flex' : 'none'};
         background-color: var(--mainBg);
         position: fixed;
-        /*transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};*/
         top: 0;
         right: 0;
         height: 264px;
