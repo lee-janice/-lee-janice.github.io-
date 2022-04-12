@@ -1,3 +1,8 @@
+// enable access to environment variables
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `a cozy space`,
@@ -126,6 +131,12 @@ module.exports = {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://lee-janice.github.io`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-goatcounter`,
+      options: {
+        code: process.env.GOATCOUNTER_PAGE_CODE,
       },
     },
     // {
