@@ -183,6 +183,22 @@ p.pageinfo {
     line-height: 1;
 }
 
+table {
+    border-top: 2px solid rgb(123, 114, 101);
+    border-bottom: 2px solid rgb(123, 114, 101);
+    border-spacing: 0 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 1px solid rgb(123, 114, 101);
+}
+
+th,
+td {
+    padding: 5px;
+}
+
 /* ----- 4. Chapter Epigraphs ----- */
 div.epigraph {
     margin: 3em 0;
