@@ -3,6 +3,8 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   siteMetadata: {
     title: `a cozy space`,
@@ -136,7 +138,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-goatcounter`,
       options: {
-        code: process.env.GOATCOUNTER_PAGE_CODE,
+        code: isProduction ? process.env.GOATCOUNTER_PAGE_CODE : '',
+        allowLocal: !isProduction,
       },
     },
     // {
