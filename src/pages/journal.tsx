@@ -107,7 +107,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "journal"}}}
+      filter: {frontmatter: {category: {eq: "journal"}, published: {ne: false}}}
       sort: {fields: [frontmatter___date], order: DESC}
       limit: 10
     ) {

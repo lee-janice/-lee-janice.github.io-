@@ -46,6 +46,7 @@ exports.createPages = ({ graphql, actions }) => {
                 topics
                 title
                 layout
+                published
                 booknote {
                     author
                     title
@@ -86,8 +87,19 @@ exports.createPages = ({ graphql, actions }) => {
         // create post pages
         const posts = result.data.allMarkdownRemark.edges
         posts.forEach((post, index) => {
-            const previous = index === posts.length - 1 ? null : posts[index + 1].node
-            const next = index === 0 ? null : posts[index - 1].node
+            var previous = index === posts.length - 1 ? null : posts[index + 1].node
+            // i am rusty this is ugly lol fix later
+            var i = 2
+            while (previous !== null && !previous.frontmatter.published) {
+                previous = index === posts.length - 1 ? null : posts[index + i].node
+                i++
+            }
+            var next = index === 0 ? null : posts[index - 1].node
+            i = 2
+            while (next !== null && !next.frontmatter.published) {
+                next = index === 0 ? null : posts[index - i].node
+                i++
+            }
 
             // use booknote template for book note pages 
             // author and title in the frontmatter of the markdown file must match 

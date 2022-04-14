@@ -94,7 +94,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "notes"}}}
+      filter: {frontmatter: {category: {eq: "notes"}, published: {ne: false}}}
       sort: {fields: [frontmatter___date], order: DESC}
       limit: 10
     ) {
