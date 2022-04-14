@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-topic-tsx",
+    "path": "/topics/mind/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/courses/foundations-of-mind/"},"frontmatter":{"date":"2022-04-12","title":"The foundations of mind","subtitle":"A personal \"course\" curation for the history and philosophy of the mind","topics":["notes","mind","foundations"]}}}]}},"pageContext":{"topic":"mind"}},
+    "staticQueryHashes": ["712016698"]}

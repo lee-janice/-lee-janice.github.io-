@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-topic-tsx",
+    "path": "/topics/computation/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/courses/foundations-of-computation/"},"frontmatter":{"date":"2022-04-12","title":"The foundations of computation","subtitle":"A personal \"course\" curation for the history and philosophy of computation","topics":["notes","computation","foundations"]}}}]}},"pageContext":{"topic":"computation"}},
+    "staticQueryHashes": ["712016698"]}

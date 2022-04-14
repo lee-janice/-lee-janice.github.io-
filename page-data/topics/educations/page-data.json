@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-topic-tsx",
+    "path": "/topics/educations/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/courses/foundations-of-education/"},"frontmatter":{"date":"2022-04-12","title":"The foundations of education","subtitle":"A personal \"course\" curation for the history and philosophy of education","topics":["notes","educations","foundations"]}}}]}},"pageContext":{"topic":"educations"}},
+    "staticQueryHashes": ["712016698"]}

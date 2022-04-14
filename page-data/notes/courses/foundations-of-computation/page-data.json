@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-post-tsx",
+    "path": "/notes/courses/foundations-of-computation/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"markdownRemark":{"id":"a7b4f40f-e1c2-52f9-b871-12fc31bc3151","excerpt":"","html":"","frontmatter":{"title":"The foundations of computation","subtitle":"A personal \"course\" curation for the history and philosophy of computation","date":"2022-04-12","lastupdated":"2022-04-12","topics":["notes","computation","foundations"]}}},"pageContext":{"slug":"/notes/courses/foundations-of-computation/","previous":{"fields":{"slug":"/journal/2022/04/10/"},"frontmatter":{"topics":["journal","cognition","loneliness","uncertainty"],"title":"April 10th 2022","layout":"post","published":true,"booknote":null}},"next":{"fields":{"slug":"/journal/2022/04/13/"},"frontmatter":{"topics":["journal","dreams"],"title":"April 13th 2022","layout":"post","published":true,"booknote":null}}}},
+    "staticQueryHashes": ["712016698"]}
