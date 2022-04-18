@@ -18,6 +18,7 @@ category: notes
 |                    Thich Nhat Hahn; *The Miracle of Mindfulness*                     | Michael Sugrue; [The Great Minds of the Western Intellectual Tradition (Lecture Series)](https://www.youtube.com/watch?v=8ZoQ7wh9pS) |
 |          Douglas Hofstader; *Gödel, Escher, Bach: An Eternal Golden Braid*           |                                                                                                                                      |
 | Apostolos Doxiadis and Christos Papadimitriou; *Logicomix: An epic search for truth* |                                                                                                                                      |
+|                          Lewis Carrol; Alice in Wonderland                           |                                                                                                                                      |
 
 ## Books
 --- 
@@ -27,6 +28,7 @@ category: notes
 | Fyodor Dostoevsky |  Crime and Punishment  |                |
 |    Umberto Eco    |  The Name of the Rose  |                |
 |       Plato       |      The Republic      |                |
+|   Daniel Keyes    |  Flowers for Algernon  |                |
 
 
 

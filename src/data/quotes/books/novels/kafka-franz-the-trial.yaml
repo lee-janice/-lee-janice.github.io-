@@ -1,8 +1,8 @@
 title: The Trial
 author: Franz Kafka
 type: novel
-quotes: 
-  - item: 
+quotes:
+  - item:
     quote: >
       We're lowly employees who can barely make our way through such documents, 
       and whose only role in your affair is to stand guard over you ten hours a day 
@@ -14,22 +14,22 @@ quotes:
     chapter_title: Arrest
     chapter_number: 1
     page_number: 8
-    notes: ""
     importance: 2
+    notes:
     tags: ["bureaucracy"]
-  - item: 
+  - item:
     quote: >
       The inspector cries out as if he has to wake me up, practically shouting; 
       unfortunately I'll have to shout too, to show you how it was; all he shouts 
-      is his name, by the way.  
+      is his name, by the way.
     description: Dialogue from K. to Fräulein Bürstner
     chapter_title: Conversation with Frau Grubach; then Fräulein Bürstner
     chapter_number: 2
     page_number: 31
-    notes: 
     importance: 6
+    notes:
     tags: []
-  - item: 
+  - item:
     quote: >
       ...before falling asleep he reflected briefly on his conduct: he was pleased 
       with it, but was surprised that he didn't feel even more pleased; he was seriously 
@@ -38,10 +38,10 @@ quotes:
     chapter_title: Conversation with Frau Grubach; then Fräulein Bürstner
     chapter_number: 2
     page_number: 33
-    notes: 
     importance: 5
+    notes:
     tags: []
-  - item: 
+  - item:
     quote: >
       He regretted his plan, which had at first seemed so practical. As he was approaching 
       the fifth floor he decided to give up the search, took his leave from a friendly 
@@ -52,24 +52,24 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 41
-    notes: 
     importance: 3
+    notes:
     tags: []
-  - item: 
+  - item:
     quote: >
       K. let him lead the way; it turned out that there was indeed a narrow path free through 
       the swirling crowd, one that possibly divided two parties; this possibility was further 
       supported by the fact that K. saw scarcely a face turned toward him in the closest rows 
       on his left and right, but merely the backs of people addressing their words and gestures 
-      solely to those in their own party. 
+      solely to those in their own party.
     description: ""
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 42
-    notes: 
     importance: 3
+    notes:
     tags: []
-  - item: 
+  - item:
     quote: >
       Your question, Your Honor, about my being a house painter -- and you weren't really asking 
       at all, you were telling me outright -- is characteristic of the way these entire proceedings 
@@ -92,10 +92,10 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 45
-    notes: 
     importance: 10
+    notes:
     tags: []
-  - item: 
+  - item:
     quote: >
       The two parties, which had appeared to hold such contrasting opinions before, mingled with one 
       another, some people pointing their fingers at K., others at the examining magistrate. The 
@@ -107,21 +107,456 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 49
+    importance: 8
     notes: >
       The blinding white glare in this quote parallels Camus' descriptions of overbearing, oppressive light in The Stranger: 
       "the glare from the sky was unbearable", Meursault being "almost blinded by the glaze of light," and
       his "trial opened with the sun glaring outside." Slightly uncanny...
-    importance: 8
     tags: []
-  - item: 
+  - item:
     quote: >
       "I just wanted to draw your attention to the fact," said the examining magistrate, 
       "that you have today deprived yourself -- although you can't yet have realized it -- 
-      the advantage that an interrogation offers to the arrested man in each case." 
+      the advantage that an interrogation offers to the arrested man in each case."
     description: Dialogue from examining magistrate to K.
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 52
-    notes: 
     importance: 8
+    notes:
+    tags: []
+  - item:
+    quote: >
+      K. didn't leaf through any further, but simply opened to the frontispiece of the 
+      second book, a novel entitled *The Torments Grete Suffered at the Hands of Her Husband Hans*.
+    description: ""
+    chapter_title: In the Empty Courtroom/The Student/The Offices
+    chapter_number: 4
+    page_number: 57
+    importance: 1
+    notes: >
+      Not the quote of most significance, but I wanted to research what the meaning behind this book 
+      title was. When I looked it up a while ago, there was some strange connection to the tale of Hans and Gretel, 
+      but I didn't come to a conclusive or satisfactory answer.
+    tags: []
+  - item:
+    quote: >
+      "You see," said the court usher, "they're always taking her away from me. Today is Sunday, and I have no 
+      official duties, but just to get me out of the way, they send me off with a message that's meaningless anyway. 
+      And infact I'm not sent far, so that thhe hope remains that if I really hurry, I might get back in time. 
+      I run as fast as I can to the office they've sent me to... but the student has moved even faster than I have... 
+      If I weren't so dependent on them, I would have long since crushed the student against this wall."
+    description: Dialogue from the court usher to K. regarding his wife
+    chapter_title: In the Empty Courtroom/The Student/The Offices
+    chapter_number: 4
+    page_number: 66
+    importance: 8
+    notes:
+    tags: [absurdity]
+  - item:
+    quote: >
+      "Wouldn't you like to sit down?" K. sat down immediately and propped his elbows on the arms of the chair 
+      for better support. "You're a little dizzy, aren't you?" she asked him... "Don't worry," she said, "there's 
+      nothing unusual about that here, almost everyone has an attack like this the first time." ... But K. didn't want to 
+      go to the infirmary; that was precisely what he wanted to avoid, being led farther on, for the farther he went, 
+      the worse things would get... in reality it would have done him a good deal to sit down; he felt seasick. 
+      He thought he was on a ship, rolling in heavy seas. It seemed to him that the waters were pounding against 
+      the wooden walls, there was a roar from the depths of the hallway like the sound of breaking waves, the hallway 
+      seemed to pitch and roll, lifting and lowering the waiting clients on both sides... He realized at last that 
+      they were speaking to him, but he couldn't understand them; he heard only the noise that filled everything, 
+      through which a steady, high-pitched sound like a siren seemed to emerge... he heard beside him: "First he 
+      wants to leave, then you can tell him a hundred times that this is the exit and he doesn't move."
+    description: K. has an attack in the court offices
+    chapter_title: In the Empty Courtroom/The Student/The Offices
+    chapter_number: 4
+    page_number: 73
+    importance: 8
+    notes: >
+      It's an intriguing depiction of anxiety, panic attacks, and mental spiraling. 
+      The last part reminds me of learned helplessness.
+    tags: [panic]
+  - item:
+    quote: >
+      "Sir," said Willem, while Franz apparently tried to seek safety behind him from the third man, "if you knew
+       how poorly we're paid, you'd judge us more kindly. I have a family to feed and Franz here wants to get married, 
+       you try to make money however you can, just working isn't enough, nno matter how hard you try... of course, 
+       it was wrong, but it's a tradition that the undergarments belong to the guards, it's always been that way, believe me;"...
+       "you have to admit wew did a good job from the authorities' point of view-wwe had prospects for advancement and 
+       would soon have been floggers ourselves, like him..."
+    description: Dialogue from the guards to K. whilst they are flogged
+    chapter_title: The Flogger
+    chapter_number: 5
+    page_number: 82
+    importance: 5
+    notes:
+    tags: [bureaucracy, culpability]
+  - item:
+    quote: >
+      "Because I don't even consider them guilty; it's the organization that's guilty, it's the high officials who are guilty."
+    description: Dialogue from K. to the flogger
+    chapter_title: The Flogger
+    chapter_number: 5
+    page_number: 82
+    importance: 5
+    notes:
+    tags: [bureaucracy, culpability]
+  - item:
+    quote: >
+      It tormented him that he had been unable to prevent the flogging, but it wasn't his fault;... 
+      No one could really demand such a sacrifice of him.
+    description:
+    chapter_title: The Flogger
+    chapter_number: 5
+    page_number: 85
+    importance: 4
+    notes:
+    tags: [hypocrisy, selfishness]
+  - item:
+    quote: >
+      As he passed by the junk room again on his way home, he opened the door as if by habit. What he saw, 
+      in place of the expected darkness, bewildered him completely. Everything was unchanged, just as he 
+      had found it the previous evening when he opened the dor. The printed forms and ink bottles just 
+      beyond the threshold, the flogger with the rod, the guards, still completely clothed, the candle on 
+      the shelf, and the guards began to wail, crying out: "Sir!"  K. slammed the door shut at once and 
+      pounded his fists against it, as if to close it more tightly... he headed for home, tired and with 
+      his mind a blank.
+    description:
+    chapter_title: The Flogger
+    chapter_number: 5
+    page_number: 87
+    importance: 4
+    notes: >
+      This is the first instance of something "extraordinary" or truly unrealistic happening in The Trial.
+      It also reminds me of what happens when we try to mentally repress something: it doesn't disappear
+      or go away. It comes back just as before, oft with a vengeance.
+    tags: [repression]
+  - item:
+    quote: >
+      "Please don't ask for names, but stop making that mistake, don't be so stubborn; you can't defend 
+      yourself against this court, all you can do is confess. Confess the first chance you get. That's 
+      the only chance you have to escape, the only one."
+    description: Dialogue from Leni to K.
+    chapter_title: The Uncle/Leni
+    chapter_number: 6
+    page_number: 106
+    importance: 8
+    notes:
+    tags: [culpability, confession]
+  - item:
+    quote: >
+      He had often considered whether it might not be advisable to prepare a written defense and submit 
+      it to the court. In it he would offer a brief overview of his life, and for each event of any 
+      particular importance, explain why he had acted as he did, whether in his present judgment this 
+      course of action deserved approval or censure, and what reasons he could advance for the one or 
+      the other.
+    description:
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 111
+    importance: 5
+    notes: >
+      Explanation does not excuse one's actions.
+    tags: [culpability]
+  - item:
+    quote: >
+      The only proper approach is to learn to accept existing conditions. Even if it were possible 
+      to improve specific details-which, however, is merely an absurd superstition-one would have 
+      at best achieved something for future cases, while in the process damaging oneself immeasurably 
+      by having attracted the attention of an always vengeful bureaucracy. Just don't attract attention! 
+      Keep calm, no matter how much it seems counter to good sense. Try to realize that this vast 
+      judicial organism remains, so to speak, inn a state of eternal equilibrium, and that if you 
+      change something on your own where you are, you can cut the ground out from your own feet and 
+      fall, while the vast organism easily compensates for the minor disturbance at some other 
+      spot-after all, everything is interconnected-and remains unchanged, if not, which is likely, 
+      even more resolute, more vigilant, more severe, more malicious.
+    description:
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 119
+    importance: 10
+    notes:
+    tags: [futility, interconnectedness, absurdity]
+  - item:
+    quote: >
+      Above all, if he wanted to get anywhere, he had to reject the notion of any possible guilt 
+      right from the start. There was no guilt.
+    description: K. regarding his trial
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 125
+    importance: 5
+    notes: >
+      Interesting to note all of the conflicting opinions on what K. should do about his trial.
+    tags: []
+  - item:
+    quote: >
+      "It's the figure of Justice," the painter finally said. "Now I recognize it," said K., 
+      "there's the blindfold over her eyes and here are the scales. But aren't those wings on 
+      her heels, and isn't she in motion? "Yes, said the painter, "I'm commissioned to do it 
+      that way, it's actually Justice and the goddess of Victory in one." "That's a poor combination," 
+      said K. smiling, "Justice must remain at rest, otherwise the scales sway and no just judgment is possible."...
+      in this brightness the figure seemed to stand out strikingly; now it scarcely recalled the goddess of Justice, 
+      or even that of Victory, now it looked just like the goddess of the Hunt.
+    description: Dialogue between the painter and K.
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 145
+    importance: 10
+    notes:
+    tags: [justice]
+  - item:
+    quote: >
+      ...he said, as quietly as the painter: "I think you're contradicting yourself." "How?" the painter 
+      asked patiently and leaned back with a smile. This smile made K. feel as if he were trying to 
+      reveal contradictions not so much in the words of the painter as in the legal process itself.
+    description: Dialogue between the painter and K.
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 153
+    importance: 5
+    notes:
+    tags: [contradiction]
+  - item:
+    quote: >
+      "Such acquittals are said to have occurred, of course," said the painter. "But that's 
+      extremely difficult to determine. The final verdicts of the court are not published, and 
+      not even the judges have access to them; thus only legends remain about ancient court cases. 
+      These tell of actual acquittals, of course, even in a majority of cases; you can believe 
+      them, but they can't be proved true. Nevertheless they shouldn't be entirely ignored; 
+      they surely contain a certain degree of truth, and they are very beautiful; I myself have 
+      painted a few pictures based on such legends."
+    description: Dialogue between the painter and K.
+    chapter_title: Lawyer/The Manufacturer/The Painter
+    chapter_number: 7
+    page_number: 154
+    importance: 7
+    notes:
+    tags: [myth, faith]
+  - item:
+    quote: >
+      "Who's your lawyer?" "You are," said Block. "And other than me?" asked the lawyer. "No one but you," 
+      said Block. "Then don't listen to anyone else," said the lawyer. Block accepted this totally;...
+    description: Dialogue between the lawyer and Block the merchant
+    chapter_title: Block, the Merchant/Dismissal of the Lawyer
+    chapter_number: 8
+    page_number: 193
+    importance: 7
+    notes:
+    tags: [power, submission]
+  - item:
+    quote: >
+      What is it you want? You're still alive, you're still under my protection. It's senseless anxiety! 
+      You've read somewhere that in some cases the final judgment comes unexpectedly from some chance 
+      person at some random moment. With numerous reservations that's true of course, but it's equally 
+      true that your anxiety disgusts me and that I see in it a lack of necessary faith.
+    description: Dialogue from the lawyer to Block the merchant
+    chapter_title: Block, the Merchant/Dismissal of the Lawyer
+    chapter_number: 8
+    page_number: 197
+    importance: 8
+    notes:
+    tags: [faith]
+  - item:
+    quote: >
+      The first thing K. saw, and in part surmised, was a tall knight inn armor, portrayed at the 
+      extreme edge of the painting. He was leaning on his sword, which he had thrust into the bare 
+      earth-only a few blades of grass sprang up here and there-before him. He seemed to be gazing 
+      attentively at a scene taking place directly in front of him... he discovered it was a conventional 
+      depiction of the entombment of Christ, and moreover a fairly recent one.
+    description: K. on a painting in the cathedral
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 207
+    importance: 5
+    notes:
+    tags: [Christianity]
+  - item:
+    quote: >
+      K. hesitated and stared at the floor. At the moment he was still free; he could walk on and 
+      leave through one of the three small dark wooden doors not far from him. That would mean he 
+      hadn't understood or that he had indeed understood but couldn't be bothered to respond. But 
+      if he turned around he was caught, for then he would have confessed that he understood quite 
+      well, that he really was the person named, and that he was prepared to obey.
+    description: K. upon being called by the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 211
+    importance: 10
+    notes: >
+      This thought only comes to me since I just finished Chapter 9 in Gödel, Escher, Bach, but this 
+      reminds me of the kōan that Hofstader comments on: Goso said: "When a buffalo goes out of his 
+      enclosure to the edge of the abyss, his horns and his head and his hoofs all pass through, 
+      but why can't the tail also pass?" And Mumon's poem: If the buffalo runs, he will fall into 
+      the trench; // If he returns, he will be butchered. // That little tail // Is a very strange thing.
+    tags: []
+  - item:
+    quote: >
+      "But I'm not guilty," said K. "It's a mistake. How can any person in general be guilty? We're 
+      human after all, each and every one of us."
+    description: Dialogue between K. and the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 213
+    importance: 6
+    notes:
+    tags: [culpability, guilt]
+  - item:
+    quote: >
+      Then the priest screamed down at K.: "Can't you see two steps in front of you?" It was a cry 
+      of rage, but at the same time it was the cry of someone who, seeing a man falling, shouts 
+      out in shock, involuntarily, without thinking.
+    description: Dialogue between K. and the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 214
+    importance: 8
+    notes:
+    tags: []
+  - item:
+    quote: >
+      Nevertheless, the priest's good intentions seemed clear to K.; it was not impossible that 
+      they might come to terms if he would come down, it waws not impossible that he might 
+      receive some form of decisive and acceptable advice from him, something that might 
+      show him, for example, not how to influence the trial, but how to break out of it, 
+      how to get around it, how to live outside the trial.
+    description: K. regarding the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 214
+    importance: 8
+    notes: >
+      Reminds me of meta-ness, jumping out of the system, Gödel, Escher, Bach.
+    tags: [meta]
+  - item:
+    quote: >
+      "You're deceiving yourself about the court," said the priest, "in the introductory texts 
+      to the Law it says of this deception: Before the Law stands a doorkeeper. A man from 
+      the country comes to this doorkeeper and requests admittance to the Law. But the doorkeeper 
+      says that he can't grant him admittance now. The man thinks it over and then asks if 
+      he'll be allowed to enter later. 'It's possible,' says the doorkeeper, 'but not now.' 
+      Since the gate to the Law stands open as always, and the doorkeeper steps aside, 
+      the man bends down to look through the gate into the interior. WWhen the doorkeeper 
+      sees this he laughs and says, 'If you're so drawn to it, go ahead and try to enter, 
+      even though I've forbidden it. But bear this in mind: I'm powerful. And I'm only the 
+      lowest doorkeeper. From hall to hall, however, stand doorkeepers each more powerful than 
+      the one before. The mere sight of the third is more than even I can bear.'... he decides 
+      he would prefer to wait until he receives permission to enter. The doorkeeper gives him a 
+      stool and lets him sit down at the side of the door. He sits there for days and years... 
+      Finally his eyes grow dim and he no longer knows whether it's really getting darker around 
+      him or if his eyes are merely deceiving him. And yet in the darkness he now sees a radiance 
+      that streams forth inextinguishably from the door of the Law. He doesn't have much longer 
+      to live now. Before he dies, everything he has experienced over the years coalesces in his 
+      mind into a single question he has never asked the doorkeeper... 'Everyone strives to reach 
+      the Law,' says the man, 'how does it happen, then, that in all these years no one but me 
+      has requested admittance. The doorkeeper sees that the man is nearing his end, and in order 
+      to reach his failing hearing, he roars at him: 'No one else could gain admittance here, 
+      because this entrance was meant solely for you. I'm going to go and shut it now.'"
+    description: Dialogue from the priest to K.
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 215
+    importance: 10
+    notes: >
+      Reminds me of infinite regress, G.O.D. Over Djinn, and Sisyphus.
+    tags: [Sisyphus, absurdity]
+  - item:
+    quote: >
+      The commentators tell us: the correct understanding of a matter and misunderstanding 
+      the matter are not mutually exclusive.
+    description: The priest on the texts of the Law
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 219
+    importance: 7
+    notes: >
+      This reminds me of the kōan in Gödel, Escher, Bach: Shuzan held out his short staff and 
+      said: "If you call this a short staff, you oppose its reality. If you do not call it a 
+      short staff, you ignore the fact. Now what do you wish to call this?"
+    tags: []
+  - item:
+    quote: >
+      "Don't misunderstand me," said the priest, "I'm just pointing out the various opinions 
+      that exist on the matter. You mustn't pay too much attention to opinions. The text is 
+      immutable, and the opinions are often only an expression of despair over it."
+    description: The priest on the commentary on the Law
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 220
+    importance: 6
+    notes:
+    tags: []
+  - item:
+    quote: >
+      "I don't agree with that opinion," said K., shaking his head, "for if you accept it, 
+      you have to consider everything the doorkeeper says as true. But you've already proved 
+      conclusively that that's not possible." "No," said the priest, "you don't have to 
+      consider everything true, you just have to consider it necessary." "A depressing 
+      opinion," said K. "Lies are made into a universal system."
+    description: Dialogue between K. and the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 223
+    importance: 9
+    notes: >
+      This reminds me of the "lies" (paradoxes) that are embedded into any formal system.
+    tags: [paradox]
+  - item:
+    quote: >
+      "First you must see who I am," said the priest. "You're the prison chaplain," said 
+      K. and drew nearer to the priest; his immediate return to the bank wasn't so important 
+      as he'd thought, he could easily stay here longer. "Therefore I belong to the court," 
+      said the priest. "Why should I want something from you. The court wants nothing from 
+      you. It receives you when you come and dismisses you when you go."
+    description: Dialogue between K. and the priest
+    chapter_title: In the Cathedral
+    chapter_number: 9
+    page_number: 223
+    importance: 5
+    notes:
+    tags: []
+  - item:
+    quote: >
+      "The only thing I can do now," he said to himself, and the way his steps matched 
+      those of the other three confirmed his thoughts, "the only thing I can do now is 
+      keep my mind calm and analytical to the last. I've always wanted to seize the world 
+      with twenty hands, and what's more with a motive that waws hardly laudable. That was 
+      wrong; do I want to show now that even a yearlong trial could teach me nothing? Do 
+      I want to leave the parting impression that I'm slow-witted? Shall they say of me 
+      that at the beginning of my trial I wanted to end it, and now, at its end, I want 
+      to begin it again?"
+    description: K. while the guards are leading him away
+    chapter_title: The End
+    chapter_number: 9
+    page_number: 228
+    importance: 7
+    notes:
+    tags: []
+  - item:
+    quote: >
+      Then one man opened his frock coat and, from a sheath on a belt that encircled his 
+      vest, drew forth a long, thin, double-edged butcher knife, held it up, and tested 
+      its sharpness in the light. Once more the nauseating courtesies began, one of 
+      them passed the knife across K. to the other, who passed it back over K. K. knew 
+      clearly now that it was his duty to seize the knife as it floated from hand to hand 
+      above him and plunge it into himself. But he didn't do so; instead he twisted his 
+      still-free neck and looked about him... His gaze fell upon the top story of the 
+      building adjoining the quarry. Like a light flicking on, the casements of a window 
+      flew open, a human figure, faint and insubstantial at that distance and height, 
+      leaned far out abruptly, and stretched both arms out even further. Who was it? 
+      A friend? A good person? Someone who cared? Someone who wanted to help? Was it just 
+      one person? Was it everyone? Was there still help? Were there objections that had 
+      been forgotten? Of course there were. Logic is no doubt unshakable, but it can't 
+      withstand a person who wants to live. Where waws the judge he'd never seen? Where was 
+      the high court he'd never reached? He raised hiss hands and spread out all his fingers.
+
+      But the hands of one man were right at K.'s throat, while the other thrust the knife 
+      into his heart and turned it there twice. With failing sight K. saw how the men 
+      drew near his face, leaning cheek-to-cheek to observe the verdict. "Like a dog!" 
+      he said; it seemed as though the shame was to outlive him.
+    description: K.'s end
+    chapter_title: The End
+    chapter_number: 9
+    page_number: 231
+    importance: 10
+    notes:
     tags: []
