@@ -44,7 +44,7 @@ Sapolosky offers three quotes that demonstrate the dangers of falling into a one
 
 In the remainder of the course, the intellectual challenge will be to not fall into categorical thinking, to continually assume and then abandon each conceptual bucket. We have to realize the following: 
 1. There are circumstances in which we are like every other animal. One example is the McClintock effect, which is the synchronization of female menstrual cycles when in close proximity.[^mcclintock]
-2. There are other circumstances in which we appear to be similar, but are in fact doing something very different. For instance, chess grandmasters display metabolic activity on par with that of a marathon runner. The same physiological pathways are being used, but in a completely alternate way.
+2. There are other circumstances in which we appear to be similar, but are in fact doing something very different. For instance, chess grandmasters display metabolic activity on par with that of a marathon runner. The same physiological pathways are being used in both cases, but in a completely alternate way.
 3. There are still other circumstances in which we are truly unique, such as our use of language.
 
 [^mcclintock]: According to Wikipedia, a 2013 review found that this effect likely does not exist. However, I will say that from anecdotal evidence, I've found it to be somewhat true. 

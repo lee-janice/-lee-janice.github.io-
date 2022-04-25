@@ -15,7 +15,7 @@ category: notes
 Goso said: "When a buffalo goes out of his enclosure to the edge of the abyss, his horns and his head and his hoofs all pass through, but why can't the tail also pass? 
 
 ### Mumon's Commentary
-If anyone can open one eye at this poinnt and say a word of Zen, he is qualified to repay the four gratifications, and, not only that, he can save all sentient beings under him. 
+If anyone can open one eye at this point and say a word of Zen, he is qualified to repay the four gratifications, and, not only that, he can save all sentient beings under him. 
 But if he cannot say such a word of Zen, he should turn back to his tail. 
 
 ### Mumon's Poem
@@ -31,7 +31,7 @@ But if he cannot say such a word of Zen, he should turn back to his tail.
 ### Kōan
 Shuzan held out his short staff and said: "If you call this a short staff, you oppose its reality. 
 If you do not call it a short staff, you ignore the fact. 
-Now what do you wish to call this? 
+Now what do you wish to call this?"
 
 ### Mumon's Commentary
 If you call this a short staff, you oppose its reality. 
