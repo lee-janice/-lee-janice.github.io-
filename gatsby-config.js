@@ -131,7 +131,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-goatcounter`,
       options: {
-        code: isProduction ? process.env.GOATCOUNTER_PAGE_CODE : '',
+        code: isProduction ? process.env.GATSBY_GOATCOUNTER_PAGE_CODE : '',
         allowLocal: !isProduction,
       },
     },
