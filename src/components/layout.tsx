@@ -1,6 +1,6 @@
 import React from 'react'
 import { GlobalStyle, styled } from '../styles/theme'
-import DarkModeToggler from './darkmode-toggler'
+import DarkModeToggler from './darkmodeToggler'
 import NavBar from './navbar'
 
 const StyledFooter = styled.footer`

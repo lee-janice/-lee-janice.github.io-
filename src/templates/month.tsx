@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import monthNumberToName from '../util/monthNumberToName'
+import PostPreview from '../components/postPreview'
 
 interface Props {
     readonly data: PageQueryData
@@ -17,6 +18,7 @@ interface Props {
 const MonthTemplate: React.FC<Props> = ({ data, pageContext }) => {
     const { year, month } = pageContext
     const siteTitle = data.site.siteMetadata.title
+    const lastUpdated = data.site.siteMetadata.lastUpdated
     const entries = data.allMarkdownRemark.edges
 
     return (
@@ -27,30 +29,25 @@ const MonthTemplate: React.FC<Props> = ({ data, pageContext }) => {
             />
             <header>
                 <h1>Year:{year}, month:{month}.</h1>
-                <p className='subtitle'>Collection of journal entries for {monthNumberToName(month)} {year}</p>
+                <p className='subtitle'>
+                    Collection of journal entries for {monthNumberToName(month)} {year}
+                </p>
                 <p className='pageinfo'>
                     2021-09-18 ○
-                    last updated: 2021-10-14
+                    last updated: {lastUpdated}
                 </p>
             </header>
             <br />
             <article>
                 <div className={`page-content`}>
-                    {entries.map(({ node }) => {
-                        const title = node.frontmatter.title || node.fields.slug
-                        return (
-                            <div key={node.fields.slug}>
-                                <h3>
-                                    <Link to={node.fields.slug}>{title}</Link>
-                                </h3>
-                                <small>
-                                    {node.frontmatter.date} ○
-                                    topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
-                                </small>
-                                <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-                            </div>
-                        )
-                    })}
+                    {entries.map(({ node }) => 
+                        <PostPreview 
+                            title   = {node.frontmatter.title}
+                            slug    = {node.fields.slug}
+                            date    = {node.frontmatter.date}
+                            topics  = {node.frontmatter.topics}
+                            excerpt = {node.excerpt}/>
+                    )}
                 </div>
             </article>
         </Layout>
@@ -61,6 +58,7 @@ interface PageQueryData {
     site: {
         siteMetadata: {
             title: string
+            lastUpdated: string
         }
     }
     allMarkdownRemark: {
@@ -86,6 +84,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        lastUpdated
       }
     }
     allMarkdownRemark(

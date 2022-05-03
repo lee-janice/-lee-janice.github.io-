@@ -17,7 +17,7 @@ module.exports = {
       github: `https://github.com/lee-janice`,
     },
     siteUrl: `https://lee-janice.github.io`,
-    lastUpdated: `2022-04-18`,
+    lastUpdated: `2022-04-28`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -119,7 +119,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/tea.png`, // This path is relative to the root of the site.
+        icon: `src/images/tea.png`, // this path is relative to the root of the site.
       },
     },
     {
@@ -131,19 +131,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-goatcounter`,
       options: {
+        // you have to prepend the environment variable name with GATSBY in order for it to be accessible by the browser
         code: isProduction ? process.env.GATBSY_GOATCOUNTER_PAGE_CODE : 'test',
         allowLocal: !isProduction,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     // trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
-    //
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

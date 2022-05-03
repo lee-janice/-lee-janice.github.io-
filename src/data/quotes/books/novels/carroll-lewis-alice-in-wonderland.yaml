@@ -1,0 +1,14 @@
+title: Alice in Wonderland
+author: Lewis Carroll
+type: novel
+quotes:
+  - item:
+    quote: >
+      First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this; 'for it might end, you know,' said Alice to herself, 'in my going out altogether, like a candle. I wonder what I should be like then?' And she tried to fancy what the flame of a candle looks like after the candle is blown out, for she could not remember ever having seen such a thing.
+    description: Dialogue from guard to K.
+    chapter_title: Arrest
+    chapter_number: 1
+    page_number: 8
+    importance: 2
+    notes:
+    tags: ["bureaucracy"]

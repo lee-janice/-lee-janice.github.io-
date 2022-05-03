@@ -38,7 +38,10 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <p className='pageinfo'>
                     {post.frontmatter.date} ○
                     last updated: {post.frontmatter.lastupdated} ○
-                    topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+                    topics: {post.frontmatter.topics.map((topic, i, arr) => 
+                        <Link to={`/topics/${topic}/`}>
+                            {(i < arr.length - 1) ? topic + ', ' : topic}
+                        </Link>)}
                 </p>
             </header>
             <article>

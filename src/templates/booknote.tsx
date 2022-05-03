@@ -40,7 +40,10 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <p className='pageinfo'>
                     {post.frontmatter.date} ○
                     last updated: {post.frontmatter.lastupdated} ○
-                    topics: {post.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+                    topics: {post.frontmatter.topics.map((topic, i, arr) => 
+                        <Link to={`/topics/${topic}/`}>
+                            {(i < arr.length - 1) ? topic + ', ' : topic}
+                        </Link>)}
                 </p>
             </header>
             <article>
@@ -49,13 +52,15 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     <section>
                         <h2>Quotes</h2>
                         <hr></hr>
-                        {quotes.map(bookQuote => <Quote
-                            key={bookQuote.quote}
-                            chapternum={bookQuote.chapter_number}
-                            chaptertitle={bookQuote.chapter_title}
-                            pagenum={bookQuote.page_number}
-                            {...bookQuote}
-                        />)}
+                        {quotes.map(bookQuote => 
+                            <Quote
+                                key          = {bookQuote.quote}
+                                chapternum   = {bookQuote.chapter_number}
+                                chaptertitle = {bookQuote.chapter_title}
+                                pagenum      = {bookQuote.page_number}
+                                {...bookQuote} />
+                            )
+                        }
                     </section>
                     <StyledUl>
                         {previous && (

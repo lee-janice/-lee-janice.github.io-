@@ -5,7 +5,10 @@ date: '2022-04-18'
 lastupdated: '2022-04-18'
 group: '2022-04'
 published: true
-layout: post
-topics: [notes, lectures, biology, evolution]
+layout: booknote
+topics: ['notes', 'lewis carroll', 'fantasy']
 category: notes
+booknote:
+  - author: Lewis Carroll 
+    title: Alice in Wonderland
 ---

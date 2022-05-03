@@ -22,8 +22,6 @@ const Quote: React.FC<Props> = ({
     tags = null,
     children = null
 }) => {
-    // let desc = description ? description + '; ' : ''
-    // let note = notes ? notes : ''
     return (
         <div>
             <blockquote>
@@ -34,7 +32,6 @@ const Quote: React.FC<Props> = ({
                     importance: {importance}
                 </footer>
             </blockquote>
-            {/* {notes ? <span className="sidenote">{notes}</span> : ""} */}
             {notes ? <div><span className="newthought">Note: </span>{notes}</div> : ""}
             <br />
         </div>
