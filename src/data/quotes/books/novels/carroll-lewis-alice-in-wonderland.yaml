@@ -4,11 +4,24 @@ type: novel
 quotes:
   - item:
     quote: >
-      First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little nervous about this; 'for it might end, you know,' said Alice to herself, 'in my going out altogether, like a candle. I wonder what I should be like then?' And she tried to fancy what the flame of a candle looks like after the candle is blown out, for she could not remember ever having seen such a thing.
-    description: Dialogue from guard to K.
-    chapter_title: Arrest
+      First, however, she waited for a few minutes to see if she was going to shrink any further: she felt a little 
+      nervous about this; 'for it might end, you know,' said Alice to herself, 'in my going out altogether, like a 
+      candle. I wonder what I should be like then?' And she tried to fancy what the flame of a candle looks like 
+      after the candle is blown out, for she could not remember ever having seen such a thing.
+    description: Alice upon shrinking
+    chapter_title: Down the Rabbit-Hole
     chapter_number: 1
-    page_number: 8
-    importance: 2
+    page_number: 12
+    importance: 5
     notes:
-    tags: ["bureaucracy"]
+    tags: ["death"]
+  - item:
+    quote: >
+      Let me think: *was* I the same when I got up this morning? I almost think I can remember feeling a little different. But if I'm not the same, the next question is, 'Who in the world am I? Ah, *that's* the great puzzle!'
+    description: Alice upon shrinking
+    chapter_title: Down the Rabbit-Hole
+    chapter_number: 1
+    page_number: 12
+    importance: 5
+    notes:
+    tags: ["death"]
