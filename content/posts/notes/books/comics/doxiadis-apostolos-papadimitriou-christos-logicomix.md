@@ -4,7 +4,7 @@ subtitle: Notes on Logicomix, An epic search for truth by Apostolos Doxiadis and
 date: '2022-04-28'
 lastupdated: '2022-04-28'
 group: '2022-04'
-published: true
+published: false
 layout: booknote
 topics: ['notes', 'logic', 'mathematics', 'uncertainty', 'incompleteness', 'bertrand russell', 'ludwig wittgenstein']
 category: notes

@@ -17,7 +17,7 @@ module.exports = {
       github: `https://github.com/lee-janice`,
     },
     siteUrl: `https://lee-janice.github.io`,
-    lastUpdated: `2022-04-28`,
+    lastUpdated: `2022-05-06`,
   },
   plugins: [
     `gatsby-plugin-typescript`,

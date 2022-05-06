@@ -1,15 +1,16 @@
 ---
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
-date: '2021-10-04'
-lastupdated: '2022-04-18'
+date: "2021-10-04"
+lastupdated: "2022-04-18"
 published: true
 layout: post
-topics: ['notes']
+topics: ["notes"]
 category: notes
 ---
 
 ## Currently
+
 ---
 
 |                                                         NAME                                                         |      AUTHOR       | DATE STARTED |
@@ -22,31 +23,33 @@ category: notes
 |                                     Gödel, Escher, Bach: An Eternal Golden Braid                                     | Douglas Hofstader |  2022-01-15  |
 |               [Human Behavioral Biology (Lecture Series)](https://www.youtube.com/watch?v=NNnIGh9g6fA)               | Robert Sapolosky  |  2021-12-01  |
 
-
 ## Books
---- 
-|      AUTHOR       |         TITLE          |
-| :---------------: | :--------------------: |
-| Fyodor Dostoevsky | The Brothers Karamazov |
-| Fyodor Dostoevsky |  Crime and Punishment  |
-|    Umberto Eco    |  The Name of the Rose  |
-|       Plato       |      The Republic      |
-|   Daniel Keyes    |  Flowers for Algernon  |
-|   Albert Camus    |      The Stranger      |
-|    Franz Kafka    |     Metamorphosis      |
 
+---
 
+|      AUTHOR       |          TITLE           |
+| :---------------: | :----------------------: |
+| Fyodor Dostoevsky |  The Brothers Karamazov  |
+| Fyodor Dostoevsky |   Crime and Punishment   |
+|    Umberto Eco    |   The Name of the Rose   |
+|       Plato       |       The Republic       |
+|   Daniel Keyes    |   Flowers for Algernon   |
+|   Albert Camus    |       The Stranger       |
+|    Franz Kafka    |      Metamorphosis       |
+| Jean Baudrillard  | Simulacra and Simulation |
+|   Aldous Huxley   |     Brave New World      |
 
 ## Essays and letters
---- 
+
+---
+
 |   AUTHOR    |                TITLE                 |
 | :---------: | :----------------------------------: |
 | Alan Turing | Computing Machinery and Intelligence |
 | Franz Kafka |        A Letter to My Father         |
 
-
-
 ## Movies
+
 ---
 
 |    DIRECTOR     |        TITLE         |
@@ -54,8 +57,8 @@ category: notes
 | Charlie Kaufman | Synecdoche, New York |
 |  Wong Kar-wai   | In the Mood for Love |
 
-
 ## Completed
+
 ---
 
 |                   NAME                    |                    AUTHOR                     | DATE STARTED | DATE COMPLETED |
@@ -76,6 +79,3 @@ category: notes
 |                  Kokoro                   |                Natsume Sōseki                 |              |                |
 |         Zen Mind, Beginner's Mind         |                Shunryu Suzuki                 |              |                |
 |           Phantoms in the Brain           |               V.S. Ramachandran               |              |                |
-
-
-
