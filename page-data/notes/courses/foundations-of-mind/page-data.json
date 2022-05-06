@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-post-tsx",
-    "path": "/notes/courses/foundations-of-mind/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"markdownRemark":{"id":"ed5e145a-dd5b-567d-abc2-bd9e17f45a26","excerpt":"","html":"","frontmatter":{"title":"The foundations of mind","subtitle":"A personal \"course\" curation for the history and philosophy of the mind","date":"2022-04-12","lastupdated":"2022-04-12","topics":["notes","mind","foundations"]}}},"pageContext":{"slug":"/notes/courses/foundations-of-mind/","previous":{"fields":{"slug":"/journal/2022/04/10/"},"frontmatter":{"topics":["journal","cognition","loneliness","uncertainty"],"title":"April 10th 2022","layout":"post","published":true,"booknote":null}},"next":{"fields":{"slug":"/journal/2022/04/13/"},"frontmatter":{"topics":["journal","dreams"],"title":"April 13th 2022","layout":"post","published":true,"booknote":null}}}},
-    "staticQueryHashes": ["712016698"]}

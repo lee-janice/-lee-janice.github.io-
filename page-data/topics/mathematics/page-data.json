@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-topic-tsx",
-    "path": "/topics/mathematics/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"Timeline of mathematics","fields":{"slug":"/notes/courses/foundations-of-math/"},"frontmatter":{"date":"2022-04-12","title":"The foundations of mathematics","subtitle":"A personal \"course\" curation for the history and philosophy of mathematics","topics":["notes","mathematics","foundations"]}}}]}},"pageContext":{"topic":"mathematics"}},
-    "staticQueryHashes": ["712016698"]}

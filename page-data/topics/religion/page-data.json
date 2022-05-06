@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-topic-tsx",
     "path": "/topics/religion/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/religion/nhat-hahn-thich-the-miracle-of-mindfulness/"},"frontmatter":{"date":"2022-04-07","title":"Nhat Hahn, Thich; The Miracle of Mindfulness","subtitle":"Notes on The Miracle of Mindfulness by Thich Nhat Hahn","topics":["notes","buddhism","thich nhat hahn","mindfulness","religion"]}}}]}},"pageContext":{"topic":"religion"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-05-06"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/religion/nhat-hahn-thich-the-miracle-of-mindfulness/"},"frontmatter":{"date":"2022-04-07","title":"Nhat Hahn, Thich; The Miracle of Mindfulness","subtitle":"Notes on The Miracle of Mindfulness by Thich Nhat Hahn","topics":["notes","buddhism","thich nhat hahn","mindfulness","religion"]}}}]}},"pageContext":{"topic":"religion"}},
     "staticQueryHashes": ["712016698"]}

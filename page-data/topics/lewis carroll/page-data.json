@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-topic-tsx",
+    "path": "/topics/lewis carroll/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-05-06"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/novels/carroll-lewis-alice-in-wonderland/"},"frontmatter":{"date":"2022-04-18","title":"Carroll, Lewis; Alice in Wonderland","subtitle":"Notes on Alice in Wonderland by Lewis Carroll","topics":["notes","lewis carroll","fantasy"]}}}]}},"pageContext":{"topic":"lewis carroll"}},
+    "staticQueryHashes": ["712016698"]}

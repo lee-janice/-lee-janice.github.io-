@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-post-tsx",
-    "path": "/notes/courses/foundations-of-education/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"markdownRemark":{"id":"20a9258c-54d8-5b13-b7b2-2108b9060e97","excerpt":"","html":"","frontmatter":{"title":"The foundations of education","subtitle":"A personal \"course\" curation for the history and philosophy of education","date":"2022-04-12","lastupdated":"2022-04-12","topics":["notes","educations","foundations"]}}},"pageContext":{"slug":"/notes/courses/foundations-of-education/","previous":{"fields":{"slug":"/journal/2022/04/10/"},"frontmatter":{"topics":["journal","cognition","loneliness","uncertainty"],"title":"April 10th 2022","layout":"post","published":true,"booknote":null}},"next":{"fields":{"slug":"/journal/2022/04/13/"},"frontmatter":{"topics":["journal","dreams"],"title":"April 13th 2022","layout":"post","published":true,"booknote":null}}}},
-    "staticQueryHashes": ["712016698"]}

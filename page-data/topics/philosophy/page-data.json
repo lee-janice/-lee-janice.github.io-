@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-topic-tsx",
     "path": "/topics/philosophy/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/novels/kafka-franz-the-trial/"},"frontmatter":{"date":"2021-10-01","title":"Kafka, Franz; The Trial","subtitle":"Notes on The Trial by Franz Kafka, translated by Breon Mitchell","topics":["notes","the trial","kafka, franz","philosophy","absurdism"]}}}]}},"pageContext":{"topic":"philosophy"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-05-06"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/novels/kafka-franz-the-trial/"},"frontmatter":{"date":"2021-10-01","title":"Kafka, Franz; The Trial","subtitle":"Notes on The Trial by Franz Kafka, translated by Breon Mitchell","topics":["notes","the trial","kafka, franz","philosophy","absurdism"]}}}]}},"pageContext":{"topic":"philosophy"}},
     "staticQueryHashes": ["712016698"]}
