@@ -27,17 +27,18 @@ category: notes
 
 ---
 
-|      AUTHOR       |          TITLE           |
-| :---------------: | :----------------------: |
-| Fyodor Dostoevsky |  The Brothers Karamazov  |
-| Fyodor Dostoevsky |   Crime and Punishment   |
-|    Umberto Eco    |   The Name of the Rose   |
-|       Plato       |       The Republic       |
-|   Daniel Keyes    |   Flowers for Algernon   |
-|   Albert Camus    |       The Stranger       |
-|    Franz Kafka    |      Metamorphosis       |
-| Jean Baudrillard  | Simulacra and Simulation |
-|   Aldous Huxley   |     Brave New World      |
+|      AUTHOR       |            TITLE             |
+| :---------------: | :--------------------------: |
+| Fyodor Dostoevsky |    The Brothers Karamazov    |
+| Fyodor Dostoevsky |     Crime and Punishment     |
+|    Umberto Eco    |     The Name of the Rose     |
+|       Plato       |         The Republic         |
+|   Daniel Keyes    |     Flowers for Algernon     |
+|   Albert Camus    |         The Stranger         |
+|    Franz Kafka    |        Metamorphosis         |
+|    Guy Debord     | The Society of the Spectacle |
+| Jean Baudrillard  |   Simulacra and Simulation   |
+|   Aldous Huxley   |       Brave New World        |
 
 ## Essays and letters
 
