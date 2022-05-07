@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import PostPreview from '../components/postPreview'
 
 interface Props {
     readonly data: PageQueryData
@@ -41,21 +42,17 @@ const Journal: React.FC<Props> = ({ data }) => {
                     <br />
                     <h2>Recent entries</h2>
                     <hr />
-                    {posts.map(({ node }) => {
-                        const title = node.frontmatter.title || node.fields.slug
-                        return (
-                            <div key={node.fields.slug}>
-                                <h3>
-                                    <Link to={node.fields.slug}>{title}</Link>
-                                </h3>
-                                <small>
-                                    {node.frontmatter.date} ○
-                                    topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
-                                </small>
-                                <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
-                            </div>
-                        )
-                    })}
+                    {posts.map(({ node }) => 
+                        <PostPreview 
+                            title       = {node.frontmatter.title}
+                            subtitle    = {node.frontmatter.subtitle}
+                            slug        = {node.fields.slug}
+                            date        = {node.frontmatter.date}
+                            lastUpdated = {node.frontmatter.lastupdated}
+                            topics      = {node.frontmatter.topics}
+                            excerpt     = {node.excerpt}
+                            showExcerpt = {false}/>
+                    )}
                 </div>
             </article>
         </Layout>
@@ -77,9 +74,10 @@ interface PageQueryData {
                     slug: string
                 }
                 frontmatter: {
-                    date: string
                     title: string
                     subtitle: string
+                    date: string
+                    lastupdated: string
                     topics: [string]
                 }
             }
@@ -118,9 +116,10 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
             title
             subtitle
+            date
+            lastupdated
             topics
           }
         }

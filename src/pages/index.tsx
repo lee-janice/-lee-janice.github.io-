@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import PostPreview from '../components/postPreview'
 
 interface Props {
   readonly data: PageQueryData
@@ -33,23 +34,19 @@ const Index: React.FC<Props> = ({ data }) => {
           I hope that it will be a comprehensible introduction into some of the machinations of my mind, and I hope that you will enjoy your stay here!
           For information about me, see the <Link to={`/about-me`}>About me page</Link>; for information about the purpose and design of this site, see the <Link to={`/about-this-site`}>About this site page</Link>; to contact me, email me at <a href='mailto: janice.lee@pomona.edu'>janice.lee@pomona.edu</a>.
         </p>
-        <h2>Recent posts</h2>
+        <h2>Recently Updated Posts</h2>
         <hr />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <div key={node.fields.slug}>
-              <h3>
-                <Link to={node.fields.slug}>{title}</Link>
-              </h3>
-              <small>
-                {node.frontmatter.date} ○
-                topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
-              </small>
-              <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
-            </div>
-          )
-        })}
+        {posts.map(({ node }) => 
+            <PostPreview 
+                title       = {node.frontmatter.title}
+                subtitle    = {node.frontmatter.subtitle}
+                slug        = {node.fields.slug}
+                date        = {node.frontmatter.date}
+                lastUpdated = {node.frontmatter.lastupdated}
+                topics      = {node.frontmatter.topics}
+                excerpt     = {node.excerpt}
+                showExcerpt = {false}/>
+        )}
       </div>
       <br />
       <br />
@@ -74,9 +71,10 @@ interface PageQueryData {
           slug: string
         }
         frontmatter: {
-          date: string
           title: string
           subtitle: string
+          date: string
+          lastupdated: string
           topics: [string]
         }
       }
@@ -94,7 +92,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: {frontmatter: {published: {ne: false}}}
-      sort: {fields: [frontmatter___date], order: DESC}
+      sort: {fields: [frontmatter___lastupdated], order: DESC}
     ) {
       edges {
         node {
@@ -103,9 +101,10 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
             title
             subtitle
+            date
+            lastupdated
             topics
           }
         }

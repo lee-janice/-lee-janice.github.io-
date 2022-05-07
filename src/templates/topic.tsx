@@ -38,11 +38,14 @@ const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <div className={`page-content`}>
                     {posts.map(({ node }) => 
                         <PostPreview 
-                            title   = {node.frontmatter.title}
-                            slug    = {node.fields.slug}
-                            date    = {node.frontmatter.date}
-                            topics  = {node.frontmatter.topics}
-                            excerpt = {node.excerpt}/>
+                            title       = {node.frontmatter.title}
+                            subtitle    = {node.frontmatter.subtitle}
+                            slug        = {node.fields.slug}
+                            date        = {node.frontmatter.date}
+                            lastUpdated = {node.frontmatter.lastupdated}
+                            topics      = {node.frontmatter.topics}
+                            excerpt     = {node.excerpt}
+                            showExcerpt = {false}/>
                     )}
                 </div>
             </article>
@@ -66,9 +69,10 @@ interface PageQueryData {
                     slug: string
                 }
                 frontmatter: {
-                    date: string
                     title: string
                     subtitle: string
+                    date: string
+                    lastupdated: string
                     topics: [string]
                 }
             }
@@ -93,9 +97,10 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
             title
             subtitle
+            date
+            lastupdated
             topics
           }
         }

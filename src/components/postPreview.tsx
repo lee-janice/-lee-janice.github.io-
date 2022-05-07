@@ -3,18 +3,24 @@ import { Link } from 'gatsby'
 
 interface Props {
     readonly title?: string,
+    readonly subtitle: string,
     readonly slug: string,
     readonly date: string,
+    readonly lastUpdated: string,
     readonly topics: [string],
     readonly excerpt: string,
+    readonly showExcerpt: boolean,
 }
 
 const PostPreview: React.FC<Props> = ({
     title, 
+    subtitle, 
     slug, 
     date,
+    lastUpdated,
     topics, 
-    excerpt
+    excerpt,
+    showExcerpt
 }) => {
     console.log(slug)
     return (
@@ -24,12 +30,13 @@ const PostPreview: React.FC<Props> = ({
             </h3>
             <small>
                 {date} ○
+                last updated: {lastUpdated} ○
                 topics: {topics.map((topic, i, arr) => 
                     <Link to={`/topics/${topic}/`}>
                         {(i < arr.length - 1) ? topic + ', ' : topic}
                     </Link>)}
             </small>
-            <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+            {showExcerpt ? <p dangerouslySetInnerHTML={{ __html: excerpt }} /> : <p dangerouslySetInnerHTML={{ __html: subtitle }} />}
         </div>
     )
 }
