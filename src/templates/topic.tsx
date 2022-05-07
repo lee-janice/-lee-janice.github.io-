@@ -88,7 +88,8 @@ export const pageQuery = graphql`
         lastUpdated
       }
     }
-    allMarkdownRemark(limit: 1000, filter: {frontmatter: {topics: {in: [$topic]}}}) {
+    allMarkdownRemark(limit: 1000, filter: {frontmatter: {topics: {in: [$topic]}, published: {ne: false}}}) {
+        
       totalCount
       edges {
         node {
