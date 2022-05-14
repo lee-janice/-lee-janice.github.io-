@@ -4,6 +4,7 @@ import { styled } from '../styles/theme'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
+import { node } from 'prop-types'
 
 interface Props {
     readonly data: PageQueryData
@@ -39,7 +40,7 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
                     {post.frontmatter.date} ○
                     last updated: {post.frontmatter.lastupdated} ○
                     topics: {post.frontmatter.topics.map((topic, i, arr) => 
-                        <Link to={`/topics/${topic}/`}>
+                        <Link to={`/topics/${topic}/`} key={topic}>
                             {(i < arr.length - 1) ? topic + ', ' : topic}
                         </Link>)}
                 </p>

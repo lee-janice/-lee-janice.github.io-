@@ -37,7 +37,7 @@ const Index: React.FC<Props> = ({ data }) => {
         <h2>Recently Updated Posts</h2>
         <hr />
         {posts.map(({ node }) => 
-            <PostPreview 
+            <PostPreview key={node.fields.slug}
                 title       = {node.frontmatter.title}
                 subtitle    = {node.frontmatter.subtitle}
                 slug        = {node.fields.slug}

@@ -37,7 +37,10 @@ const Essays: React.FC<Props> = ({ data }) => {
                                 </h3>
                                 <small>
                                     {node.frontmatter.date} ○
-                                    topics: {node.frontmatter.topics.map((topic, i, arr) => <Link to={`/topics/${topic}/`}>{(i < arr.length - 1) ? topic + ', ' : topic}</Link>)}
+                                    topics: {node.frontmatter.topics.map((topic, i, arr) => 
+                                        <Link to={`/topics/${topic}/`} key={topic}>
+                                            {(i < arr.length - 1) ? topic + ', ' : topic}
+                                        </Link>)}
                                 </small>
                                 <p dangerouslySetInnerHTML={{ __html: node.frontmatter.subtitle }} />
                             </div>

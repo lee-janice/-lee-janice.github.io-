@@ -40,7 +40,7 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
             </header>
             <article>
                 <div className={`page-content`}>
-                    <h2>Entries by month</h2>
+                    <h2>Entries by Month</h2>
                     <hr />
                     {months.map(({ node }) => {
                         const monthName = monthNumberToName(node.name)
@@ -62,10 +62,10 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
                         )
                     })}
                     <br />
-                    <h2>{year} entries</h2>
+                    <h2>{year} Entries</h2>
                     <hr />
                     {entries.map(({ node }) => 
-                        <PostPreview 
+                        <PostPreview key={node.fields.slug}
                             title       = {node.frontmatter.title}
                             subtitle    = {node.frontmatter.subtitle}
                             slug        = {node.fields.slug}

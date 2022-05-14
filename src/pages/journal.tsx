@@ -28,7 +28,7 @@ const Journal: React.FC<Props> = ({ data }) => {
             </header>
             <article>
                 <div className={`page-content`}>
-                    <h2>Entries by year</h2>
+                    <h2>Entries by Year</h2>
                     <hr />
                     {years.map(({ node }) => {
                         return (
@@ -40,10 +40,10 @@ const Journal: React.FC<Props> = ({ data }) => {
                         )
                     })}
                     <br />
-                    <h2>Recent entries</h2>
+                    <h2>Recent Entries</h2>
                     <hr />
                     {posts.map(({ node }) => 
-                        <PostPreview 
+                        <PostPreview key={node.fields.slug}
                             title       = {node.frontmatter.title}
                             subtitle    = {node.frontmatter.subtitle}
                             slug        = {node.fields.slug}

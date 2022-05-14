@@ -41,7 +41,7 @@ const MonthTemplate: React.FC<Props> = ({ data, pageContext }) => {
             <article>
                 <div className={`page-content`}>
                     {entries.map(({ node }) => 
-                        <PostPreview 
+                        <PostPreview key={node.fields.slug}
                             title       = {node.frontmatter.title}
                             subtitle    = {node.frontmatter.subtitle}
                             slug        = {node.fields.slug}

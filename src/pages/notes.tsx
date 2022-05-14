@@ -4,6 +4,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head'
 import PostPreview from '../components/postPreview'
+import { nodeTypes } from '@mdx-js/mdx'
 
 interface Props {
     readonly data: PageQueryData
@@ -30,7 +31,7 @@ const Notes: React.FC<Props> = ({ data }) => {
                     <h2>Recent notes</h2>
                     <hr />
                     {posts.map(({ node }) => 
-                        <PostPreview 
+                        <PostPreview key={node.fields.slug}
                             title       = {node.frontmatter.title}
                             subtitle    = {node.frontmatter.subtitle}
                             slug        = {node.fields.slug}

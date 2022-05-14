@@ -37,7 +37,7 @@ const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
             <article>
                 <div className={`page-content`}>
                     {posts.map(({ node }) => 
-                        <PostPreview 
+                        <PostPreview key={node.fields.slug}
                             title       = {node.frontmatter.title}
                             subtitle    = {node.frontmatter.subtitle}
                             slug        = {node.fields.slug}

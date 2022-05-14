@@ -27,20 +27,21 @@ category: notes
 
 ---
 
-|      AUTHOR       |            TITLE             |
-| :---------------: | :--------------------------: |
-| Fyodor Dostoevsky |    The Brothers Karamazov    |
-| Fyodor Dostoevsky |     Crime and Punishment     |
-|    Umberto Eco    |     The Name of the Rose     |
-|       Plato       |         The Republic         |
-|   Daniel Keyes    |     Flowers for Algernon     |
-|   Albert Camus    |         The Stranger         |
-|    Franz Kafka    |        Metamorphosis         |
-|    Guy Debord     | The Society of the Spectacle |
-| Jean Baudrillard  |   Simulacra and Simulation   |
-|   Aldous Huxley   |       Brave New World        |
+|       AUTHOR        |                              TITLE                              |
+| :-----------------: | :-------------------------------------------------------------: |
+|  Fyodor Dostoevsky  |                     The Brothers Karamazov                      |
+|  Fyodor Dostoevsky  |                      Crime and Punishment                       |
+|     Umberto Eco     |                      The Name of the Rose                       |
+|        Plato        |                          The Republic                           |
+|    Daniel Keyes     |                      Flowers for Algernon                       |
+|    Albert Camus     |                          The Stranger                           |
+|     Franz Kafka     |                          Metamorphosis                          |
+|     Guy Debord      |                  The Society of the Spectacle                   |
+|  Jean Baudrillard   |                    Simulacra and Simulation                     |
+|    Aldous Huxley    |                         Brave New World                         |
+| M. Mitchell Waldrop | Complexity: The Emerging Science at the Edge of Order and Chaos |
 
-## Essays and letters
+## Essays and Letters
 
 ---
 
@@ -48,6 +49,14 @@ category: notes
 | :---------: | :----------------------------------: |
 | Alan Turing | Computing Machinery and Intelligence |
 | Franz Kafka |        A Letter to My Father         |
+
+## Academic Papers
+
+---
+
+|       AUTHOR        |                                    TITLE                                     |
+| :-----------------: | :--------------------------------------------------------------------------: |
+| Christopher Langton | Computation at the Edge of Chaos: Phase-transitions and emergent computation |
 
 ## Movies
 

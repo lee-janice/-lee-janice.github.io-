@@ -22,9 +22,8 @@ const PostPreview: React.FC<Props> = ({
     excerpt,
     showExcerpt
 }) => {
-    console.log(slug)
     return (
-        <div key={slug}>
+        <div>
             <h3>
                 <Link to={slug}>{title || slug}</Link>
             </h3>
@@ -32,7 +31,7 @@ const PostPreview: React.FC<Props> = ({
                 {date} ○
                 last updated: {lastUpdated} ○
                 topics: {topics.map((topic, i, arr) => 
-                    <Link to={`/topics/${topic}/`}>
+                    <Link to={`/topics/${topic}/`} key={topic}>
                         {(i < arr.length - 1) ? topic + ', ' : topic}
                     </Link>)}
             </small>
