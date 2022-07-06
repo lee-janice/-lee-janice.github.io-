@@ -108,7 +108,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date
+            date(formatString: "YYYY-MM-DD", locale: "pt")
             title
             subtitle
             topics
