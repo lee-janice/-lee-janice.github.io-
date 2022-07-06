@@ -112,12 +112,12 @@ I hope that it will be a resource that helps me come to a better understanding o
 
 <div class='epigraph'>
 
-> The heaviest of burdens crushes us, we sink beneath it, it pins us to the ground. But in love poetry of every age, the woman longs to be weighed down by the man's body. The heaviest of burdens is therefore simultaneously an image of life's most intense fulfillment. The heavier the burden, the closer our lives come to the earth, the more real and truthful they become. Conversely, the absolute absence of burden causes man to be lighter than air, to soar into heights, take leave of the earth and his earthly being, and become only half real, his movements as free as they are insignificant. What then shall we choose? Weight or lightness? <footer> - Milan Kundera; *The Unbearable Lightness of Being* </footer>
+> The heaviest of burdens crushes us, we sink beneath it, it pins us to the ground... The heavier the burden, the closer our lives come to the earth, the more real and truthful they become. Conversely, the absolute absence of burden causes man to be lighter than air, to soar into heights, take leave of the earth and his earthly being, and become only half real, his movements as free as they are insignificant. What then shall we choose? Weight or lightness? <footer> - Milan Kundera; *The Unbearable Lightness of Being* </footer>
 
 </div>
 
 I often have the urge to drive to the coast in midst of the night and shout at the ocean. 
-There's something cathartic about the idea -- one's existential angst being subsumed by the calming static of the waves, the hypnotic pitch and roll of the tides, and the immovable void of the sea.
+There's something cathartic about the idea -- one's existential angst being subsumed by the calming undulation of the waves, the hypnotic pitch and roll of the tides, and the immovable void of the sea.
 In general, the concept of a shout into the void is very appealing to me. 
 I think it's because I struggle immensely with the possibility of being a burden on others: I abhor the idea of people doing things for me simply because they feel obligated to do so.
 The void feels no such obligation. 

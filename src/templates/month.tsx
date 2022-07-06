@@ -93,7 +93,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
         filter: {fields: {slug: {regex: $dirRegexByYearAndMonth}}}
-        sort: {fields: [frontmatter___date], order: DESC}
+        sort: {fields: [frontmatter___lastupdated], order: DESC}
       ) {
         edges {
           node {
