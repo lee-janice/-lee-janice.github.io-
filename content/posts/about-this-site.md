@@ -1,8 +1,8 @@
 ---
 title: About this site.
 subtitle: Information about this site; the structure, purpose, philosophy, and inspiration; implementation details; to-dos
-date: '2021-09-18'
-lastupdated: '2021-10-14'
+date: 2021-09-18
+lastupdated: 2021-10-14
 published: true
 layout: post
 topics: ['meta']

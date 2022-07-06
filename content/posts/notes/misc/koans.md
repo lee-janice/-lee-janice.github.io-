@@ -1,8 +1,8 @@
 ---
 title: A collection of kōans
 subtitle: Kōans that I find thought-provoking
-date: '2022-04-17'
-lastupdated: '2022-04-17'
+date: 2022-04-17
+lastupdated: 2022-04-17
 published: true
 layout: post
 topics: ['notes', 'zen', 'buddhism']

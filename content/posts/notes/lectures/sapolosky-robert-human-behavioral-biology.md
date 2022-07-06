@@ -1,8 +1,8 @@
 ---
 title: Sapolosky, Robert; Human Behavioral Biology
 subtitle: Notes on Robert Sapolosky's lecture series on human behavioral biology
-date: '2022-04-16'
-lastupdated: '2022-04-16'
+date: 2022-04-16
+lastupdated: 2022-04-16
 group: '2022-04'
 published: true
 layout: post

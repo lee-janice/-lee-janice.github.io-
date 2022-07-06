@@ -1,8 +1,8 @@
 ---
 title: The foundations of (Western) logic
 subtitle: A personal "course" curation for the history and philosophy of Western logic
-date: '2022-04-12'
-lastupdated: '2022-04-12'
+date: 2022-04-12
+lastupdated: 2022-04-12
 published: false
 layout: post
 topics: ['notes', 'logic', 'foundations']

@@ -1,8 +1,8 @@
 ---
 title: Dream journal
 subtitle: A log of my more memorable dreams in reverse-chronological order
-date: '2021-10-03'
-lastupdated: '2021-10-14'
+date: 2021-10-03
+lastupdated: 2021-10-14
 published: true
 layout: post
 topics: ['notes', 'dreams', 'personal', 'liminality', 'subconscious']

@@ -1,8 +1,8 @@
 ---
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
-date: "2021-10-04"
-lastupdated: "2022-06-24"
+date: 2021-10-04
+lastupdated: 2022-06-24
 published: true
 layout: post
 topics: ["notes"]
