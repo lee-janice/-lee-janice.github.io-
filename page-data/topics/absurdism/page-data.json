@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-topic-tsx",
     "path": "/topics/absurdism/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-05-06"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/novels/kafka-franz-the-trial/"},"frontmatter":{"title":"Kafka, Franz; The Trial","subtitle":"Notes on The Trial by Franz Kafka, translated by Breon Mitchell","date":"2021-10-01","lastupdated":"2022-04-17","topics":["notes","the trial","kafka, franz","philosophy","absurdism"]}}}]}},"pageContext":{"topic":"absurdism"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-07-05"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"excerpt":"","fields":{"slug":"/notes/books/novels/kafka-franz-the-trial/"},"frontmatter":{"title":"Kafka, Franz; The Trial","subtitle":"Notes on The Trial by Franz Kafka, translated by Breon Mitchell","date":"2021-10-01T00:00:00.000Z","lastupdated":"2022-04-17T00:00:00.000Z","topics":["notes","the trial","kafka, franz","philosophy","absurdism"]}}}]}},"pageContext":{"topic":"absurdism"}},
     "staticQueryHashes": ["712016698"]}
