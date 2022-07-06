@@ -118,8 +118,8 @@ export const pageQuery = graphql`
           frontmatter {
             title
             subtitle
-            date(formatString: "YYYY-MM-DD", locale: "pt")
-            lastupdated(formatString: "YYYY-MM-DD", locale: "pt")
+            date
+            lastupdated
             topics
           }
         }
