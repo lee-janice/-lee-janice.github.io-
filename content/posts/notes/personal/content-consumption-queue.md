@@ -13,9 +13,9 @@ category: notes
 
 |                                                         NAME                                                         |      AUTHOR       | DATE STARTED |
 | :------------------------------------------------------------------------------------------------------------------: | :---------------: | :----------: |
-|                                          The Heart of the Buddha's Teaching                                          |  Thich Nhat Hahn  |  2022-04-15  |
+|                                                 The Case for Christ                                                  |    Lee Strobel    |  2022-07-15  |
+|                                                        Cosmos                                                        |    Carl Sagan     |  2022-07-05  |
 | [The Great Minds of the Western Intellectual Tradition (Lecture Series)](https://www.youtube.com/watch?v=8ZoQ7wh9pS) |  Michael Sugrue   |  2022-04-01  |
-|                                              The Miracle of Mindfulness                                              |  Thich Nhat Hahn  |  2022-03-15  |
 |                                                  The New Testament                                                   |      Various      |  2022-03-01  |
 |                                     Gödel, Escher, Bach: An Eternal Golden Braid                                     | Douglas Hofstader |  2022-01-15  |
 |               [Human Behavioral Biology (Lecture Series)](https://www.youtube.com/watch?v=NNnIGh9g6fA)               | Robert Sapolosky  |  2021-12-01  |
@@ -36,14 +36,16 @@ category: notes
 
 ## Non-fiction and Philosophy
 
-|       AUTHOR        |                              TITLE                              |
-| :-----------------: | :-------------------------------------------------------------: |
-|        Plato        |                          The Republic                           |
-|     Guy Debord      |                  The Society of the Spectacle                   |
-|  Jean Baudrillard   |                    Simulacra and Simulation                     |
-| M. Mitchell Waldrop | Complexity: The Emerging Science at the Edge of Order and Chaos |
-| Ludwig Wittgenstein |                  Philosophical Investigations                   |
-| Ludwig Wittgenstein |                 Tractatus Logico-Philosophicus                  |
+|               AUTHOR               |                              TITLE                              |
+| :--------------------------------: | :-------------------------------------------------------------: |
+|               Plato                |                          The Republic                           |
+|             Guy Debord             |                  The Society of the Spectacle                   |
+|          Jean Baudrillard          |                    Simulacra and Simulation                     |
+|        M. Mitchell Waldrop         | Complexity: The Emerging Science at the Edge of Order and Chaos |
+|        Ludwig Wittgenstein         |                  Philosophical Investigations                   |
+|        Ludwig Wittgenstein         |                 Tractatus Logico-Philosophicus                  |
+| The Heart of the Buddha's Teaching |                         Thich Nhat Hahn                         |
+|     The Miracle of Mindfulness     |                         Thich Nhat Hahn                         |
 
 ## Essays and Letters
 
@@ -65,6 +67,7 @@ category: notes
 | :-------------: | :------------------: |
 | Charlie Kaufman | Synecdoche, New York |
 |  Wong Kar-wai   | In the Mood for Love |
+|   Satoshi Kon   |     Perfect Blue     |
 
 ## Completed
 
