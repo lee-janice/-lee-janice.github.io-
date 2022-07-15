@@ -1,6 +1,6 @@
 import React from 'react'
 import { GlobalStyle, styled } from '../styles/theme'
-import DarkModeToggler from './darkmodeToggler'
+import StyleToggles from './theme/styleToggles'
 import NavBar from './navbar'
 
 const StyledFooter = styled.footer`
@@ -15,7 +15,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }) => (
   <>
     <GlobalStyle />
-    <DarkModeToggler />
+    <StyleToggles />
     <NavBar />
     <main className="content" role="main">
       {children}
