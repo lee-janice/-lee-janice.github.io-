@@ -10,6 +10,10 @@ class ThemeToggler extends React.Component {
   }
 
   componentDidMount() {
+    window.__setPreferredTheme(
+      (this.state.darkMode ? 'dark' : 'light') + '-'
+        + (this.state.modernMode ? 'modern' : 'classic')
+    )
     window.__onThemeChange = () => {
       this.setState({ theme: window.__theme })
     }
