@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 /* remixed from https://github.com/insin/gatsby-plugin-dark-mode/blob/master/src/ThemeToggler.js */ 
 class ThemeToggler extends React.Component {
   state = {
-    theme: typeof window !== 'undefined' ? window.__theme : null,
-    darkMode: window.__theme.toString().includes('dark'),
-    modernMode: window.__theme.toString().includes('modern')
+    theme: typeof window !== 'undefined' ? window.__theme : 'light-classic',
+    darkMode: typeof window !== 'undefined' ? window.__theme.toString().includes('dark') : false,
+    modernMode: typeof window !== 'undefined' ?  window.__theme.toString().includes('modern') : false
   }
 
   componentDidMount() {
