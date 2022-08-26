@@ -1,5 +1,5 @@
 ---
-title: Carroll, Lewis; Alice in Wonderland
+title: Carroll, Lewis; Alice in Wonderland (1865)
 subtitle: Notes on Alice in Wonderland by Lewis Carroll
 date: 2022-04-18
 lastupdated: 2022-05-02

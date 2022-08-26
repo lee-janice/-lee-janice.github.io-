@@ -179,7 +179,7 @@ Here are some words that I may describe myself with: optimistic; bold-at-times; 
 ## Contact
 ---
 
-The best way to get in touch with me is to email me at <a href='mailto: janice.lee@pomona.edu'>janice.lee@pomona.edu</a>.
+The best way to get in touch with me is to email me at <a href='mailto: janicel375@gmail.com'>janicel375@gmail.com</a>.
 If you want to talk to me about anything that you or I may be interested in, or even about nothing in particular, please[^lonely] reach out.
 If you want to comment on this website, feel free to open an issue on the [Github page](https://github.com/lee-janice/lee-janice.github.io)! 
 
