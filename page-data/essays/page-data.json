@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-pages-essays-tsx",
-    "path": "/essays/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-07-05"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{}},
-    "staticQueryHashes": ["712016698"]}
+{"componentChunkName":"component---src-pages-essays-tsx","path":"/essays/","result":{"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-08-25"}},"allMarkdownRemark":{"edges":[]}},"pageContext":{}},"staticQueryHashes":["712016698"]}

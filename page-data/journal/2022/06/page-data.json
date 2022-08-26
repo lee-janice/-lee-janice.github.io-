@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-month-tsx",
-    "path": "/journal/2022/06",
-    "result": {"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-07-05"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"","fields":{"slug":"/journal/2022/06/03/"},"frontmatter":{"title":"June 3rd 2022","subtitle":"Journal entry for 2022-06-03","date":"2022-06-03T00:00:00.000Z","lastupdated":"2022-06-03T00:00:00.000Z","topics":["journal"]}}}]}},"pageContext":{"year":"2022","month":"06","dirRegexByYearAndMonth":"/journal/2022/06/"}},
-    "staticQueryHashes": ["712016698"]}
+{"componentChunkName":"component---src-templates-month-tsx","path":"/journal/2022/06","result":{"data":{"site":{"siteMetadata":{"title":"a cozy space","lastUpdated":"2022-08-25"}},"allMarkdownRemark":{"edges":[{"node":{"excerpt":"","fields":{"slug":"/journal/2022/06/03/"},"frontmatter":{"title":"June 3rd, 2022","subtitle":"Journal entry for 2022-06-03","date":"2022-06-03T00:00:00.000Z","lastupdated":"2022-06-03T00:00:00.000Z","topics":["journal"]}}}]}},"pageContext":{"year":"2022","month":"06","dirRegexByYearAndMonth":"/journal/2022/06/"}},"staticQueryHashes":["712016698"]}
