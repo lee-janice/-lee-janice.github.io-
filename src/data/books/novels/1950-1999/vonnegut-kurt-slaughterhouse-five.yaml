@@ -1,0 +1,444 @@
+title: Slaughterhouse-Five
+author: Kurt Vonnegut
+type: novel
+quotes:
+  - item:
+    quote: >
+      We asked him how
+      it was to live under Communism, and he said that it was terrible at first, because everybody had to work
+      so hard, and because there wasn't much shelter or food or clothing. But things were much better now. He
+      had a pleasant little apartment, and his daughter was getting an excellent education. His mother was
+      incinerated in the Dresden fire-storm. So it goes.
+    description: Conversation with the taxi driver in Dresden
+    chapter_title:
+    chapter_number: 1
+    page_number: 4
+    importance: 1
+    notes:
+    tags: [irony]
+  - item: 
+    quote: >
+      'I think the climax of the book will be the execution of poor old Edgar Derby,' I said. 'The irony is so
+      great. A whole city gets burned down, and thousands and thousands of people are killed. And then this
+      one American foot soldier is arrested in the ruins for taking a teapot. And he's given a regular trial, and
+      then he's shot by a firing squad.'
+
+      'Um,' said O'Hare.
+
+      'Don't you think that's really where the climax should come?' 'I don't know anything about it,' he said.
+
+      'That's your trade, not mine.'
+    description: Conversation between narrator (Vonnegut) and Bernard O'Hare
+    chapter_title:
+    chapter_number: 1
+    page_number: 6
+    importance: 2
+    notes: A cute meta-commentary on Kurt Vonnegut's style 
+    tags: [irony, meta]
+  - item:
+    quote: >
+      I think about my education sometimes. I went to the University of Chicago for a while after the Second
+      World War. I was a student in the Department of Anthropology. At that time, they were teaching that
+      there was absolutely no difference between anybody. They may be teaching that still.
+      Another thing they taught was that nobody was ridiculous or bad or disgusting. Shortly before my
+      father died, he said to me, 'You know-you never wrote a story with a villain in it.'
+      I told him that was one of the things I learned in college after the war.
+    description: Reflection on his education
+    chapter_title:
+    chapter_number: 1
+    page_number: 8
+    importance: 1
+    notes: 
+    tags: [education]
+  - item: 
+    quote: >
+      And I asked myself about the present: how wide it was, how deep it was, how much was mine to
+      keep.
+    description: Reflections on time 
+    chapter_title:
+    chapter_number: 1
+    page_number: 13
+    importance: 3
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      The time would not pass. Somebody was playing with the clocks, and not only with the electric
+      clocks, but the wind-up kind, too. The second hand on my watch would twitch once, and a year would
+      pass, and then it would twitch again.
+  
+      There was nothing I could do about it. As an Earthling., I had to believe whatever clocks said-and
+      calendars.
+    description: Reflections on time 
+    chapter_title: 
+    chapter_number: 1
+    page_number: 14
+    importance: 4
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      No art is possible without a dance with death, he wrote.
+
+      The truth is death, he wrote. I've fought nicely against it as long as I could... danced with it,
+      festooned it, waltzed it around... decorated it with streamers, titillated it...
+
+      Time obsessed him. Miss Ostrovsky reminded me of the amazing scene in Death on the Installment
+      Plan where Céline wants to stop the bustling of a street crowd. He screams on paper, Make them stop
+      ... don't let them move anymore at all ... There, make them freeze ... once and for all! ... So that
+      they won't disappear anymore!
+    description: The writings of Céline, a French soldier in WWI
+    chapter_title: 
+    chapter_number: 1
+    page_number: 13
+    importance: 5
+    notes:
+    tags: [time, death, truth]
+  - item:
+    quote: >
+      I looked through the Gideon Bible in my motel room for tales of great destruction. The sun was risen
+      upon the Earth when Lot entered into Zo-ar, I read. Then the Lord rained upon Sodom and upon
+      Gomorrah brimstone and fire from the Lord out of Heaven; and He overthrew those cities, and all
+      the plain, and all the inhabitants of the cities, and that which grew upon the ground.
+
+      So it goes.
+
+      Those were vile people in both those cities, as is well known. The world was better off without them.
+
+      And Lot's wife, of course, was told not to look back where all those people and their homes had
+      been. But she did look back, and I love her for that, because it was so human.
+
+      She was turned to a pillar of salt. So it goes.
+
+      People aren't supposed to look back. I'm certainly not going to do it anymore.
+
+      I've finished my war book now. The next one I write is going to be fun.
+
+      This one is a failure, and had to be, since it was written by a pillar of salt. It begins like this:
+
+      Listen:
+
+      Billy Pilgrim has come unstuck in time.
+
+      It ends like this:
+      
+      Poo-tee-weet?
+    description: Tales of destruction
+    chapter_title:
+    chapter_number: 1 
+    page_number: 14
+    importance: 5
+    notes:
+    tags: [time, "the past", christianity, meta]
+  - item:
+    quote: >
+      Billy was working on his second letter when the first letter was published. The second letter started out
+      like this:
+
+      'The most important thing I learned on Tralfamadore was that when a person dies he only appears to
+      die. He is still very much alive in the past, so it is very silly for people to cry at his funeral. All moments,
+      past, present and future, always have existed, always will exist. The Tralfamadorians can look at all the
+      different moments just that way we can look at a stretch of the Rocky Mountains, for instance. They can
+      see how permanent all the moments are, and they can look at any moment that interests them. It is just an
+      illusion we have here on Earth that one moment follows another one, like beads on a string, and that once
+      a moment is gone it is gone forever.
+
+      'When a Tralfamadorian sees a corpse, all he thinks is that the dead person is in a bad condition in that
+      particular moment, but that the same person is just fine in plenty of other moments. Now, when I myself
+      hear that somebody is dead, I simply shrug and say what the Tralfamadorians say about dead people,
+      which is "so it goes."'
+
+      And so on.
+    description: Billy's lessons from Tralfamadore
+    chapter_title: 
+    chapter_number: 2
+    page_number: 15
+    importance: 5
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      Billy Pilgrim had stopped in the forest. He was leaning against a tree with his eyes closed. His head
+      was tilted back and his nostrils were flaring. He was like a poet in the Parthenon.
+
+      This was when Billy first came unstuck in time. His attention began to swing grandly through the full arc
+      of his life, passing into death, which was violet light. There wasn't anybody else there, or any thing. There
+      was just violet light and a hum.
+
+      And then Billy swung into life again, going backwards until he was in pre-birth, which was red light and
+      bubbling sounds. And then he swung into life again and stopped. He was a little boy taking a shower with
+      his hairy father at the Ilium Y.M.C.A. He smelled chlorine from the swimming pool next door, heard the
+      springboard boom.
+
+      Little Billy was terrified, because his father had said Billy was going to learn to swim by the method of
+      sink-or-swim. Ms father was going to throw Billy into the deep end, and Billy was going to damn well
+      swim.
+
+      It was like an execution. Billy was numb as his father carried him from the shower room to the pool.
+      His eyes were closed. When he opened his eyes, he was on the bottom of the pool, and there was
+      beautiful music everywhere. He lost consciousness, but the music went on. He dimly sensed that
+      somebody was rescuing him. Billy resented that. 
+    description: Coming unstuck in time
+    chapter_title:
+    chapter_number: 1
+    page_number: 24
+    importance: 3
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      From there he traveled in time to 1965. He was forty-one years old, and he was visiting his decrepit
+      mother at Pine Knoll, an old people's home he had put her in only a month before. She had caught
+      pneumonia, and wasn't expected to live. She did live, though, for years after that.
+
+      Her voice was nearly gone, so, in order to hear her, Billy had to put his ear right next to her papery
+      lips. She evidently had something very important to say.
+
+      'How ...?' she began, and she stopped. She was too tired. She hoped that she wouldn't have to say
+      the rest of the sentence, and that Billy would finish it for her
+
+      But Billy had no idea what was on her mind. 'How what, Mother?' he prompted.
+
+      She swallowed hard, shed some tears. Then she gathered energy from all over her ruined body, even
+      from her toes and fingertips. At last she bad accumulated enough to whisper this complete sentence:
+
+      'How did I get so old ?'
+    description: Billy's visit with his mother
+    chapter_title:
+    chapter_number: 2 
+    page_number: 25
+    importance: 3
+    notes:
+    tags: [time, aging]
+  - item:
+    quote: >
+      Billy Pilgrim, there in the creekbed, thought he, Billy Pilgrim, was turning to steam painlessly. If
+      everybody would leave him alone for just a little while, he thought, he wouldn't cause anybody any more
+      trouble. He would turn to steam and float up among the treetops.
+    description: Billy in the heat of war 
+    chapter_title:
+    chapter_number: 2
+    page_number: 27
+    importance: 1
+    notes:
+    tags: []
+  - item:
+    quote: >
+      The Germans and the dog were engaged in a military operation which had an amusingly self-explanatory
+      name, a human enterprise which is seldom described in detail, whose name alone, when reported as
+      news or history, gives many war enthusiasts a sort of post-coital satisfaction. It is, in the imagination of
+      combat's fans, the divinely listless loveplay that follows the orgasm of victory. It is called 'mopping up.'
+    description: Mopping up 
+    chapter_title:
+    chapter_number: 3 
+    page_number: 29
+    importance: 1
+    notes: 
+    tags: [war]
+  - item:
+    quote: >
+      Those boots were almost all he owned in this world. They were his home. An anecdote: One time a
+      recruit was watching him bone and wax those golden boots, and he held one up to the recruit and said, 'If
+      you look in there deeply enough, you'll see Adam and Eve.'
+
+      Billy Pilgrim had not heard this anecdote. But, lying on the black ice there, Billy stared into the patina
+      of the corporal's boots, saw Adam and Eve in the golden depths. They were naked. They were so
+      innocent, so vulnerable, so eager to behave decently. Billy Pilgrim loved them.
+    description: Holy boots
+    chapter_title:
+    chapter_number: 2 
+    page_number: 29
+    importance: 2
+    notes:
+    tags: [christianity, "adam and eve"]
+  - item:
+    quote: >
+      Billy had a framed prayer on his office wall which expressed his method for keeping going, even
+      though he was unenthusiastic about living. A lot of patients who saw the prayer on Billy's wall told him
+      that it helped them to keep going, too. It went like this
+
+      GOD GRANT ME
+
+      THE SERENITY TO ACCEPT
+
+      THE THINGS I CANNOT CHANGE
+
+      COURAGE
+
+      TO CHANGE THE THINGS I CAN,
+
+      AND WISDOM ALWAYS
+
+      TO TELL THE
+
+      DIFFERENCE.
+
+      Among the things Billy Pilgrim could not change were the past, the present and the future.
+    description: A prayer and time
+    chapter_title: 
+    chapter_number: 3
+    page_number: 33
+    importance: 5
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      One of them singled out Billy's face for a moment, then focused at infinity again. There was a tiny
+      plume of smoke at infinity. There was a battle there. People were dying there. So it goes.
+    description: Upon capturing the Americans 
+    chapter_title: 
+    chapter_number: 3
+    page_number: 36
+    importance: 2
+    notes:
+    tags: [war]
+  - item:
+    quote: >
+      Even though Billy's train wasn't moving, its boxcars were kept locked tight. Nobody was to get off
+      until the final destination. To the guards who walked up and down outside, each car became a single
+      organism which ate and drank and excreted through its ventilators. It talked or sometimes yelled through
+      its ventilators, too. In went water and loaves of blackbread and sausage and cheese, and out came shit
+      and piss and language.
+
+      Human beings in there were excreting into steel helmets, which were passed to the people at the
+      ventilators, who dumped them. Billy was a dumper. The human beings also passed canteens, which
+      guards would fill with water. When food came in, the human beings were quiet and trusting and beautiful.
+      They shared.
+    description: In the prisoner's train cars
+    chapter_title: 
+    chapter_number: 3
+    page_number: 38
+    importance: 2
+    notes:
+    tags: []
+  - item:
+    quote: >
+      'Welcome aboard, Mr. Pilgrim,' said the loudspeaker. 'Any questions?'
+
+      Billy licked his lips, thought a while, inquired at last: 'Why me?'
+
+      That is a very Earthling question to ask, Mr. Pilgrim. Why you? Why us for that matter? Why
+      anything ? Because this moment simply is. Have you ever seen bugs trapped in amber?'
+
+      'Yes.' Billy in fact, had a paperweight in his office which was a blob of polished amber with three
+      ladybugs embedded in it.
+
+      'Well, here we are, Mr. Pilgrim, trapped in the amber of this moment. There is no why.
+    description: Meeting the Tralfamadorians 
+    chapter_title: 
+    chapter_number: 4
+    page_number: 41
+    importance: 5
+    notes:
+    tags: [reason, time]
+  - item:
+    quote: >
+      'How-how did I get here?'
+
+      'It would take another Earthling to explain it to you. Earthlings are the great explainers, explaining why
+      this event is structured as it is, telling how other events may be achieved or avoided. I am a
+      Tralfamadorian, seeing all time as you might see a stretch of Rocky Mountains. All time is all time. It does
+      not change. It does not lend itself to warnings or explanations. It simply is. Take it moment by moment,
+      and you will find that we are all, as I've said before, bugs in amber.'
+
+      'You sound to me as though you don't believe in free will,' said Billy Pilgrim.
+
+      'If I hadn't spent so much time studying Earthlings,' said the Tralfamadorian, 'I wouldn't have any idea
+      what was meant by "free will." I've visited thirty-one inhabited planets in the universe, and I have studied
+      reports on one hundred more. Only on Earth is there any talk of free will.'
+    description: Tralfamadorians on free will 
+    chapter_title: 
+    chapter_number: 4
+    page_number: 46
+    importance: 5
+    notes:
+    tags: ["free will"]
+  - item:
+    quote: >
+      Billy Pilgrim says that the Universe does not look like a lot of bright little dots to the creatures from
+      Tralfamadore. The creatures can see where each star has been and where it is going, so that the heavens
+      are filled with rarefied, luminous spaghetti. And Tralfamadorians don't see human beings as two-legged
+      creatures, either. They see them as great millipedes with babies' legs at one end and old people's legs at
+      the other, says Billy Pilgrim.
+    description: Reality from the Tralfamadorian perspective 
+    chapter_title: 
+    chapter_number: 5
+    page_number: 46
+    importance: 3
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      'There are no telegrams on Tralfamadore. But you're right: each clump of-symbols is a brief, urgent
+      message describing a situation, a scene. We Tralfamadorians read them all at once, not one after the
+      other. There isn't any particular relationship between all the messages, except that the author has chosen
+      them carefully, so that, when seen all at once, they produce an image of life that is beautiful and surprising
+      and deep. There is no beginning, no middle, no end, no suspense, no moral, no causes, no effects. What
+      we love in our books are the depths of many marvelous moments seen all at one time.'
+    description: Novels on Tralfamadore
+    chapter_title: 
+    chapter_number: 5
+    page_number: 47
+    importance: 4
+    notes:
+    tags: [time]
+  - item:
+    quote: >
+      
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []
+  - item:
+    quote: >
+
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []
+  - item:
+    quote: >
+
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []
+  - item:
+    quote: >
+
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []
+  - item:
+    quote: >
+
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []
+  - item:
+    quote: >
+
+    description: 
+    chapter_title: 
+    chapter_number: 
+    page_number: 
+    importance: 
+    notes:
+    tags: []

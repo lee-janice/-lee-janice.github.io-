@@ -15,12 +15,12 @@ const Quote: React.FC<Props> = ({
     quote,
     description = null,
     chapternum,
-    chaptertitle,
+    chaptertitle = null,
     pagenum,
     notes = null,
     importance,
     tags = null,
-    children = null
+    children
 }) => {
     return (
         <div>
@@ -28,7 +28,7 @@ const Quote: React.FC<Props> = ({
                 <p>{children || quote}</p>
                 <footer>
                     {description ? description + "; " : ""}
-                    <em>chapter {chapternum} ({chaptertitle}), page {pagenum}</em>;
+                    <em>chapter {chapternum}{chaptertitle ? " (" + chaptertitle + ")" : ""}, page {pagenum}</em>;
                     importance: {importance}
                 </footer>
             </blockquote>

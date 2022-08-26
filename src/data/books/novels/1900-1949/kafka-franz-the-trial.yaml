@@ -1,6 +1,20 @@
 title: The Trial
 author: Franz Kafka
 type: novel
+wikisummary: >
+  On the morning of his thirtieth birthday, Josef K., the chief cashier of a bank, is unexpectedly arrested by two unidentified agents from an unspecified agency for an unspecified crime. Josef is not imprisoned, however, but left "free" and told to await instructions from the Committee of Affairs. Josef's landlady, Frau Grubach, tries to console Josef about the trial, but insinuates that the procedure may be related to an immoral relationship with his neighbor Fräulein Bürstner. Josef visits Bürstner to vent his worries, and then kisses her.
+
+  A few days later, Josef finds that Fräulein Montag, a lodger from another room, has moved in with Fräulein Bürstner. He suspects that this maneuver is meant to distance him from Bürstner. Josef is ordered to appear at the court's address the coming Sunday, without being told the exact time or room. After a period of exploration, Josef finds the court in the attic. Josef is severely reproached for his tardiness, and he arouses the assembly's hostility after a passionate plea about the absurdity of the trial and the emptiness of the accusation.
+
+  Josef later tries to confront the presiding judge over his case, but only finds an attendant's wife. The woman gives him information about the process and attempts to seduce him before a law student bursts into the room and takes the woman away, claiming her to be his mistress. The woman's husband then takes Josef on a tour of the court offices, which ends after Josef becomes extremely weak in the presence of other court officials and accused.
+
+  One evening, in a storage room at his own bank, Josef discovers the two agents who arrested him being whipped by a flogger for asking Josef for bribes and as a result of complaints Josef made at court. Josef tries to argue with the flogger, saying that the men need not be whipped, but the flogger cannot be swayed. The next day he returns to the storage room and is shocked to find everything as he had found it the day before, including the whipper and the two agents.
+
+  Josef is visited by his uncle, a traveling countryman. Worried by the rumors about his nephew, the uncle introduces Josef to Herr Huld, a sickly and bedridden lawyer tended to by Leni, a young nurse who shows an immediate attraction to Josef. During the conversation, Leni calls Josef away and takes him to the next room for a sexual encounter. Afterward, Josef meets his angry uncle outside, who claims that Josef's lack of respect for the process has hurt his case.
+
+  During subsequent visits to Huld, Josef realizes that he is a capricious character who will not be much help to him. At the bank, one of Josef's clients recommends him to seek the advice of Titorelli, the court's official painter. Titorelli has no real influence within the court, but his deep experience of the process is painfully illuminating to Josef, and he can only suggest complex and unpleasant hypothetical options, as no definitive acquittal has ever been managed. Josef finally decides to dismiss Huld and take control of matters himself. Upon arriving at Huld's office, Josef meets a downtrodden individual, Rudi Block, a client who offers Josef some insight from a client's perspective. Block's case has continued for five years and he has gone from being a successful businessman to being almost bankrupt and is virtually enslaved by his dependence on the lawyer and Leni, with whom he appears to be sexually involved. The lawyer mocks Block in front of Josef for his dog-like subservience. This experience further poisons Josef's opinion of his lawyer.
+
+  Josef is put in charge of accompanying an important Italian client to the city's cathedral. While inside the cathedral, a priest calls Josef by name and tells him a fable (which was published earlier as "Before the Law") that is meant to explain his situation. The priest tells Josef that the parable is an ancient text of the court, and many generations of court officials have interpreted it differently. On the eve of Josef's thirty-first birthday, two men arrive at his apartment to execute him. They lead him to a small quarry outside the city, and kill him with a butcher's knife. Josef summarizes his situation with his last words: "Like a dog!" 
 quotes:
   - item:
     quote: >
@@ -14,7 +28,7 @@ quotes:
     chapter_title: Arrest
     chapter_number: 1
     page_number: 8
-    importance: 2
+    importance: 1
     notes:
     tags: ["bureaucracy"]
   - item:
@@ -26,7 +40,7 @@ quotes:
     chapter_title: Conversation with Frau Grubach; then Fräulein Bürstner
     chapter_number: 2
     page_number: 31
-    importance: 6
+    importance: 3
     notes:
     tags: []
   - item:
@@ -38,7 +52,7 @@ quotes:
     chapter_title: Conversation with Frau Grubach; then Fräulein Bürstner
     chapter_number: 2
     page_number: 33
-    importance: 5
+    importance: 2
     notes:
     tags: []
   - item:
@@ -52,7 +66,7 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 41
-    importance: 3
+    importance: 2
     notes:
     tags: []
   - item:
@@ -66,7 +80,7 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 42
-    importance: 3
+    importance: 2
     notes:
     tags: []
   - item:
@@ -92,7 +106,7 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 45
-    importance: 10
+    importance: 5
     notes:
     tags: []
   - item:
@@ -107,7 +121,7 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 49
-    importance: 8
+    importance: 4
     notes: >
       The blinding white glare in this quote parallels Camus' descriptions of overbearing, oppressive light in The Stranger: 
       "the glare from the sky was unbearable", Meursault being "almost blinded by the glaze of light," and
@@ -122,7 +136,7 @@ quotes:
     chapter_title: Initial Inquiry
     chapter_number: 3
     page_number: 52
-    importance: 8
+    importance: 4
     notes:
     tags: []
   - item:
@@ -150,7 +164,7 @@ quotes:
     chapter_title: In the Empty Courtroom/The Student/The Offices
     chapter_number: 4
     page_number: 66
-    importance: 8
+    importance: 4
     notes:
     tags: [absurdity]
   - item:
@@ -170,7 +184,7 @@ quotes:
     chapter_title: In the Empty Courtroom/The Student/The Offices
     chapter_number: 4
     page_number: 73
-    importance: 8
+    importance: 4
     notes: >
       It's an intriguing depiction of anxiety, panic attacks, and mental spiraling. 
       The last part reminds me of learned helplessness.
@@ -187,7 +201,7 @@ quotes:
     chapter_title: The Flogger
     chapter_number: 5
     page_number: 82
-    importance: 5
+    importance: 2
     notes:
     tags: [bureaucracy, culpability]
   - item:
@@ -197,7 +211,7 @@ quotes:
     chapter_title: The Flogger
     chapter_number: 5
     page_number: 82
-    importance: 5
+    importance: 2
     notes:
     tags: [bureaucracy, culpability]
   - item:
@@ -208,7 +222,7 @@ quotes:
     chapter_title: The Flogger
     chapter_number: 5
     page_number: 85
-    importance: 4
+    importance: 2
     notes:
     tags: [hypocrisy, selfishness]
   - item:
@@ -224,7 +238,7 @@ quotes:
     chapter_title: The Flogger
     chapter_number: 5
     page_number: 87
-    importance: 4
+    importance: 2
     notes: >
       This is the first instance of something "extraordinary" or truly unrealistic happening in The Trial.
       It also reminds me of what happens when we try to mentally repress something: it doesn't disappear
@@ -239,7 +253,7 @@ quotes:
     chapter_title: The Uncle/Leni
     chapter_number: 6
     page_number: 106
-    importance: 8
+    importance: 4
     notes:
     tags: [culpability, confession]
   - item:
@@ -253,7 +267,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 111
-    importance: 5
+    importance: 2
     notes: >
       Explanation does not excuse one's actions.
     tags: [culpability]
@@ -273,7 +287,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 119
-    importance: 10
+    importance: 5
     notes:
     tags: [futility, interconnectedness, absurdity]
   - item:
@@ -284,7 +298,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 125
-    importance: 5
+    importance: 2
     notes: >
       Interesting to note all of the conflicting opinions on what K. should do about his trial.
     tags: []
@@ -301,7 +315,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 145
-    importance: 10
+    importance: 5
     notes:
     tags: [justice]
   - item:
@@ -313,7 +327,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 153
-    importance: 5
+    importance: 2
     notes:
     tags: [contradiction]
   - item:
@@ -329,7 +343,7 @@ quotes:
     chapter_title: Lawyer/The Manufacturer/The Painter
     chapter_number: 7
     page_number: 154
-    importance: 7
+    importance: 4
     notes:
     tags: [myth, faith]
   - item:
@@ -340,7 +354,7 @@ quotes:
     chapter_title: Block, the Merchant/Dismissal of the Lawyer
     chapter_number: 8
     page_number: 193
-    importance: 7
+    importance: 4
     notes:
     tags: [power, submission]
   - item:
@@ -353,7 +367,7 @@ quotes:
     chapter_title: Block, the Merchant/Dismissal of the Lawyer
     chapter_number: 8
     page_number: 197
-    importance: 8
+    importance: 4
     notes:
     tags: [faith]
   - item:
@@ -367,9 +381,9 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 207
-    importance: 5
+    importance: 3
     notes:
-    tags: [Christianity]
+    tags: [christianity]
   - item:
     quote: >
       K. hesitated and stared at the floor. At the moment he was still free; he could walk on and 
@@ -381,7 +395,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 211
-    importance: 10
+    importance: 5
     notes: >
       This thought only comes to me since I just finished Chapter 9 in Gödel, Escher, Bach, but this 
       reminds me of the kōan that Hofstader comments on: Goso said: "When a buffalo goes out of his 
@@ -397,7 +411,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 213
-    importance: 6
+    importance: 3
     notes:
     tags: [culpability, guilt]
   - item:
@@ -409,13 +423,13 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 214
-    importance: 8
+    importance: 4
     notes:
     tags: []
   - item:
     quote: >
       Nevertheless, the priest's good intentions seemed clear to K.; it was not impossible that 
-      they might come to terms if he would come down, it waws not impossible that he might 
+      they might come to terms if he would come down, it was not impossible that he might 
       receive some form of decisive and acceptable advice from him, something that might 
       show him, for example, not how to influence the trial, but how to break out of it, 
       how to get around it, how to live outside the trial.
@@ -423,7 +437,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 214
-    importance: 8
+    importance: 4
     notes: >
       Reminds me of meta-ness, jumping out of the system, Gödel, Escher, Bach.
     tags: [meta]
@@ -455,7 +469,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 215
-    importance: 10
+    importance: 5
     notes: >
       Reminds me of infinite regress, G.O.D. Over Djinn, and Sisyphus.
     tags: [Sisyphus, absurdity]
@@ -467,7 +481,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 219
-    importance: 7
+    importance: 4
     notes: >
       This reminds me of the kōan in Gödel, Escher, Bach: Shuzan held out his short staff and 
       said: "If you call this a short staff, you oppose its reality. If you do not call it a 
@@ -482,7 +496,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 220
-    importance: 6
+    importance: 3
     notes:
     tags: []
   - item:
@@ -496,7 +510,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 223
-    importance: 9
+    importance: 5
     notes: >
       This reminds me of the "lies" (paradoxes) that are embedded into any formal system.
     tags: [paradox]
@@ -511,7 +525,7 @@ quotes:
     chapter_title: In the Cathedral
     chapter_number: 9
     page_number: 223
-    importance: 5
+    importance: 2
     notes:
     tags: []
   - item:
@@ -519,7 +533,7 @@ quotes:
       "The only thing I can do now," he said to himself, and the way his steps matched 
       those of the other three confirmed his thoughts, "the only thing I can do now is 
       keep my mind calm and analytical to the last. I've always wanted to seize the world 
-      with twenty hands, and what's more with a motive that waws hardly laudable. That was 
+      with twenty hands, and what's more with a motive that was hardly laudable. That was 
       wrong; do I want to show now that even a yearlong trial could teach me nothing? Do 
       I want to leave the parting impression that I'm slow-witted? Shall they say of me 
       that at the beginning of my trial I wanted to end it, and now, at its end, I want 
@@ -528,7 +542,7 @@ quotes:
     chapter_title: The End
     chapter_number: 9
     page_number: 228
-    importance: 7
+    importance: 3
     notes:
     tags: []
   - item:
@@ -546,8 +560,8 @@ quotes:
       A friend? A good person? Someone who cared? Someone who wanted to help? Was it just 
       one person? Was it everyone? Was there still help? Were there objections that had 
       been forgotten? Of course there were. Logic is no doubt unshakable, but it can't 
-      withstand a person who wants to live. Where waws the judge he'd never seen? Where was 
-      the high court he'd never reached? He raised hiss hands and spread out all his fingers.
+      withstand a person who wants to live. Where was the judge he'd never seen? Where was 
+      the high court he'd never reached? He raised his hands and spread out all his fingers.
 
       But the hands of one man were right at K.'s throat, while the other thrust the knife 
       into his heart and turned it there twice. With failing sight K. saw how the men 
@@ -557,6 +571,6 @@ quotes:
     chapter_title: The End
     chapter_number: 9
     page_number: 231
-    importance: 10
+    importance: 5
     notes:
     tags: []

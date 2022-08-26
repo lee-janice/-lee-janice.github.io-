@@ -29,7 +29,11 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
-    const quotes = data.quotesYaml.quotes
+    const quotes = data.books.quotes
+    const wikisummary = data.books.wikisummary
+
+    const date = post.frontmatter.date.slice(0, 10)
+    const lastUpdated = post.frontmatter.lastupdated.slice(0, 10)
 
     return (
         <Layout title={siteTitle}>
@@ -38,8 +42,8 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <p className='subtitle'>{post.frontmatter.subtitle}</p>
                 <p className='pageinfo'>
-                    {post.frontmatter.date} ○
-                    last updated: {post.frontmatter.lastupdated} ○
+                    {date} ○
+                    last updated: {lastUpdated} ○
                     topics: {post.frontmatter.topics.map((topic, i, arr) => 
                         <Link to={`/topics/${topic}/`}>
                             {(i < arr.length - 1) ? topic + ', ' : topic}
@@ -49,6 +53,12 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
             <article>
                 <div className={`page-content`}>
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                    {wikisummary ? 
+                        <section>
+                            <h2>Wikipedia Summary</h2>
+                            <hr></hr>
+                            <p>{wikisummary}</p>
+                        </section> : ""}
                     <section>
                         <h2>Quotes</h2>
                         <hr></hr>
@@ -102,7 +112,8 @@ interface PageQueryData {
             topics: [string]
         }
     }
-    quotesYaml: {
+    books: {
+        wikisummary: string 
         quotes: [{
             chapter_number: number
             chapter_title: string
@@ -135,7 +146,8 @@ export const pageQuery = graphql`
         topics
       }
     }
-    quotesYaml(author: {eq: $author}, title: {eq: $title}) {
+    books(author: {eq: $author}, title: {eq: $title}) {
+      wikisummary
       quotes {
         chapter_number
         chapter_title

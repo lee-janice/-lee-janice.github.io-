@@ -10,14 +10,14 @@ module.exports = {
     title: `a cozy space`,
     author: {
       name: `Janice Lee`,
-      email: `janice.lee@pomona.edu`,
+      email: `janicel375@gmail.com`,
     },
     social: {
       twitter: `https://twitter.com/`,
       github: `https://github.com/lee-janice`,
     },
     siteUrl: `https://lee-janice.github.io`,
-    lastUpdated: `2022-07-05`,
+    lastUpdated: `2022-08-25`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -42,8 +42,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `quotes`,
-        path: `${__dirname}/src/data/quotes`,
+        name: `books`,
+        path: `${__dirname}/src/data/books`,
       },
     },
     // remark transformer to convert markdown to html

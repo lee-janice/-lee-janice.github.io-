@@ -22,6 +22,8 @@ const PostPreview: React.FC<Props> = ({
     excerpt,
     showExcerpt
 }) => {
+    date = date.slice(0, 10)
+    lastUpdated = lastUpdated.slice(0, 10)
     return (
         <div>
             <h3>

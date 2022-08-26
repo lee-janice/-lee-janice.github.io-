@@ -17,7 +17,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -34,7 +34,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -49,7 +49,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 6
+    importance: 3
     notes:
     tags: []
   - item:
@@ -70,7 +70,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 9
+    importance: 5
     notes:
     tags: ["inquiry", "knowledge"]
   - item:
@@ -83,7 +83,7 @@ quotes:
     chapter_title: 
     chapter_number:
     page_number: 
-    importance: 6
+    importance: 4
     notes:
     tags: []
   - item:
@@ -96,7 +96,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -116,7 +116,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: ["knowledge"]
   - item:
@@ -137,7 +137,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: ["collective"]
   - item:
@@ -152,7 +152,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes: 
     tags: []
   - item:
@@ -170,7 +170,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -187,7 +187,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -222,7 +222,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 6
+    importance: 3
     notes:
     tags: []
   - item:
@@ -241,7 +241,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -259,7 +259,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 6
+    importance: 3
     notes:
     tags: []
   - item:
@@ -278,7 +278,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -296,7 +296,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -318,7 +318,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -338,7 +338,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: []
   - item:
@@ -355,7 +355,7 @@ quotes:
     chapter_title: 
     chapter_number: 
     page_number: 
-    importance: 7
+    importance: 4
     notes:
     tags: [] 
 

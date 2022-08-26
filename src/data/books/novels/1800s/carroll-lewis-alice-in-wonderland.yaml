@@ -12,7 +12,7 @@ quotes:
     chapter_title: Down the Rabbit-Hole
     chapter_number: 1
     page_number: 12
-    importance: 5
+    importance: 3
     notes:
     tags: ["death"]
   - item:
@@ -23,7 +23,7 @@ quotes:
     chapter_title: The Pool of Tears
     chapter_number: 2
     page_number: 18
-    importance: 7
+    importance: 4
     notes:
     tags: ["identity", "self", "I"]
   - item:
@@ -37,7 +37,7 @@ quotes:
     chapter_title: A Causcus-Race and a Long Tale
     chapter_number: 3
     page_number: 34
-    importance: 3
+    importance: 2
     notes: >
       A bit jarring for a children's novel, wouldn't one think? Also, reminds me of The Trial by Franz Kafka in 
       its absurdity.
@@ -55,7 +55,7 @@ quotes:
     chapter_title: A Mad Tea-Party
     chapter_number: 7
     page_number: 93
-    importance: 6
+    importance: 3
     notes: >
       This makes me think of tautologies - especially since Carroll was a mathematician. See the quote on page 129. 
     tags: ["tautologies"]
@@ -69,7 +69,7 @@ quotes:
     chapter_title: The Mock Turtle's Story
     chapter_number: 8
     page_number: 117
-    importance: 4
+    importance: 2
     notes: 
     tags: ["meaning", "morals"]
   - item:
@@ -79,7 +79,7 @@ quotes:
     chapter_title: The Mock Turtle's Story
     chapter_number: 8
     page_number: 117
-    importance: 5
+    importance: 3
     notes: 
     tags: ["love"]
   - item:
@@ -97,7 +97,7 @@ quotes:
     chapter_title: The Mock Turtle's Story
     chapter_number: 8
     page_number: 129
-    importance: 5
+    importance: 3
     notes: > 
       See the quote on page 93.
     tags: ["tautologies"]

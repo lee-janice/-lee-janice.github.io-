@@ -30,6 +30,9 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
 
+    const date = post.frontmatter.date.slice(0, 10)
+    const lastUpdated = post.frontmatter.lastupdated.slice(0, 10)
+
     return (
         <Layout title={siteTitle}>
             <Head title={post.frontmatter.title} description={post.excerpt} />
@@ -37,8 +40,8 @@ const PostTemplate: React.FC<Props> = ({ data, pageContext }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <p className='subtitle'>{post.frontmatter.subtitle}</p>
                 <p className='pageinfo'>
-                    {post.frontmatter.date} ○
-                    last updated: {post.frontmatter.lastupdated} ○
+                    {date} ○
+                    last updated: {lastUpdated} ○
                     topics: {post.frontmatter.topics.map((topic, i, arr) => 
                         <Link to={`/topics/${topic}/`} key={topic}>
                             {(i < arr.length - 1) ? topic + ', ' : topic}
