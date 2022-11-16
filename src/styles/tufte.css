@@ -1,10 +1,11 @@
 @charset "UTF-8";
 
-/* ----- 1. Fonts ----- */
+/*---------------------------------------------------------------------------*/ 
+/* 1. Fonts 
+/*---------------------------------------------------------------------------*/ 
 
-/* Import ET Book styles
-   adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
-
+/* import ET Book styles
+/* adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 @font-face {
     font-family: "et-book";
     src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -41,7 +42,99 @@
     font-display: swap;
 }
 
-/* ----- 2. Tufte CSS styles ----- */
+/* import the Libertine font */ 
+@font-face {
+    font-family: 'Libertine'; /* normal */
+    src: url('libertine/LinLibertine_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libertine'; /* italic */
+    src: url('libertine/LinLibertine_RI.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Libertine'; /* bold */
+    src: url('libertine/LinLibertine_RB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libertine'; /* bold */
+    src: url('libertine/LinLibertine_RBI.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* import the Computer Modern font */ 
+@font-face {
+    font-family: "Computer Modern";
+    src: url('computer-modern/cmunss.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('computer-modern/cmunsx.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('computer-modern/cmunsi.otf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Computer Modern";
+    src: url('computer-modern/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* import the Computer Modern Serif font */ 
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('computer-modern-serif/cmu.serif-roman.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('computer-modern-serif/cmu.serif-bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('computer-modern-serif/cmu.serif-extra-romanslanted.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Computer Modern Serif";
+    src: url('computer-modern-serif/cmu.serif-extra-boldslanted.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* TODO: figure out how to replace the font style for a single unicode character */ 
+/* @font-face {
+    font-family: "White Circle";
+    src: url('computer-modern-serif/cmu.serif-roman.ttf');
+    unicode-range: U+25CB;
+}  */
+
+/* @import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap"); */
+
+/*---------------------------------------------------------------------------*/ 
+/* 2. Tufte CSS styles
+/*---------------------------------------------------------------------------*/ 
 :root {
     /* light styles */
     --whiteBackground: #fffff8;
@@ -52,9 +145,9 @@
     --whiteText: #ddd;
     --blackShadow: 0.03em 0 #151515, -0.03em 0 #151515, 0 0.03em #151515, 0 -0.03em #151515, 0.06em 0 #151515, -0.06em 0 #151515, 0.09em 0 #151515, -0.09em 0 #151515, 0.12em 0 #151515, -0.12em 0 #151515, 0.15em 0 #151515, -0.15em 0 #151515;
     /* classic font */
-    --classicFontFamily: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    --classicFontFamily: "Computer Modern Serif", Libertine, et-book, serif;
     /* modern font */
-    --modernFontFamily: Arial;
+    --modernFontFamily:  "Computer Modern", Arial;
 }
 
 /* light, classic theme */ 
@@ -104,7 +197,6 @@ body {
     background-color: var(--mainBg);
     color: var(--fontColor);
     max-width: 1600px;
-    counter-reset: sidenote-counter;
 }
 
 h1 {
@@ -165,6 +257,7 @@ hr {
 article {
     width: 62.25%;
     padding: 0rem 0rem 5rem 0rem;
+    counter-reset: sidenote-counter;
 }
 
 section {
@@ -187,8 +280,9 @@ p {
     vertical-align: baseline;
 }
 
-/* ----- 3. Custom changes ----- */
-
+/*----------------------------------------------------------------------------*/
+/* 3. Custom changes 
+/*----------------------------------------------------------------------------*/
 p.subtitle {
     font-style: italic;
     margin-top: 1.25rem;
@@ -223,7 +317,14 @@ td {
     padding: 5px;
 }
 
-/* ----- 4. Chapter Epigraphs ----- */
+div.theme-toggler {
+    position: relative;
+    z-index: 99 ; 
+}
+
+/*----------------------------------------------------------------------------*/
+/* 4. Chapter Epigraphs 
+/*----------------------------------------------------------------------------*/
 div.epigraph {
     margin: 3em 0;
 }
@@ -246,19 +347,21 @@ div.epigraph>blockquote>footer>cite {
     font-style: italic;
 }
 
-/* ----- Blockquotes, lists, figures ----- */
+/*----------------------------------------------------------------------------*/
+/* 5. Block quotes, lists, figures 
+/*----------------------------------------------------------------------------*/
 
 blockquote {
     font-size: 1.4rem;
 }
 
 blockquote p {
-    width: 75%;
+    width: 90%;
     margin-right: 40px;
 }
 
 blockquote footer {
-    width: 75%;
+    width: 90%;
     font-size: 1.1rem;
     text-align: right;
 }
@@ -309,7 +412,9 @@ figure.fullwidth figcaption {
     margin-right: 24%;
 }
 
-/* ----- Links: replicate underline that clears descenders ----- */
+/*----------------------------------------------------------------------------*/
+/* 6. Links: replicate underline that clears descenders 
+/*----------------------------------------------------------------------------*/
 a:link,
 a:visited {
     color: inherit;
@@ -349,7 +454,9 @@ a:link::-moz-selection {
     background: #b4d5fe;
 }
 
-/* ----- Sidenotes, margin notes ----- */
+/*----------------------------------------------------------------------------*/
+/* 7. Side notes, margin notes 
+/*----------------------------------------------------------------------------*/
 img {
     max-width: 100%;
 }
@@ -483,7 +590,7 @@ input.margin-toggle {
 
 label.sidenote-number {
     display: inline-block;
-    max-height: 2rem;
+    max-height: 1rem;
     /* should be less than or equal to paragraph line-height */
 }
 
@@ -507,7 +614,9 @@ label.margin-toggle:not(.sidenote-number) {
     height: 100%;
 }
 
-/* ----- Smaller screens ----- */
+/*----------------------------------------------------------------------------*/
+/* 8. Smaller screens 
+/*----------------------------------------------------------------------------*/
 
 @media (max-width: 760px) {
     body {
@@ -574,13 +683,13 @@ label.margin-toggle:not(.sidenote-number) {
         left: 1rem;
         clear: both;
         width: 95%;
-        margin: 1rem 2.5%;
-        vertical-align: baseline;
+        margin: -1.5rem 2.5%;
         position: relative;
     }
 
-    label {
+    label.margin-toggle {
         cursor: pointer;
+        color: red;
     }
 
     div.table-wrapper,
@@ -590,5 +699,7 @@ label.margin-toggle:not(.sidenote-number) {
 
     img {
         width: 100%;
+        z-index: 0;
     }
+
 }
