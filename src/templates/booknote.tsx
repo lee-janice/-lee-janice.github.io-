@@ -30,7 +30,6 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
     const siteTitle = data.site.siteMetadata.title
     const { previous, next } = pageContext
     const quotes = data.books.quotes
-    const wikisummary = data.books.wikisummary
 
     const date = post.frontmatter.date.slice(0, 10)
     const lastUpdated = post.frontmatter.lastupdated.slice(0, 10)
@@ -53,12 +52,6 @@ const BookNoteTemplate: React.FC<Props> = ({ data, pageContext }) => {
             <article>
                 <div className={`page-content`}>
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
-                    {wikisummary ? 
-                        <section>
-                            <h2>Wikipedia Summary</h2>
-                            <hr></hr>
-                            <p>{wikisummary}</p>
-                        </section> : ""}
                     <section>
                         <h2>Quotes</h2>
                         <hr></hr>
@@ -113,7 +106,6 @@ interface PageQueryData {
         }
     }
     books: {
-        wikisummary: string 
         quotes: [{
             chapter_number: number
             chapter_title: string
@@ -147,7 +139,6 @@ export const pageQuery = graphql`
       }
     }
     books(author: {eq: $author}, title: {eq: $title}) {
-      wikisummary
       quotes {
         chapter_number
         chapter_title

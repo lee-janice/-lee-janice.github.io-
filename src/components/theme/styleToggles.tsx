@@ -1,11 +1,11 @@
 import React from 'react'
 import ThemeToggler from './themeToggler'
 
-const Toggles: React.FC = () => {
+const StyleToggles: React.FC = () => {
     return (
         <ThemeToggler>
             {({ theme, toggleDarkMode, toggleModernMode, toggleTheme }) => (
-                <div>
+                <div className="theme-toggler">
                     {/* checkbox for dark mode */}
                     <label style={{ float: 'right', position: 'fixed', right: 17, bottom: 25 }}>
                         <input
@@ -31,4 +31,4 @@ const Toggles: React.FC = () => {
     )
 }
 
-export default Toggles
+export default StyleToggles

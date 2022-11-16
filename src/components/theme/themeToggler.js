@@ -43,6 +43,7 @@ class ThemeToggler extends React.Component {
         toggleDarkMode={this.toggleDarkMode}
         toggleModernMode={this.toggleModernMode}
         toggleTheme={this.toggleTheme}
+        className="theme-toggler"
       />
     )
   }

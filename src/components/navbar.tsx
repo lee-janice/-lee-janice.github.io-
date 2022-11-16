@@ -37,6 +37,7 @@ const StyledBurger = styled.div`
   top: 25px;
   right: 25px;
   display: none;
+  z-index: 100;
 
   @media (max-width: 1100px) {
     display: flex;
@@ -100,6 +101,7 @@ const MobileNav = styled.ul`
         height: 264px;
         width: 222px;
         padding-top: 3.5rem;
+        z-index: 99 ;
         li {
             color: var(--fontColor);
         }

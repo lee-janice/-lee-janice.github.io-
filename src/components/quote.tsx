@@ -20,19 +20,23 @@ const Quote: React.FC<Props> = ({
     notes = null,
     importance,
     tags = null,
-    children
 }) => {
+    // determine if there should be a semicolon after the quote location description
+    let sc = ""
+    chapternum || chaptertitle || pagenum ? sc = "; " : sc = ""
     return (
         <div>
+            <span className="marginnote">
+                {notes ? <div>{notes}</div> : ""}
+            </span>
             <blockquote>
-                <p>{children || quote}</p>
+                <p>{quote}</p>
                 <footer>
                     {description ? description + "; " : ""}
-                    <em>chapter {chapternum}{chaptertitle ? " (" + chaptertitle + ")" : ""}, page {pagenum}</em>;
+                    <em>{chapternum ? "chapter " + chapternum + " ": ""}{chaptertitle ? "(" + chaptertitle + ") " : ""}{pagenum ? "page " + pagenum : ""}</em>{sc}
                     importance: {importance}
                 </footer>
             </blockquote>
-            {notes ? <div><span className="newthought">Note: </span>{notes}</div> : ""}
             <br />
         </div>
     )

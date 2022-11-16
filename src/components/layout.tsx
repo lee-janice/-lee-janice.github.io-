@@ -15,7 +15,6 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }) => (
   <>
     <GlobalStyle />
-    <StyleToggles />
     <NavBar />
     <main className="content" role="main">
       {children}
@@ -26,6 +25,7 @@ const Layout: React.FC<Props> = ({ children }) => (
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>.
     </StyledFooter>
+    <StyleToggles />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
   </>
 )
