@@ -87,6 +87,7 @@ exports.createPages = ({ graphql, actions }) => {
         // create post pages
         // posts is an array of posts sorted from earliest -> latest
         const posts = result.data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.published)
+        console.log(posts)
         posts.forEach((post, index) => {
             var previous = index === posts.length - 1 ? null : posts[index + 1].node
             var next = index === 0 ? null : posts[index - 1].node
