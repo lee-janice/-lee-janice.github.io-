@@ -12,5 +12,5 @@ category: notes
 ^[{-} Two swans so intertwined and in love that they can't walk, think separate or else they tip over; Hungarian Pastry Shop bathroom; 2022-07-30.]
 ![Two swans so intertwined and in love that they can't walk, think separate or else they tip over.](bathroom-epigraphs/two-swans.jpg)
 
-^[{-} I write as I poop; Hungarian Pastry Shop bathroom; 2022-08-21.]
-![I write as I poop](bathroom-epigraphs/i-poop.png)
+^[{-} Two swans so intertwined and in love that they can't walk, think separate or else they tip over; Hungarian Pastry Shop bathroom; 2022-07-30.]
+![Two swans so intertwined and in love that they can't walk, think separate or else they tip over.](bathroom-epigraphs/two-swans.jpg)

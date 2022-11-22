@@ -4,7 +4,7 @@ subtitle: Notes on the chi-squared test
 date: 2022-08-07
 lastupdated: 2022-08-07
 group: '2022-08'
-published: false
+published: true
 layout: post
 topics: ['notes', 'statistics', 'hypothesis testing']
 category: notes
