@@ -6,6 +6,7 @@
   "author": "Janice Lee <janice.lee@pomona.edu>",
   "dependencies": {
     "@babel/core": "^7.17.10",
+    "@idmyn/gatsby-remark-wiki-link": "^1.0.0",
     "@mdx-js/mdx": "^2.1.1",
     "@mdx-js/react": "^2.1.1",
     "@tufte-markdown/parser": "^2.0.1",

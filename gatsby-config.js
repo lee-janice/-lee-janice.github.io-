@@ -111,6 +111,19 @@ module.exports = {
         }
       }
     },
+    // enables backlinks 
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [{
+          resolve: "@idmyn/gatsby-remark-wiki-link",
+          options: {
+            pageResolver: (name) => [name.replace(/ /g, '-').toLowerCase()],
+            hrefTemplate: (permalink) => `/${permalink}`
+          }
+        }],
+      }
+    },
     // enhances and resizes images
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
