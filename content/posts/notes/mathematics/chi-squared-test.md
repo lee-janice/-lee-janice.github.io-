@@ -11,15 +11,14 @@ category: notes
 ---
 
 The chi-squared test is a statistical hypothesis test that is used to determine whether there is a significant difference between the observed and expected frequencies of one or more categories in a set of data. 
-Once more, in English! 
+Once more!
 Given a hypothesis of what our data looks like (how it's *distributed*), the chi-squared test measures the difference between what we *observe* and what we would *expect*. 
 
-The chi-squared test can only be used on *categorical* (*i.e.* nominal, discrete) data — so yes to the number of people in a certain gender, race/ethnicity, or political category, but no to heights, weights, lengths (unless you discretize your data first).
+The chi-squared test can only be used on *categorical* (*i.e.,* nominal, discrete) data — so yes to the number of people in a certain gender, race/ethnicity, or political category, but no to heights, weights, lengths (unless you discretize your data first).
 Unlike other common hypothesis tests like the t-test, the chi-squared test is *non-parametric*, meaning that it does not rely on assumptions about the distribution of the data. 
 Instead, it measures whether the data is likely to be drawn from a given distribution. 
 
-The chi-squared test statistic has many talents.
-It can be used in numerous ways, such as: 
+The chi-squared test statistic has many talents—it can be used (*i.e.,* interpreted) in numerous ways, such as: 
 - the chi-squared test of homogeneity, 
 - the chi-squared test of independence, and 
 - the chi-squared goodness-of-fit test,
@@ -137,7 +136,7 @@ $$
      \text{ The random variable} 
 \end{align*} \\
 \Chi^2 = \sum_{i=1}^k \frac{(O_i - E_i)^2}{E_i} \longrightarrow^d \chi^2_{k-1} \text{,} \\
-\text{\textit{i.e.} converges in distribution to the $\chi^2$ distribution with $k-1$ degrees of freedom.}
+\text{\textit{i.e.,} converges in distribution to the $\chi^2$ distribution with $k-1$ degrees of freedom.}
 $$ 
 
 Why is this helpful in any way? 
@@ -147,7 +146,7 @@ The basic premise is that now that we know it converges to a specific distributi
 
 Let's look a little more closely at the chi-squared distribution. 
 As we alluded to in the previous section, each chi-squared distribution is associated with a parameter called the *degree of freedom*. 
-The degree of freedom is the maximum number of independent variables in the system, *i.e.* the number of parameters that are allowed to vary.[^dof]
+The degree of freedom is the maximum number of independent variables in the system, *i.e.,* the number of parameters that are allowed to vary.[^dof]
 We can see what chi-squared distributions for various degrees of freedom look like: 
 
 ^[{-} Fig. 1. From Anthony Tanbakuchi; [Tests of independence and homogeneity](http://www.u.arizona.edu/~kuchi/Courses/MAT167/Files/LH_LEC.0640.HypTest.IndepHomog.pdf)]
