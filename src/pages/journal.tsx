@@ -19,7 +19,7 @@ const Journal: React.FC<Props> = ({ data }) => {
         <Layout title={siteTitle}>
             <Head title="Journal" keywords={[`journal`]} />
             <header>
-                <h1>Journal.</h1>
+                <h1>Journal</h1>
                 <p className='subtitle'>Collection of all journal entries; entries by year; recent entries</p>
                 <p className='pageinfo'>
                     2021-09-26 ○

@@ -24,11 +24,11 @@ const MonthTemplate: React.FC<Props> = ({ data, pageContext }) => {
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Year:${year}, month:${month}.`}
+                title={`Year:${year}, month:${month}`}
                 keywords={[`journal`, year, month]}
             />
             <header>
-                <h1>Year:{year}, month:{month}.</h1>
+                <h1>Year:{year}, month:{month}</h1>
                 <p className='subtitle'>
                     Collection of journal entries for {monthNumberToName(month)} {year}
                 </p>

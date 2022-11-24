@@ -25,11 +25,11 @@ const YearTemplate: React.FC<Props> = ({ data, pageContext }) => {
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Year:${year}.`}
+                title={`Year:${year}`}
                 keywords={[`journal`, year]}
             />
             <header>
-                <h1>Year:{year}.</h1>
+                <h1>Year:{year}</h1>
                 <p className='subtitle'>
                     Collection of journal entries for {year}; entries by month
                 </p>

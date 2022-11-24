@@ -21,11 +21,11 @@ const TopicTemplate: React.FC<Props> = ({ data, pageContext }) => {
     return (
         <Layout title={siteTitle}>
             <Head
-                title={`Topic:${topic}.'`}
+                title={`Topic:${topic}'`}
                 keywords={[`blog`, `gatsby`, `javascript`, `react`, topic]}
             />
             <header>
-                <h1>Topic:{topic}.</h1>
+                <h1>Topic:{topic}</h1>
                 <p className='subtitle'>
                     Collection of posts on the topic `{topic}`
                 </p>

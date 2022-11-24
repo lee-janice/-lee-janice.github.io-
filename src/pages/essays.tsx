@@ -17,7 +17,7 @@ const Essays: React.FC<Props> = ({ data }) => {
         <Layout title={siteTitle}>
             <Head title="Essays" keywords={[`essay`]} />
             <header>
-                <h1>Essays.</h1>
+                <h1>Essays</h1>
                 <p className='subtitle'>Collection of all essays; recent essays</p>
                 <p className='pageinfo'>
                     2021-10-01 ○

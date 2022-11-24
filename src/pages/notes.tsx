@@ -19,7 +19,7 @@ const Notes: React.FC<Props> = ({ data }) => {
         <Layout title={siteTitle}>
             <Head title="Notes" keywords={[`note`]} />
             <header>
-                <h1>Notes.</h1>
+                <h1>Notes</h1>
                 <p className='subtitle'>Collection of all notes; recent notes</p>
                 <p className='pageinfo'>
                     2021-10-01 ○
