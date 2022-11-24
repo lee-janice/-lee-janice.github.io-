@@ -17,7 +17,7 @@ const Journal: React.FC<Props> = ({ data }) => {
 
     return (
         <Layout title={siteTitle}>
-            <Head title="Journal." keywords={[`journal`]} />
+            <Head title="Journal" keywords={[`journal`]} />
             <header>
                 <h1>Journal.</h1>
                 <p className='subtitle'>Collection of all journal entries; entries by year; recent entries</p>
@@ -105,7 +105,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: {frontmatter: {category: {eq: "journal"}, published: {ne: false}}}
+      filter: {frontmatter: {published: {ne: false}, category: {eq: "journal"}}}
       sort: {fields: [frontmatter___lastupdated], order: DESC}
       limit: 10
     ) {

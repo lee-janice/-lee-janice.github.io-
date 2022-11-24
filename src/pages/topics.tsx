@@ -15,7 +15,7 @@ const Topics: React.FC<Props> = ({ data }) => {
 
     return (
         <Layout title={siteTitle}>
-            <Head title="Topics." keywords={[]} />
+            <Head title="Topics" keywords={[]} />
             <header>
                 <h1>Topics.</h1>
                 <p className='subtitle'>Collection of topics that are discussed on my website, listed alphabetically</p>

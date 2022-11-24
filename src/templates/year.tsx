@@ -129,7 +129,7 @@ export const pageQuery = graphql`
       }
     }
     allDirectory(
-        filter: { relativePath: {regex: $mthDirRegexByYear} }
+        filter: {relativePath: {regex: $mthDirRegexByYear} }
         sort: {fields: name, order: ASC}
     ) {
       edges {
@@ -138,7 +138,9 @@ export const pageQuery = graphql`
         }
       }
     }
-    numEntries: allMarkdownRemark(filter: {fields: {slug: {regex: $mthDirRegexByYear}}}) {
+    numEntries: allMarkdownRemark(
+        filter: {fields: {slug: {regex: $mthDirRegexByYear}}, 
+                 frontmatter: {published: {ne: false}}}) {
         totalCount
         group(field: frontmatter___group) {
           totalCount
@@ -146,7 +148,8 @@ export const pageQuery = graphql`
         }
     }
     entries: allMarkdownRemark(
-        filter: {fields: {slug: {regex: $mthDirRegexByYear}}}
+        filter: {fields: {slug: {regex: $mthDirRegexByYear}}, 
+                 frontmatter: {published: {ne: false}}}
         sort: {fields: [frontmatter___lastupdated], order: DESC}
       ) {
         edges {

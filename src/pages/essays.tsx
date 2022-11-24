@@ -15,7 +15,7 @@ const Essays: React.FC<Props> = ({ data }) => {
 
     return (
         <Layout title={siteTitle}>
-            <Head title="Essays." keywords={[`essay`]} />
+            <Head title="Essays" keywords={[`essay`]} />
             <header>
                 <h1>Essays.</h1>
                 <p className='subtitle'>Collection of all essays; recent essays</p>
