@@ -608,7 +608,7 @@ label.margin-toggle:not(.sidenote-number) {
         left: 1rem;
         clear: both;
         width: 95%;
-        margin: -1.5rem 2.5%;
+        margin: 2em 2.5%;
         position: relative;
     }
 
