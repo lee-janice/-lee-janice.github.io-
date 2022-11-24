@@ -92,6 +92,14 @@ module.exports = {
               strict: `ignore`
             }
           },
+          // enable backlinks
+          {
+            resolve: "@idmyn/gatsby-remark-wiki-link",
+            options: {
+              pageResolver: (name) => [name.replace(/ /g, '-').toLowerCase()],
+              hrefTemplate: (permalink) => `/${permalink}`
+            }
+          },
         ],
       },
     },
@@ -109,19 +117,6 @@ module.exports = {
           }
           return name
         }
-      }
-    },
-    // enables backlinks 
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [{
-          resolve: "@idmyn/gatsby-remark-wiki-link",
-          options: {
-            pageResolver: (name) => [name.replace(/ /g, '-').toLowerCase()],
-            hrefTemplate: (permalink) => `/${permalink}`
-          }
-        }],
       }
     },
     // enhances and resizes images
