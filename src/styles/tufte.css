@@ -4,28 +4,28 @@
 /* 1. Fonts 
 /*---------------------------------------------------------------------------*/
 
-/* import the Computer Modern font */
+/* import the Computer Modern Serif font */
 @font-face {
-  font-family: "Computer Modern";
-  src: url("computer-modern/cmunss.otf");
+  font-family: "Computer Modern Serif";
+  src: url("computer-modern-serif/cmu.serif-roman.ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Computer Modern";
-  src: url("computer-modern/cmunsx.otf");
+  font-family: "Computer Modern Serif";
+  src: url("computer-modern-serif/cmu.serif-bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: "Computer Modern";
-  src: url("computer-modern/cmunsi.otf");
+  font-family: "Computer Modern Serif";
+  src: url("computer-modern-serif/cmu.serif-extra-romanslanted.ttf");
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: "Computer Modern";
-  src: url("computer-modern/cmunbxo.otf");
+  font-family: "Computer Modern Serif";
+  src: url("computer-modern-serif/cmu.serif-extra-boldslanted.ttf");
   font-weight: bold;
   font-style: italic;
 }
