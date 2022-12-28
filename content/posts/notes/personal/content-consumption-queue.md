@@ -2,7 +2,7 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: 2021-10-04
-lastupdated: 2022-10-18
+lastupdated: 2022-12-27
 published: true
 layout: post
 topics: ["notes"]
@@ -13,7 +13,7 @@ category: notes
 
 |                        NAME                         |      AUTHOR       | DATE STARTED |
 | :-------------------------------------------------: | :---------------: | :----------: |
-|            Teaching to Transgress (1994)            |    bell hooks     |  2022-09-10  |
+|             The Sirens of Titan (1959)              | Kurt Vonnegut Jr. |  2022-12-26  |
 |             The Case for Christ (1998)              |    Lee Strobel    |  2022-07-15  |
 |                  The New Testament                  |      Various      |  2022-03-01  |
 | Gödel, Escher, Bach: An Eternal Golden Braid (1979) | Douglas Hofstader |  2022-01-15  |
@@ -95,6 +95,7 @@ category: notes
 |    Friedrich Nietzsche    |                           Ecce Homo (1888)                           |
 |        Leo Tolstoy        |                         A Confession (1882)                          |
 |        Leo Tolstoy        |               The Kingdom of God Is Within You (1894)                |
+|      Okakura Kakuzō       |                        The Book of Tea (1906)                        |
 |    Ludwig Wittgenstein    |                Tractatus Logico-Philosophicus (1921)                 |
 |     John Paul Sartre      |                     Being and Nothingness (1943)                     |
 |    Simone de Beauvoir     |                        The Second Sex (1949)                         |

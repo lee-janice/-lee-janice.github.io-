@@ -3,7 +3,7 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = process.env.NODE_ENV === "production"
 
 module.exports = {
   siteMetadata: {
@@ -17,14 +17,14 @@ module.exports = {
       github: `https://github.com/lee-janice`,
     },
     siteUrl: `https://lee-janice.github.io`,
-    lastUpdated: `2022-11-18`,
+    lastUpdated: `2022-12-27`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
     // custom content for head of page
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
-    // filesystem 
+    // filesystem
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -51,7 +51,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          // sidenotes and margins ala tufte css 
+          // sidenotes and margins ala tufte css
           `gatsby-remark-tufte`,
           // autosizes images
           {
@@ -70,13 +70,12 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          // adds link for each header in a post  
+          // adds link for each header in a post
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               className: `no-tufte-underline`,
-            }
-
+            },
           },
           // syntax highlighting for code blocks
           `gatsby-remark-prismjs`,
@@ -89,16 +88,16 @@ module.exports = {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
-            }
+              strict: `ignore`,
+            },
           },
           // enable backlinks
           {
             resolve: "@idmyn/gatsby-remark-wiki-link",
             options: {
-              pageResolver: (name) => [name.replace(/ /g, '-').toLowerCase()],
-              hrefTemplate: (permalink) => `/${permalink}`
-            }
+              pageResolver: name => [name.replace(/ /g, "-").toLowerCase()],
+              hrefTemplate: permalink => `/${permalink}`,
+            },
           },
         ],
       },
@@ -116,15 +115,15 @@ module.exports = {
             return `QuotesYaml`
           }
           return name
-        }
-      }
+        },
+      },
     },
     // enhances and resizes images
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     // dark mode theme toggler
-    'gatsby-plugin-dark-mode',
+    "gatsby-plugin-dark-mode",
     // favicon
     {
       resolve: `gatsby-plugin-manifest`,
@@ -148,7 +147,7 @@ module.exports = {
       resolve: `gatsby-plugin-goatcounter`,
       options: {
         // you have to prepend the environment variable name with GATSBY in order for it to be accessible by the browser
-        code: isProduction ? process.env.GATBSY_GOATCOUNTER_PAGE_CODE : 'test',
+        code: isProduction ? process.env.GATBSY_GOATCOUNTER_PAGE_CODE : "test",
         allowLocal: !isProduction,
       },
     },

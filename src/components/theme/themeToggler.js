@@ -1,36 +1,44 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-/* remixed from https://github.com/insin/gatsby-plugin-dark-mode/blob/master/src/ThemeToggler.js */ 
+/* remixed from https://github.com/insin/gatsby-plugin-dark-mode/blob/master/src/ThemeToggler.js */
 class ThemeToggler extends React.Component {
   state = {
-    theme: typeof window !== 'undefined' ? window.__theme : 'light-classic',
-    darkMode: typeof window !== 'undefined' ? window.__theme.toString().includes('dark') : false,
-    modernMode: typeof window !== 'undefined' ?  window.__theme.toString().includes('modern') : false
+    theme: typeof window !== "undefined" ? window.__theme : "light-classic",
+    darkMode:
+      typeof window !== "undefined"
+        ? window.__theme.toString().includes("dark")
+        : false,
+    modernMode:
+      typeof window !== "undefined"
+        ? window.__theme.toString().includes("modern")
+        : false,
   }
 
   componentDidMount() {
     window.__setPreferredTheme(
-      (this.state.darkMode ? 'dark' : 'light') + '-'
-        + (this.state.modernMode ? 'modern' : 'classic')
+      (this.state.darkMode ? "dark" : "light") +
+        "-" +
+        (this.state.modernMode ? "modern" : "classic")
     )
     window.__onThemeChange = () => {
-      this.setState({ theme: window.__theme })
+      this.setState({ ...this.state, theme: window.__theme })
     }
   }
 
-  toggleDarkMode = (checked) => {
+  toggleDarkMode = checked => {
     this.state.darkMode = checked
   }
 
-  toggleModernMode = (checked) => {
+  toggleModernMode = checked => {
     this.state.modernMode = checked
   }
 
   toggleTheme = () => {
     window.__setPreferredTheme(
-      (this.state.darkMode ? 'dark' : 'light') + '-'
-        + (this.state.modernMode ? 'modern' : 'classic')
+      (this.state.darkMode ? "dark" : "light") +
+        "-" +
+        (this.state.modernMode ? "modern" : "classic")
     )
   }
 
