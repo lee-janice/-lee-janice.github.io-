@@ -13,7 +13,7 @@ category: notes
 
 |                        NAME                         |      AUTHOR       | DATE STARTED |
 | :-------------------------------------------------: | :---------------: | :----------: |
-|             The Sirens of Titan (1959)              | Kurt Vonnegut Jr. |  2022-12-26  |
+|      The History of Western Philosophy (1945)       | Bertrand Russell  |  2022-12-29  |
 |             The Case for Christ (1998)              |    Lee Strobel    |  2022-07-15  |
 |                  The New Testament                  |      Various      |  2022-03-01  |
 | Gödel, Escher, Bach: An Eternal Golden Braid (1979) | Douglas Hofstader |  2022-01-15  |
@@ -49,8 +49,8 @@ category: notes
 |      Herman Hesse      |               Siddhartha (1927)               |
 |      Herman Hesse      |          The Glass Bead Game (1943)           |
 |     Aldous Huxley      |            Brave New World (1932)             |
-|   Jorge Luis Borges    |      The Garden of Forking Paths (1941)       |
-|   Jorge Luis Borges    |               The Aleph (1945)                |
+|   Jorge Luis Borges    |                Fictions (1941)                |
+|   Jorge Luis Borges    |      The Aleph and Other Stories (1945)       |
 |      Albert Camus      |              The Stranger (1942)              |
 |     Viktor Frankl      |        Man's Search for Meaning (1946)        |
 |     George Orwell      |                  1984 (1949)                  |
@@ -100,6 +100,7 @@ category: notes
 |     John Paul Sartre      |                     Being and Nothingness (1943)                     |
 |    Simone de Beauvoir     |                        The Second Sex (1949)                         |
 |    Ludwig Wittgenstein    |                 Philosophical Investigations (1953)                  |
+|       Hannah Arendt       |                      The Human Condition (1958)                      |
 |        Guy Debord         |                 The Society of the Spectacle (1967)                  |
 |     Jean Baudrillard      |                   Simulacra and Simulation (1983)                    |
 
@@ -162,6 +163,7 @@ category: notes
 
 |                         NAME                          |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
 | :---------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
+|              The Sirens of Titan (1959)               |             Kurt Vonnegut Jr.              |  2022-12-26  |   2022-12-29   |
 |               The Apology (c. 300s BC)                |                   Plato                    |  2022-11-25  |   2022-11-25   |
 |                     Cosmos (1980)                     |                 Carl Sagan                 |  2022-07-05  |   2022-10-18   |
 |                    The Egg (2009)                     |                 Andy Weir                  |  2022-10-01  |   2022-10-01   |
