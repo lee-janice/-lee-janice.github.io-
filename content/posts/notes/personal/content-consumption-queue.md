@@ -2,7 +2,7 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: 2021-10-04
-lastupdated: 2022-12-27
+lastupdated: 2023-01-28
 published: true
 layout: post
 topics: ["notes"]
@@ -21,18 +21,21 @@ category: notes
 
 ## To Read: Fiction (-1800s)
 
-|          AUTHOR          |             TITLE             |
-| :----------------------: | :---------------------------: |
-|         Voltaire         |        Candide (1759)         |
-|     Herman Melville      |       Moby Dick (1759)        |
-|    Fyodor Dostoevsky     | Notes from Underground (1864) |
-|    Fyodor Dostoevsky     |  Crime and Punishment (1866)  |
-|    Fyodor Dostoevsky     |       The Idiot (1869)        |
-|    Fyodor Dostoevsky     | The Brothers Karamazov (1880) |
-|       Leo Tolstoy        |     War and Peace (1869)      |
-|       Leo Tolstoy        |     Anna Karenina (1878)      |
-|   Friedrich Nietzsche    | Thus Spoke Zarathustra (1883) |
-| Charlotte Perkins Gilman |  The Yellow Wallpaper (1892)  |
+|           AUTHOR           |             TITLE             |
+| :------------------------: | :---------------------------: |
+|      Dante Alighieri       |  The Divine Comedy (c. 1321)  |
+|          Voltaire          |        Candide (1759)         |
+|    Miguel de Cervantes     |      Don Quixote (1815)       |
+|      Herman Melville       |       Moby Dick (1851)        |
+|     Fyodor Dostoevsky      | Notes from Underground (1864) |
+|     Fyodor Dostoevsky      |  Crime and Punishment (1866)  |
+|     Fyodor Dostoevsky      |       The Idiot (1869)        |
+|     Fyodor Dostoevsky      | The Brothers Karamazov (1880) |
+|        Leo Tolstoy         |     War and Peace (1869)      |
+|        Leo Tolstoy         |     Anna Karenina (1878)      |
+| Johann Wolfgang von Goethe |         Faust (1876)          |
+|    Friedrich Nietzsche     | Thus Spoke Zarathustra (1883) |
+|  Charlotte Perkins Gilman  |  The Yellow Wallpaper (1892)  |
 
 ## To Read: Fiction (1900s)
 
@@ -60,6 +63,7 @@ category: notes
 |       T.H. White       |        The Once and Future King (1958)        |
 |      Daniel Keyes      |          Flowers for Algernon (1959)          |
 |      Sylvia Plath      |              The Bell Jar (1963)              |
+|     Thomas Pynchon     |          The Crying of Lot 49 (1966)          |
 |      Maya Angelou      |    I Know Why the Caged Bird Sings (1969)     |
 | Gabriel García Márquez |     One Hundred Years of Solitude (1959)      |
 | Gabriel García Márquez |     Chronicles of a Death Foretold (1981)     |
@@ -67,8 +71,9 @@ category: notes
 |   Kurt Vonnegut Jr.    |              Hocus Pocus (1990)               |
 |   Kurt Vonnegut Jr.    |      If This Isn't Nice, What Is? (2013)      |
 |   Kurt Vonnegut Jr.    | Pity the Reader: On Writing with Style (2019) |
-|     Toni Morrison      |                Beloved (1987)                 |
 |      Umberto Eco       |          The Name of the Rose (1980)          |
+|     Toni Morrison      |                Beloved (1987)                 |
+|  David Foster Wallace  |        The Broom of the System (1987)         |
 |  David Foster Wallace  |             Infinite Jest (1996)              |
 
 ## To Read: Fiction (2000s)
@@ -124,10 +129,12 @@ category: notes
 
 ## To Read: Essays and Letters
 
-|     AUTHOR     |            TITLE             |
-| :------------: | :--------------------------: |
-| Virginia Woolf |  A Room of One's Own (1929)  |
-|  Franz Kafka   | A Letter to My Father (1952) |
+|        AUTHOR        |                    TITLE                     |
+| :------------------: | :------------------------------------------: |
+|    Virginia Woolf    |          A Room of One's Own (1929)          |
+|     Franz Kafka      |         A Letter to My Father (1952)         |
+|  Kurt Vonnegut Jr.   |   Wampeteors, Foma and Granfalloons (1974)   |
+| David Foster Wallace | Consider the Lobster and Other Essays (2005) |
 
 ## To Read: Poetry
 
@@ -154,46 +161,45 @@ category: notes
 
 |    DIRECTOR     |            TITLE            |
 | :-------------: | :-------------------------: |
-|   Satoshi Kon   |     Perfect Blue (1997)     |
 |  Wong Kar-wai   | In the Mood for Love (2000) |
 | Charlie Kaufman | Synecdoche, New York (2008) |
 |  Wes Anderson   |  Fantastic Mr. Fox (2009)   |
 
 ## Completed
 
-|                         NAME                          |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
-| :---------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
-|              The Sirens of Titan (1959)               |             Kurt Vonnegut Jr.              |  2022-12-26  |   2022-12-29   |
-|               The Apology (c. 300s BC)                |                   Plato                    |  2022-11-25  |   2022-11-25   |
-|                     Cosmos (1980)                     |                 Carl Sagan                 |  2022-07-05  |   2022-10-18   |
-|                    The Egg (2009)                     |                 Andy Weir                  |  2022-10-01  |   2022-10-01   |
-|                Euthyphro (c. 300s BC)                 |                   Plato                    |  2022-09-28  |   2022-09-28   |
-| The Great Minds of the Western Intellectual Tradition |               Michael Sugrue               |  2022-04-01  |   2022-09-01   |
-|             Breakfast of Champions (1973)             |             Kurt Vonnegut Jr.              |  2022-08-01  |   2022-08-22   |
-|                  Perfect Blue (1997)                  |                Satoshi Kon                 |  2022-08-19  |   2022-08-19   |
-|                 Ivan the Fool (1886)                  |                Leo Tolstoy                 |  2022-08-15  |   2022-08-15   |
-|                  Cat's Cradle (1963)                  |             Kurt Vonnegut Jr.              |  2022-07-27  |   2022-07-30   |
-|              Slaughterhouse Five (1969)               |             Kurt Vonnegut Jr.              |  2022-07-20  |   2022-07-27   |
-|            Investigations of a Dog (1922)             |                Franz Kafka                 |  2022-06-12  |   2022-06-19   |
-|                   The Burrow (1928)                   |                Franz Kafka                 |  2022-06-01  |   2022-06-05   |
-|           Description of a Struggle (1909)            |                Franz Kafka                 |  2022-05-20  |   2022-05-25   |
-|                    Paprika (2006)                     |                Satoshi Kon                 |  2022-05-15  |   2022-05-15   |
-|               The Metamorphosis (1915)                |                Franz Kafka                 |  2022-05-09  |   2022-05-12   |
-|           Through the Looking Glass (1871)            |               Lewis Carroll                |  2022-04-18  |   2022-04-25   |
-|              Alice in Wonderland (1865)               |               Lewis Carroll                |  2022-04-15  |   2022-04-18   |
-|      Logicomix: An epic search for truth (2008)       | Apostolos Doxiadis; Christos Papadimitriou |  2022-03-05  |   2022-04-17   |
-|               Mere Christianity (1952)                |                 C.S. Lewis                 |              |                |
-|             Scholastic Metaphysics (2014)             |                Edward Feser                |              |                |
-|                   The Trial (1925)                    |                Franz Kafka                 |              |                |
-|   The Doors of Perception & Heaven and Hell (1954)    |               Aldous Huxley                |              |                |
-|           Pedagogy of the Oppressed (1968)            |                Paulo Freire                |              |                |
-|              The Myth of Sisyphus (1942)              |                Albert Camus                |              |                |
-|                 This is Water (2005)                  |            David Foster Wallace            |              |                |
-|                  East of Eden (1952)                  |               John Steinbeck               |              |                |
-|         The Universe in a Single Atom (2005)          |               Dalai Lama XIV               |              |                |
-|                   Galápagos (1985)                    |             Kurt Vonnegut Jr.              |              |                |
-|              At Home in the World (2016)              |              Thich Nhat Hahn               |              |                |
-|                The Sun My Heart (1982)                |              Thich Nhat Hahn               |              |                |
-|                     Kokoro (1914)                     |               Natsume Sōseki               |              |                |
-|           Zen Mind, Beginner's Mind (1970)            |               Shunryu Suzuki               |              |                |
-|             Phantoms in the Brain (1998)              |             V.S. Ramachandran              |              |                |
+|                                                     NAME                                                     |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
+| :----------------------------------------------------------------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
+|                                          The Sirens of Titan (1959)                                          |             Kurt Vonnegut Jr.              |  2022-12-26  |   2022-12-29   |
+|                                           The Apology (c. 300s BC)                                           |                   Plato                    |  2022-11-25  |   2022-11-25   |
+|                                                Cosmos (1980)                                                 |                 Carl Sagan                 |  2022-07-05  |   2022-10-18   |
+|                                                The Egg (2009)                                                |                 Andy Weir                  |  2022-10-01  |   2022-10-01   |
+|                                            Euthyphro (c. 300s BC)                                            |                   Plato                    |  2022-09-28  |   2022-09-28   |
+|                            The Great Minds of the Western Intellectual Tradition                             |               Michael Sugrue               |  2022-04-01  |   2022-09-01   |
+|     [[notes/books/novels/1950-1999/vonnegut-kurt-breakfast-of-champions:Breakfast of Champions (1973)]]      |             Kurt Vonnegut Jr.              |  2022-08-01  |   2022-08-22   |
+|                                             Perfect Blue (1997)                                              |                Satoshi Kon                 |  2022-08-19  |   2022-08-19   |
+|                                             Ivan the Fool (1886)                                             |                Leo Tolstoy                 |  2022-08-15  |   2022-08-15   |
+|                                             Cat's Cradle (1963)                                              |             Kurt Vonnegut Jr.              |  2022-07-27  |   2022-07-30   |
+|        [[notes/books/novels/1950-1999/vonnegut-kurt-slaughterhouse-five:Slaughterhouse Five (1969)]]         |             Kurt Vonnegut Jr.              |  2022-07-20  |   2022-07-27   |
+|     [[notes/books/novels/1900-1949/kafka-franz-investigations-of-a-dog:Investigations of a Dog (1922)]]      |                Franz Kafka                 |  2022-06-12  |   2022-06-19   |
+|                                              The Burrow (1928)                                               |                Franz Kafka                 |  2022-06-01  |   2022-06-05   |
+|                                       Description of a Struggle (1909)                                       |                Franz Kafka                 |  2022-05-20  |   2022-05-25   |
+|                                                Paprika (2006)                                                |                Satoshi Kon                 |  2022-05-15  |   2022-05-15   |
+|                                           The Metamorphosis (1915)                                           |                Franz Kafka                 |  2022-05-09  |   2022-05-12   |
+|                                       Through the Looking Glass (1871)                                       |               Lewis Carroll                |  2022-04-18  |   2022-04-25   |
+|          [[notes/books/novels/1800s/carroll-lewis-alice-in-wonderland:Alice in Wonderland (1865)]]           |               Lewis Carroll                |  2022-04-15  |   2022-04-18   |
+|                                  Logicomix: An epic search for truth (2008)                                  | Apostolos Doxiadis; Christos Papadimitriou |  2022-03-05  |   2022-04-17   |
+|                                           Mere Christianity (1952)                                           |                 C.S. Lewis                 |              |                |
+|                                        Scholastic Metaphysics (2014)                                         |                Edward Feser                |              |                |
+|                   [[notes/books/novels/1900-1949/kafka-franz-the-trial:The Trial (1925)]]                    |                Franz Kafka                 |              |                |
+|                               The Doors of Perception & Heaven and Hell (1954)                               |               Aldous Huxley                |              |                |
+|                                       Pedagogy of the Oppressed (1968)                                       |                Paulo Freire                |              |                |
+|                                         The Myth of Sisyphus (1942)                                          |                Albert Camus                |              |                |
+|                                             This is Water (2005)                                             |            David Foster Wallace            |              |                |
+|                                             East of Eden (1952)                                              |               John Steinbeck               |              |                |
+|                                     The Universe in a Single Atom (2005)                                     |               Dalai Lama XIV               |              |                |
+|                                               Galápagos (1985)                                               |             Kurt Vonnegut Jr.              |              |                |
+|                                         At Home in the World (2016)                                          |              Thich Nhat Hahn               |              |                |
+|                                           The Sun My Heart (1982)                                            |              Thich Nhat Hahn               |              |                |
+|                                                Kokoro (1914)                                                 |               Natsume Sōseki               |              |                |
+| [[notes/books/essays/spirituality/suzuki-shunryu-zen-mind-beginners-mind: Zen Mind, Beginner's Mind (1970)]] |               Shunryū Suzuki               |              |                |
+|                                         Phantoms in the Brain (1998)                                         |             V.S. Ramachandran              |              |                |

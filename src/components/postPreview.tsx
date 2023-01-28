@@ -1,26 +1,26 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react"
+import { Link } from "gatsby"
 
 interface Props {
-    readonly title?: string,
-    readonly subtitle: string,
-    readonly slug: string,
-    readonly date: string,
-    readonly lastUpdated: string,
-    readonly topics: [string],
-    readonly excerpt: string,
-    readonly showExcerpt: boolean,
+    readonly title?: string
+    readonly subtitle: string
+    readonly slug: string
+    readonly date: string
+    readonly lastUpdated: string
+    readonly topics: [string]
+    readonly excerpt: string
+    readonly showExcerpt: boolean
 }
 
 const PostPreview: React.FC<Props> = ({
-    title, 
-    subtitle, 
-    slug, 
+    title,
+    subtitle,
+    slug,
     date,
     lastUpdated,
-    topics, 
+    topics,
     excerpt,
-    showExcerpt
+    showExcerpt,
 }) => {
     date = date.slice(0, 10)
     lastUpdated = lastUpdated.slice(0, 10)
@@ -30,14 +30,18 @@ const PostPreview: React.FC<Props> = ({
                 <Link to={slug}>{title || slug}</Link>
             </h3>
             <small>
-                {date} ○
-                last updated: {lastUpdated} ○
-                topics: {topics.map((topic, i, arr) => 
+                {date} ○ last updated: {lastUpdated} ○ topics:{" "}
+                {topics.map((topic, i, arr) => (
                     <Link to={`/topics/${topic}/`} key={topic}>
-                        {(i < arr.length - 1) ? topic + ', ' : topic}
-                    </Link>)}
+                        {i < arr.length - 1 ? topic + ", " : topic}
+                    </Link>
+                ))}
             </small>
-            {showExcerpt ? <p dangerouslySetInnerHTML={{ __html: excerpt }} /> : <p dangerouslySetInnerHTML={{ __html: subtitle }} />}
+            {showExcerpt ? (
+                <p dangerouslySetInnerHTML={{ __html: excerpt }} />
+            ) : (
+                <p dangerouslySetInnerHTML={{ __html: subtitle }} />
+            )}
         </div>
     )
 }

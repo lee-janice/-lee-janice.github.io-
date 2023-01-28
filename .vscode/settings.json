@@ -1,17 +1,18 @@
 {
-    "cSpell.words": [
-        "booknote",
-        "booknotes",
-        "Breon",
-        "Bürstner",
-        "chapternum",
-        "chaptertitle",
-        "chokehold",
-        "Fräulein",
-        "frontmatter",
-        "Grubach",
-        "lastupdated",
-        "liminality",
-        "pagenum"
-    ]
+  "cSpell.words": [
+    "booknote",
+    "booknotes",
+    "Breon",
+    "Bürstner",
+    "chapternum",
+    "chaptertitle",
+    "chokehold",
+    "Fräulein",
+    "frontmatter",
+    "Grubach",
+    "lastupdated",
+    "liminality",
+    "pagenum"
+  ],
+  "prettier.tabWidth": 4
 }
