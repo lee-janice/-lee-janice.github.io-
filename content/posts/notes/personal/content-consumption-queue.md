@@ -129,12 +129,17 @@ category: notes
 
 ## To Read: Essays and Letters
 
-|        AUTHOR        |                    TITLE                     |
-| :------------------: | :------------------------------------------: |
-|    Virginia Woolf    |          A Room of One's Own (1929)          |
-|     Franz Kafka      |         A Letter to My Father (1952)         |
-|  Kurt Vonnegut Jr.   |   Wampeteors, Foma and Granfalloons (1974)   |
-| David Foster Wallace | Consider the Lobster and Other Essays (2005) |
+|           AUTHOR           |                         TITLE                          |
+| :------------------------: | :----------------------------------------------------: |
+|       Virginia Woolf       |               A Room of One's Own (1929)               |
+|        Franz Kafka         |              A Letter to My Father (1952)              |
+|        Lewis Thomas        | The Lives of a Cell: Notes of a Biology Watcher (1974) |
+|     Kurt Vonnegut Jr.      |        Wampeteors, Foma and Granfalloons (1974)        |
+|  Jacqueline Jones Royster  |  When the First Voice You Hear Is Not Your Own (1996)  |
+|      N. David Mermin       |                 Writing physics (2003)                 |
+| Nancy Sommers; Laura Saltz | The Novice as Expert: Writing the Freshman Year (2004) |
+|    David Foster Wallace    |      Consider the Lobster and Other Essays (2005)      |
+|          Yiyun Li          |             To Speak Is to Blunder (2016)              |
 
 ## To Read: Poetry
 

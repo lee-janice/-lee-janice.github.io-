@@ -1,5 +1,5 @@
 ---
-title: Suzuki, Shunryū; Zen Mind, Beginner's Mind
+title: Suzuki, Shunryū; Zen Mind, Beginner's Mind (1970)
 subtitle: Notes on Zen Mind, Beginner's Mind by Shunryū Suzuki
 date: 2023-01-26
 lastupdated: 2023-01-26
@@ -150,7 +150,7 @@ On the relationship between Zen teacher and student:
 -   Calmness in activity is true calmness.
 -   Progress is always little by little—just be sincere and make a full effort in each moment.
 
-[^camus]: These vows remind me of The Myth of Sisyphus by Camus: _One must imagine Sisyphus happy._
+[^camus]: These vows remind me of The Myth of Sisyphus by Camus: _One must imagine Sisyphus happy_
 
 #### Nothing Special
 
@@ -334,6 +334,95 @@ On the relationship between Zen teacher and student:
 
 ### Part 3: Right Understanding
 
-### Epilogue: Zen Mind
+#### Traditional Zen Spirit
 
-### Afterword
+-   According to the Buddhist understanding, human nature is without ego. Egoistic ideas are delusion, causing a karmic life.
+-   Right effort is more important than any stage that you will attain in your practice. When you believe in the way, enlightenment is already there.
+-   Even after attaining enlightenment, the Buddha continued the same effort he was making before. But his view of life was now stable, and he watched everyone's life, including his own.
+-   Only through practice can we understand what Buddhism is—not through reading or contemplation of philosophy.
+
+#### Transiency
+
+-   The basic teaching of Buddhism is transiency, or that everything changes.
+-   Because everything changes, there is no constant self. The self-nature of every existence is this change.
+-   We suffer because we cannot accept this transiency.
+-   We should find perfect existence through imperfect existence; complete perfection is not different from imperfection. Good is not different from bad. They are two sides of one coin.
+-   Finding the pleasure in suffering is the only way to accept the truth of transiency.
+
+#### The Quality of Being
+
+-   Dogen-zenji said that "every existence is a flashing into the vast phenomenal world." Each existence is an expression of the quality of being itself.
+-   "In calmness there should be activity; in activity there should be calmness."
+-   Our temporal existences are independent—we can always change into something else. The "I" of yesterday and the "I" of today are independent. The past, present, and future are all within you.
+
+#### Naturalness
+
+-   _Jinen ken gedo_ is heretical naturalness, which is like a kind of sloppiness. What naturalness means in this context is a feeling of being independent from everything, or some activity that is based on nothingness, like a seed or plant coming out of the ground. The seed has no idea of being a certain plant, but is in perfect harmony with its environment.
+-   To practice zazen should be to sit as if drinking water when you are thirsty. You don't have to force yourself to drink water when you're thirsty.
+-   _Shin ku myo u_: "from true emptiness, the wondrous being appears."
+-   When listening to a lecture, you should not have an idea of yourself, or else your understanding will be one-sided.
+-   _Nyu nan shin_: "soft or flexible mind."
+
+#### Emptiness
+
+-   If you want to understand Buddhism, you should forget about your preconceived ideas, like ideas about substantiality or existence. The Buddhist understanding of life includes both existence and non-existence.
+-   When you make your own way, you will express the universal way. "When you understand one thing through and through, you understand everything. When you try to understand everything, you will not understand anything. The best way is to understand yourself, and then you will understand everything."
+-   "Step by step I stop the sound of the murmuring brook."
+-   Concentration is freedom, but focus.
+
+#### Readiness, Mindfulness
+
+-   When we realize that everything we see is a part of emptiness, we have no attachment to any existence, and we realize that everything is a tentative form and color.
+-   We should have soft, flexible thinking (mindfulness). Your mind should not be divided.
+-   Wisdom is the readiness of the mind.
+
+#### Believing in Nothing
+
+-   It is necessary to believe in nothing—that is, to believe in something with no form and no color, something that exists before all forms and colors appear. Something that is always prepared for taking some particular form. This is called Buddha nature.
+-   When Buddha nature is personified we call it Buddha; when we understand it as ultimate truth we call it Dharma; when we accept it for ourselves we call it Sangha. Even though there are these separate forms, it is one existence which has no form or color.[^trinity]
+-   "If you understand yourself as a temporal embodiment of the truth,
+    you will have no difficulty whatsoever. You will appreciate your
+    surroundings, and you will appreciate yourself as a wonderful part of
+    Buddha’s great activity, even in the midst of difficulties."
+
+[^trinity]: This reminds me of the Holy Trinity
+
+#### Attachment, Nonattachment
+
+-   Dogen-zenji said, "Even though it is midnight, dawn is here; even
+    though dawn comes, it is nighttime."
+-   Dogen-zenji said, "Although everything has Buddha nature, we
+    love flowers, and we do not care for weeds."
+-   We should not attach to love alone—we should accept hate.
+-   Dogen said, "To learn something is to know yourself; to study
+    Buddhism is to study yourself." To learn something is not to acquire
+    something which you did not know before. You know something
+    before you learn it. There is no gap between the "I" before you know
+    something and the "I" after you know something. There is no gap
+    between the ignorant and the wise.
+-   In love there should be hate (or non-attachment); in hate there should be love (acceptance).
+
+#### Calmness
+
+-   For Zen students a weed, which for most people is worthless, is a treasure. With this attitude, whatever you do, life becomes an art.
+
+#### Experience, Not Philosophy
+
+-   Contrary to the urgings of American society, there is no need to analyze Zen intellectually.
+
+#### Original Buddhism
+
+-   Everything is Buddha's activity. Buddha's teaching is everywhere.
+-   We should forget about particular teachings; teaching is in every moment, in every existence.
+
+#### Beyond Consciousness
+
+-   Sometimes in scriptures there are some analogies to describe empty mind; like an astronomically great number, so great that it is beyond counting.
+-   If you recognize your delusion, it cannot stay. But do not be bothered by it.
+-   "The purpose of Buddhist teaching is to point to life itself existing beyond consciousness in our pure original mind."
+
+#### Buddha's Enlightenment
+
+-   When the Buddha attained enlightenment under the Bo
+    tree, he said, "It is wonderful to see Buddha nature in everything and
+    in each individual!"
