@@ -174,6 +174,7 @@ category: notes
 
 |                                                     NAME                                                     |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
+|                                               The Aleph (1945)                                               |             Jorge Luis Borges              |  2023-01-30  |   2023-01-30   |
 |                                          The Sirens of Titan (1959)                                          |             Kurt Vonnegut Jr.              |  2022-12-26  |   2022-12-29   |
 |                                           The Apology (c. 300s BC)                                           |                   Plato                    |  2022-11-25  |   2022-11-25   |
 |                                                Cosmos (1980)                                                 |                 Carl Sagan                 |  2022-07-05  |   2022-10-18   |
@@ -183,7 +184,7 @@ category: notes
 |     [[notes/books/novels/1950-1999/vonnegut-kurt-breakfast-of-champions:Breakfast of Champions (1973)]]      |             Kurt Vonnegut Jr.              |  2022-08-01  |   2022-08-22   |
 |                                             Perfect Blue (1997)                                              |                Satoshi Kon                 |  2022-08-19  |   2022-08-19   |
 |                                             Ivan the Fool (1886)                                             |                Leo Tolstoy                 |  2022-08-15  |   2022-08-15   |
-|                                             Cat's Cradle (1963)                                              |             Kurt Vonnegut Jr.              |  2022-07-27  |   2022-07-30   |
+|                [[notes/books/novels/1950-1999/vonnegut-kurt-cats-cradle:Cat's Cradle (1963)]]                |             Kurt Vonnegut Jr.              |  2022-07-27  |   2022-07-30   |
 |        [[notes/books/novels/1950-1999/vonnegut-kurt-slaughterhouse-five:Slaughterhouse Five (1969)]]         |             Kurt Vonnegut Jr.              |  2022-07-20  |   2022-07-27   |
 |     [[notes/books/novels/1900-1949/kafka-franz-investigations-of-a-dog:Investigations of a Dog (1922)]]      |                Franz Kafka                 |  2022-06-12  |   2022-06-19   |
 |                                              The Burrow (1928)                                               |                Franz Kafka                 |  2022-06-01  |   2022-06-05   |
