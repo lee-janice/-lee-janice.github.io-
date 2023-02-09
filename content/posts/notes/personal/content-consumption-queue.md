@@ -37,32 +37,38 @@ category: notes
 |    Friedrich Nietzsche     | Thus Spoke Zarathustra (1883) |
 |  Charlotte Perkins Gilman  |  The Yellow Wallpaper (1892)  |
 
-## To Read: Fiction (1900s)
+## To Read: Fiction (1900-1950)
+
+|      AUTHOR       |                TITLE                 |
+| :---------------: | :----------------------------------: |
+|    Franz Kafka    |          The Castle (1926)           |
+|    Franz Kafka    |         The Judgement (1913)         |
+|    Franz Kafka    |          Prometheus (1918)           |
+|    Franz Kafka    |      In the Penal Colony (1919)      |
+|    Franz Kafka    |        A Hunger Artist (1922)        |
+|    Franz Kafka    |            Amerika (1927)            |
+|    James Joyce    |            Ulysses (1922)            |
+|  Virginia Woolf   |         Mrs Dalloway (1925)          |
+|   Herman Hesse    |          Siddhartha (1927)           |
+|   Herman Hesse    |      The Glass Bead Game (1943)      |
+|   Aldous Huxley   |        Brave New World (1932)        |
+| Jorge Luis Borges |           Fictions (1941)            |
+| Jorge Luis Borges |  The Aleph and Other Stories (1945)  |
+|   Albert Camus    |         The Stranger (1942)          |
+|   Viktor Frankl   |   Man's Search for Meaning (1946)    |
+|   George Orwell   |             1984 (1949)              |
+| Ernest Hemingway  |     Islands in the Stream (1949)     |
+|   Ray Bradbury    |        Dandelion Wine (1949)         |
+|  Shirley Jackson  | The Lottery and Other Stories (1949) |
+
+## To Read: Fiction (1950-1999)
 
 |         AUTHOR         |                     TITLE                     |
 | :--------------------: | :-------------------------------------------: |
-|      Franz Kafka       |               The Castle (1926)               |
-|      Franz Kafka       |             The Judgement (1913)              |
-|      Franz Kafka       |               Prometheus (1918)               |
-|      Franz Kafka       |          In the Penal Colony (1919)           |
-|      Franz Kafka       |            A Hunger Artist (1922)             |
-|      Franz Kafka       |                Amerika (1927)                 |
-|      James Joyce       |                Ulysses (1922)                 |
-|     Virginia Woolf     |              Mrs Dalloway (1925)              |
-|      Herman Hesse      |               Siddhartha (1927)               |
-|      Herman Hesse      |          The Glass Bead Game (1943)           |
-|     Aldous Huxley      |            Brave New World (1932)             |
-|   Jorge Luis Borges    |                Fictions (1941)                |
-|   Jorge Luis Borges    |      The Aleph and Other Stories (1945)       |
-|      Albert Camus      |              The Stranger (1942)              |
-|     Viktor Frankl      |        Man's Search for Meaning (1946)        |
-|     George Orwell      |                  1984 (1949)                  |
-|    Ernest Hemingway    |         Islands in the Stream (1949)          |
-|      Ray Bradbury      |             Dandelion Wine (1949)             |
-|    Shirley Jackson     |     The Lottery and Other Stories (1949)      |
 |       T.H. White       |        The Once and Future King (1958)        |
 |      Daniel Keyes      |          Flowers for Algernon (1959)          |
 |      Sylvia Plath      |              The Bell Jar (1963)              |
+|     Italo Calvino      |        The Complete Cosmicomics (1965)        |
 |     Thomas Pynchon     |          The Crying of Lot 49 (1966)          |
 |      Maya Angelou      |    I Know Why the Caged Bird Sings (1969)     |
 | Gabriel García Márquez |     One Hundred Years of Solitude (1959)      |
@@ -89,6 +95,9 @@ category: notes
 |           Plato           | Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo (c. 300s BC) |
 |           Plato           |                       The Republic (c. 375 BC)                       |
 |      Marcus Aurelius      |                     The Meditations (c. 161 AD)                      |
+|       St. Augustine       |                     On Christian Doctrine (397)                      |
+|       St. Augustine       |              Enchiridion on Faith, Hope and Love (420)               |
+|       St. Augustine       |                        The City of God (426)                         |
 | Gottfried Wilhelm Leibniz |                          Monadology (1714)                           |
 |    Mary Wollstonecraft    |             A Vindication of the Rights of Woman (1792)              |
 |     Søren Kierkegaard     |                           Either/Or (1843)                           |
@@ -118,14 +127,16 @@ category: notes
 
 ## To Read: Other
 
-|            AUTHOR             |                                 TITLE                                  |
-| :---------------------------: | :--------------------------------------------------------------------: |
-| Ernest Nagel; James R. Newman |                          Gödel's Proof (1958)                          |
-|         Marvin Minsky         |                       The Society of Mind (1988)                       |
-|         Ray Bradbury          |                    Zen in the Art of Writing (1990)                    |
-|      M. Mitchell Waldrop      | Complexity: The Emerging Science at the Edge of Order and Chaos (1992) |
-|      V. S. Ramachandran       |                       The Tell-Tale Brain (2011)                       |
-|         Marvin Minsky         |                       The Emotion Machine (2007)                       |
+|            AUTHOR             |                                  TITLE                                  |
+| :---------------------------: | :---------------------------------------------------------------------: |
+| Ernest Nagel; James R. Newman |                          Gödel's Proof (1958)                           |
+|      Buckminster Fuller       |                       I Seem To Be a Verb (1970)                        |
+|         Marvin Minsky         |                       The Society of Mind (1988)                        |
+|         Ray Bradbury          |                    Zen in the Art of Writing (1990)                     |
+|      M. Mitchell Waldrop      | Complexity: The Emerging Science at the Edge of Order and Chaos (1992)  |
+|      V. S. Ramachandran       |                       The Tell-Tale Brain (2011)                        |
+|         Marvin Minsky         |                       The Emotion Machine (2007)                        |
+|        Cecelia Watson         | Semicolon: The Past, Present, and Future of a Misunderstood Mark (2019) |
 
 ## To Read: Essays and Letters
 
@@ -143,9 +154,10 @@ category: notes
 
 ## To Read: Poetry
 
-| AUTHOR |                      TITLE                      |
-| :----: | :---------------------------------------------: |
-| Sappho | If Not, Winter: Fragments of Sappho (c. 650 BC) |
+|   AUTHOR    |                      TITLE                      |
+| :---------: | :---------------------------------------------: |
+|   Sappho    | If Not, Winter: Fragments of Sappho (c. 650 BC) |
+| Max Ehrmann |                Desiderata (1927)                |
 
 ## To Read: Academic Papers
 

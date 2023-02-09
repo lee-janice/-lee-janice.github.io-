@@ -11,13 +11,13 @@ category: notes
 
 ## 0. Set up Neo4j
 
-- Download Neo4j Desktop following the instructions [here](https://neo4j.com/download/).
-- Create a DBMS (I named mine `WikiGraph`) and a new database (which I named `clickstream-MM-YYYY`).
-- Add a local DBMS (I named mine `Clickstream`) and set a password for it.
+-   Download Neo4j Desktop following the instructions [here](https://neo4j.com/download/).
+-   Create a DBMS (I named mine `WikiGraph`) and a new database (which I named `clickstream-MM-YYYY`).
+-   Add a local DBMS (I named mine `Clickstream`) and set a password for it.
 
 ## 1. Download the click-stream data
 
-- Download the data from the latest dump located [here](https://dumps.wikimedia.org/other/clickstream/). The downloaded result will be a `.tsv`, or "tab-separated values" file.
+-   Download the data from the latest dump located [here](https://dumps.wikimedia.org/other/clickstream/). The downloaded result will be a `.tsv`, or "tab-separated values" file.
 
 ## 2. Process the downloaded file
 
@@ -36,4 +36,4 @@ with open(*path-to-tsv*, 'r') as tsv: 
 
 ## 3. Import data into the Neo4j database
 
-- Move the `.csv` file you created into the `import/` directory for your DBMS. You can open the import folder for your DBMS in Finder through Neo4j Desktop: click the `...` next to the `Open` button, then `Open folder > Import`.
+-   Move the `.csv` file you created into the `import/` directory for your DBMS. You can open the import folder for your DBMS in Finder through Neo4j Desktop: click the `...` next to the `Open` button, then `Open folder > Import`.

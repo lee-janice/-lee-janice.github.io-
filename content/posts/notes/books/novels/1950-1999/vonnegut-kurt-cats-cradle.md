@@ -16,6 +16,6 @@ topics:
     ]
 category: notes
 booknote:
-    - author: Kurt Vonnegut
+    - author: Kurt Vonnegut Jr.
       title: Cat's Cradle
 ---
