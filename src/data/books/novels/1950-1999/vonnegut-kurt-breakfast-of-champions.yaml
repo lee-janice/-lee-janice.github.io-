@@ -43,7 +43,7 @@ quotes:
       chapter_number: 1
       page_number: 22
       importance: 5
-      notes:
+      notes: +1 for solipsism
       tags: [free will, God, solipsism]
     - item:
       quote: >
@@ -189,7 +189,7 @@ quotes:
       tags: []
     - item:
       quote: >
-          "Here is all she had to say about death: “Oh my, oh my.”"
+          Here is all she had to say about death: “Oh my, oh my.”
       description: Mary's death
       chapter_title:
       chapter_number: 6
@@ -300,7 +300,7 @@ quotes:
       chapter_number: 12
       page_number: 86
       importance: 5
-      notes:
+      notes: see - The Red Wheelbarrow by William Carlos Williams
       tags: []
     - item:
       quote: >

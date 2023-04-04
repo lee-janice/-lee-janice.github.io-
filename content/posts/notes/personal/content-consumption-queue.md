@@ -19,6 +19,14 @@ category: notes
 | Gödel, Escher, Bach: An Eternal Golden Braid (1979) | Douglas Hofstader |  2022-01-15  |
 |              Human Behavioral Biology               | Robert Sapolosky  |  2021-12-01  |
 
+## To Read: Education
+
+|        AUTHOR         |                  TITLE                  |
+| :-------------------: | :-------------------------------------: |
+|         Plato         |        The Republic (c. 300 BC)         |
+|       Aristotle       | Nicomachean Ethics, Book 10 (c. 300 BC) |
+| Jean Jacques Rousseau |                  Emile                  |
+
 ## To Read: Fiction (-1800s)
 
 |           AUTHOR           |             TITLE             |
