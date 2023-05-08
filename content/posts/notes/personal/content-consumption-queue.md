@@ -11,9 +11,15 @@ category: notes
 
 ## Currently
 
+|                   NAME                   |      AUTHOR      | DATE STARTED |
+| :--------------------------------------: | :--------------: | :----------: |
+| The History of Western Philosophy (1945) | Bertrand Russell |  2022-12-29  |
+|         The Republic (c. 300 BC)         |      Plato       |              |
+
+## On Hold
+
 |                        NAME                         |      AUTHOR       | DATE STARTED |
 | :-------------------------------------------------: | :---------------: | :----------: |
-|      The History of Western Philosophy (1945)       | Bertrand Russell  |  2022-12-29  |
 |             The Case for Christ (1998)              |    Lee Strobel    |  2022-07-15  |
 |                  The New Testament                  |      Various      |  2022-03-01  |
 | Gödel, Escher, Bach: An Eternal Golden Braid (1979) | Douglas Hofstader |  2022-01-15  |
@@ -23,7 +29,6 @@ category: notes
 
 |        AUTHOR         |                  TITLE                  |
 | :-------------------: | :-------------------------------------: |
-|         Plato         |        The Republic (c. 300 BC)         |
 |       Aristotle       | Nicomachean Ethics, Book 10 (c. 300 BC) |
 | Jean Jacques Rousseau |                  Emile                  |
 
@@ -49,6 +54,7 @@ category: notes
 
 |      AUTHOR       |                TITLE                 |
 | :---------------: | :----------------------------------: |
+|   Marcel Proust   |  In Search of Lost Time (1913-1927)  |
 |    Franz Kafka    |          The Castle (1926)           |
 |    Franz Kafka    |         The Judgement (1913)         |
 |    Franz Kafka    |          Prometheus (1918)           |
@@ -98,33 +104,33 @@ category: notes
 
 ## To Read: Philosophy
 
-|          AUTHOR           |                                TITLE                                 |
-| :-----------------------: | :------------------------------------------------------------------: |
-|           Plato           | Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo (c. 300s BC) |
-|           Plato           |                       The Republic (c. 375 BC)                       |
-|      Marcus Aurelius      |                     The Meditations (c. 161 AD)                      |
-|       St. Augustine       |                     On Christian Doctrine (397)                      |
-|       St. Augustine       |              Enchiridion on Faith, Hope and Love (420)               |
-|       St. Augustine       |                        The City of God (426)                         |
-| Gottfried Wilhelm Leibniz |                          Monadology (1714)                           |
-|    Mary Wollstonecraft    |             A Vindication of the Rights of Woman (1792)              |
-|     Søren Kierkegaard     |                           Either/Or (1843)                           |
-|     Søren Kierkegaard     |                      Fear and Trembling (1843)                       |
-|     Søren Kierkegaard     |                    The Concept of Anxiety (1843)                     |
-|    Friedrich Nietzsche    |                     Human, All Too Human (1879)                      |
-|    Friedrich Nietzsche    |                     Beyond Good and Evil (1886)                      |
-|    Friedrich Nietzsche    |                 On the Genealogy of Morality (1887)                  |
-|    Friedrich Nietzsche    |                           Ecce Homo (1888)                           |
-|        Leo Tolstoy        |                         A Confession (1882)                          |
-|        Leo Tolstoy        |               The Kingdom of God Is Within You (1894)                |
-|      Okakura Kakuzō       |                        The Book of Tea (1906)                        |
-|    Ludwig Wittgenstein    |                Tractatus Logico-Philosophicus (1921)                 |
-|     John Paul Sartre      |                     Being and Nothingness (1943)                     |
-|    Simone de Beauvoir     |                        The Second Sex (1949)                         |
-|    Ludwig Wittgenstein    |                 Philosophical Investigations (1953)                  |
-|       Hannah Arendt       |                      The Human Condition (1958)                      |
-|        Guy Debord         |                 The Society of the Spectacle (1967)                  |
-|     Jean Baudrillard      |                   Simulacra and Simulation (1983)                    |
+|          AUTHOR           |                    TITLE                    |
+| :-----------------------: | :-----------------------------------------: |
+|           Plato           |          The Republic (c. 375 BC)           |
+|      Marcus Aurelius      |         The Meditations (c. 161 AD)         |
+|       St. Augustine       |         On Christian Doctrine (397)         |
+|       St. Augustine       |  Enchiridion on Faith, Hope and Love (420)  |
+|       St. Augustine       |            The City of God (426)            |
+| Gottfried Wilhelm Leibniz |              Monadology (1714)              |
+|    Mary Wollstonecraft    | A Vindication of the Rights of Woman (1792) |
+|     Søren Kierkegaard     |              Either/Or (1843)               |
+|     Søren Kierkegaard     |          Fear and Trembling (1843)          |
+|     Søren Kierkegaard     |        The Concept of Anxiety (1843)        |
+|    Friedrich Nietzsche    |         Human, All Too Human (1879)         |
+|    Friedrich Nietzsche    |         Beyond Good and Evil (1886)         |
+|    Friedrich Nietzsche    |     On the Genealogy of Morality (1887)     |
+|    Friedrich Nietzsche    |              Ecce Homo (1888)               |
+|        Leo Tolstoy        |             A Confession (1882)             |
+|        Leo Tolstoy        |   The Kingdom of God Is Within You (1894)   |
+|      Okakura Kakuzō       |           The Book of Tea (1906)            |
+|      Bertrand Russel      |      The Problems of Philosophy (1912)      |
+|    Ludwig Wittgenstein    |    Tractatus Logico-Philosophicus (1921)    |
+|     John Paul Sartre      |        Being and Nothingness (1943)         |
+|    Simone de Beauvoir     |            The Second Sex (1949)            |
+|    Ludwig Wittgenstein    |     Philosophical Investigations (1953)     |
+|       Hannah Arendt       |         The Human Condition (1958)          |
+|        Guy Debord         |     The Society of the Spectacle (1967)     |
+|     Jean Baudrillard      |       Simulacra and Simulation (1983)       |
 
 ## To Read: Spirituality
 
@@ -146,14 +152,15 @@ category: notes
 |         Marvin Minsky         |                       The Emotion Machine (2007)                        |
 |        Cecelia Watson         | Semicolon: The Past, Present, and Future of a Misunderstood Mark (2019) |
 
-## To Read: Essays and Letters
+## To Read: Essays, Letters, and Talks
 
 |           AUTHOR           |                         TITLE                          |
 | :------------------------: | :----------------------------------------------------: |
-|       Virginia Woolf       |               A Room of One's Own (1929)               |
 |        Franz Kafka         |              A Letter to My Father (1952)              |
 |        Lewis Thomas        | The Lives of a Cell: Notes of a Biology Watcher (1974) |
 |     Kurt Vonnegut Jr.      |        Wampeteors, Foma and Granfalloons (1974)        |
+|        Thomas Nagel        |          What Is It Like to Be a Bat? (1974)           |
+|      Richard Hamming       |              You and Your Research (1986)              |
 |  Jacqueline Jones Royster  |  When the First Voice You Hear Is Not Your Own (1996)  |
 |      N. David Mermin       |                 Writing physics (2003)                 |
 | Nancy Sommers; Laura Saltz | The Novice as Expert: Writing the Freshman Year (2004) |
@@ -186,7 +193,6 @@ category: notes
 
 |    DIRECTOR     |            TITLE            |
 | :-------------: | :-------------------------: |
-|  Wong Kar-wai   | In the Mood for Love (2000) |
 | Charlie Kaufman | Synecdoche, New York (2008) |
 |  Wes Anderson   |  Fantastic Mr. Fox (2009)   |
 
@@ -194,6 +200,14 @@ category: notes
 
 |                                                     NAME                                                     |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
+|                                               Whiplash (2014)                                                |              Damien Chazelle               |  2023-04-29  |   2023-04-29   |
+|                                             Phaedo (c. 300s BC)                                              |                   Plato                    |  2023-04-03  |   2023-04-21   |
+|                                 Nam June Paik: Moon is the Oldest TV (2023)                                  |                 Amanda Kim                 |  2023-04-01  |   2023-04-01   |
+|                                          A Room of One's Own (1929)                                          |               Virginia Woolf               |  2023-03-10  |   2023-03-19   |
+|                                               Hercules (1997)                                                |         John Musker & Ron Clements         |  2023-03-12  |   2023-03-12   |
+|                                         In the Mood for Love (2000)                                          |                Wong Kar-wai                |  2023-03-11  |   2023-03-11   |
+|                                              Meno (c. 300s BC)                                               |                   Plato                    |  2023-01-25  |   2023-02-04   |
+|                                              Crito (c. 300s BC)                                              |                   Plato                    |  2023-01-22  |   2023-01-22   |
 |                                               The Aleph (1945)                                               |             Jorge Luis Borges              |  2023-01-30  |   2023-01-30   |
 |                                          The Sirens of Titan (1959)                                          |             Kurt Vonnegut Jr.              |  2022-12-26  |   2022-12-29   |
 |                                           The Apology (c. 300s BC)                                           |                   Plato                    |  2022-11-25  |   2022-11-25   |

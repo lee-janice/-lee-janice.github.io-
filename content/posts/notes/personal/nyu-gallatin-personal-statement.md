@@ -3,7 +3,7 @@ title: Education as reflection and action
 subtitle: My (rejected) statement of purpose for the Master's program at NYU Gallatin
 date: 2023-03-02
 lastupdated: 2023-03-02
-published: true
+published: false
 layout: post
 topics: ["essays", "education", "praxis"]
 category: essays
