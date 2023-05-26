@@ -2,7 +2,7 @@
 title: Dream journal
 subtitle: A log of my more memorable dreams in reverse-chronological order
 date: 2021-10-03
-lastupdated: 2021-05-25
+lastupdated: 2023-05-25
 published: true
 layout: post
 topics: ["notes", "dreams", "personal", "liminality", "subconscious"]
@@ -13,7 +13,7 @@ category: notes
 
 ---
 
-mom dying; jesse villan
+mom dying; jesse villain
 
 ## 2023-01-25
 
