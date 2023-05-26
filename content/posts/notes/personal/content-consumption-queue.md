@@ -2,7 +2,7 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: 2021-10-04
-lastupdated: 2023-01-28
+lastupdated: 2023-05-25
 published: true
 layout: post
 topics: ["notes"]
@@ -144,6 +144,7 @@ category: notes
 |            AUTHOR             |                                  TITLE                                  |
 | :---------------------------: | :---------------------------------------------------------------------: |
 | Ernest Nagel; James R. Newman |                          Gödel's Proof (1958)                           |
+|          Thomas Kuhn          |             The Structure of Scientific Revolutions (1962)              |
 |      Buckminster Fuller       |                       I Seem To Be a Verb (1970)                        |
 |         Marvin Minsky         |                       The Society of Mind (1988)                        |
 |         Ray Bradbury          |                    Zen in the Art of Writing (1990)                     |
