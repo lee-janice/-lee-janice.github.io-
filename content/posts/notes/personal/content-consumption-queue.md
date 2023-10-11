@@ -2,7 +2,7 @@
 title: Content consumption queue
 subtitle: A note to keep track of what I should read/watch/listen to next
 date: 2021-10-04
-lastupdated: 2023-05-25
+lastupdated: 2023-10-10
 published: true
 layout: post
 topics: ["notes"]
@@ -11,15 +11,16 @@ category: notes
 
 ## Currently
 
-|                   NAME                   |      AUTHOR      | DATE STARTED |
-| :--------------------------------------: | :--------------: | :----------: |
-| The History of Western Philosophy (1945) | Bertrand Russell |  2022-12-29  |
-|         The Republic (c. 300 BC)         |      Plato       |              |
+|             NAME              |    AUTHOR    | DATE STARTED |
+| :---------------------------: | :----------: | :----------: |
+|   The Republic (c. 300 BC)    |    Plato     |              |
+| Should You Believe Wikipedia? | Amy Bruckman |  2023-09-21  |
 
 ## On Hold
 
 |                        NAME                         |      AUTHOR       | DATE STARTED |
 | :-------------------------------------------------: | :---------------: | :----------: |
+|      The History of Western Philosophy (1945)       | Bertrand Russell  |  2022-12-29  |
 |             The Case for Christ (1998)              |    Lee Strobel    |  2022-07-15  |
 |                  The New Testament                  |      Various      |  2022-03-01  |
 | Gödel, Escher, Bach: An Eternal Golden Braid (1979) | Douglas Hofstader |  2022-01-15  |
@@ -143,6 +144,7 @@ category: notes
 
 |            AUTHOR             |                                  TITLE                                  |
 | :---------------------------: | :---------------------------------------------------------------------: |
+|         Lewis Carroll         |                          Symbolic Logic (1896)                          |
 | Ernest Nagel; James R. Newman |                          Gödel's Proof (1958)                           |
 |          Thomas Kuhn          |             The Structure of Scientific Revolutions (1962)              |
 |      Buckminster Fuller       |                       I Seem To Be a Verb (1970)                        |
@@ -201,6 +203,9 @@ category: notes
 
 |                                                     NAME                                                     |                  CREATOR                   | DATE STARTED | DATE COMPLETED |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------: | :----------: | :------------: |
+|                         Ancient Greece: From Prehistoric to Hellenistic Times (1996)                         |              Thomas R. Martin              |      ?       |       ?        |
+|                                     God Bless You, Mr. Rosewater (1970)                                      |             Kurt Vonnegut Jr.              |      ?       |       ?        |
+|                                          Look at the Birdie (2009)                                           |             Kurt Vonnegut Jr.              |      ?       |       ?        |
 |                                               Whiplash (2014)                                                |              Damien Chazelle               |  2023-04-29  |   2023-04-29   |
 |                                             Phaedo (c. 300s BC)                                              |                   Plato                    |  2023-04-03  |   2023-04-21   |
 |                                 Nam June Paik: Moon is the Oldest TV (2023)                                  |                 Amanda Kim                 |  2023-04-01  |   2023-04-01   |
