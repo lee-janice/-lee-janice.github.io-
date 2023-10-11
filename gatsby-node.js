@@ -11,7 +11,7 @@ const { ENGINE_METHOD_PKEY_ASN1_METHS } = require("constants")
 // create own GraphQL schema to allow for nullable types in frontmatter
 // https://www.gatsbyjs.com/docs/reference/graphql-data-layer/schema-customization/#nested-types
 exports.createSchemaCustomization = ({ actions }) => {
-    const { createTypes } = actions;
+    const { createTypes } = actions
     const typeDefs = `
         type MarkdownRemark implements Node {
             frontmatter: FrontMatter
@@ -26,52 +26,61 @@ exports.createSchemaCustomization = ({ actions }) => {
             author: String
             title: String
         }
-    `;
-    createTypes(typeDefs);
-};
+    `
+    createTypes(typeDefs)
+}
 
 // create pages of the website by transforming markdown files into html
 exports.createPages = ({ graphql, actions }) => {
     // grabs topics and title from frontmatter - these must be set for each markdown file
     return graphql(
         `
-      {
-        allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 1000) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                topics
-                title
-                layout
-                published
-                booknote {
-                    author
-                    title
+            {
+                allMarkdownRemark(
+                    sort: { fields: [frontmatter___date], order: DESC }
+                    limit: 1000
+                ) {
+                    edges {
+                        node {
+                            fields {
+                                slug
+                            }
+                            frontmatter {
+                                topics
+                                title
+                                layout
+                                published
+                                booknote {
+                                    author
+                                    title
+                                }
+                            }
+                        }
+                    }
                 }
-              }
+                years: allDirectory(
+                    filter: { relativeDirectory: { regex: "/journal$/" } }
+                ) {
+                    edges {
+                        node {
+                            name
+                        }
+                    }
+                }
+                months: allDirectory(
+                    filter: {
+                        relativeDirectory: { regex: "/journal/[0-9]{4}$/" }
+                    }
+                ) {
+                    edges {
+                        node {
+                            name
+                            relativeDirectory
+                        }
+                    }
+                }
             }
-          }
-        }
-        years: allDirectory(filter: {relativeDirectory: {regex: "/journal$/"}}) {
-            edges {
-              node {
-                name
-              }
-            }
-        }
-        months: allDirectory(filter: {relativeDirectory: {regex: "/journal/[0-9]{4}$/"}}) {
-            edges {
-              node {
-                name
-                relativeDirectory
-              }
-            }
-        }
-      }
-    `,
+        `
     ).then(result => {
         if (result.errors) {
             throw result.errors
@@ -79,22 +88,29 @@ exports.createPages = ({ graphql, actions }) => {
 
         // get the templates
         const postTemplate = path.resolve(`./src/templates/post.tsx`)
-        const topicTemplate = path.resolve('./src/templates/topic.tsx')
-        const yearTemplate = path.resolve('./src/templates/year.tsx')
-        const monthTemplate = path.resolve('./src/templates/month.tsx')
-        const bookNoteTemplate = path.resolve('./src/templates/booknote.tsx')
+        const topicTemplate = path.resolve("./src/templates/topic.tsx")
+        const yearTemplate = path.resolve("./src/templates/year.tsx")
+        const monthTemplate = path.resolve("./src/templates/month.tsx")
+        const bookNoteTemplate = path.resolve("./src/templates/booknote.tsx")
 
         // create post pages
         // posts is an array of posts sorted from earliest -> latest
-        const posts = result.data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.published)
+        const posts = result.data.allMarkdownRemark.edges
+            .filter(post => post.node.frontmatter.published)
+            .sort(
+                (a, b) =>
+                    a.node.frontmatter.lastupdated -
+                    b.node.frontmatter.lastupdated
+            )
         posts.forEach((post, index) => {
-            var previous = index === posts.length - 1 ? null : posts[index + 1].node
+            var previous =
+                index === posts.length - 1 ? null : posts[index + 1].node
             var next = index === 0 ? null : posts[index - 1].node
 
-            // use booknote template for book note pages 
-            // author and title in the frontmatter of the markdown file must match 
-            // the author and title in the yaml book quote file 
-            if (post.node.frontmatter.layout === 'booknote') {
+            // use booknote template for book note pages
+            // author and title in the frontmatter of the markdown file must match
+            // the author and title in the yaml book quote file
+            if (post.node.frontmatter.layout === "booknote") {
                 actions.createPage({
                     path: post.node.fields.slug,
                     component: bookNoteTemplate,
@@ -106,7 +122,8 @@ exports.createPages = ({ graphql, actions }) => {
                         next,
                     },
                 })
-            } else { // use general post template for everything else
+            } else {
+                // use general post template for everything else
                 actions.createPage({
                     path: post.node.fields.slug,
                     component: postTemplate,
@@ -140,7 +157,7 @@ exports.createPages = ({ graphql, actions }) => {
             })
         })
 
-        // create year pages 
+        // create year pages
         const years = result.data.years.edges
         years.forEach(year => {
             actions.createPage({
@@ -164,7 +181,7 @@ exports.createPages = ({ graphql, actions }) => {
                     year: year,
                     month: month.node.name,
                     dirRegexByYearAndMonth: `/journal/${year}/${month.node.name}/`,
-                }
+                },
             })
         })
     })

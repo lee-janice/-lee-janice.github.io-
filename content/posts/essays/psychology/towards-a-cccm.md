@@ -5,8 +5,16 @@ date: 2023-10-05
 lastupdated: 2023-10-05
 published: true
 layout: post
-topics: ["notes"]
-category: notes
+topics:
+    [
+        "essays",
+        "psychology",
+        "education",
+        "learning",
+        "assimilation-theory",
+        "ausubel",
+    ]
+category: essays
 ---
 
 In his assimilation theory, Ausubel (1968, 2000) posits that meaningful learning occurs when new ideas are
@@ -33,10 +41,10 @@ defense of AOs in which numerous other authors not only noted that in the studie
 results outnumbered non-significant ones, but also suggested that Barnes & Clawson had failed to adequately judge
 the implications of Ausubel’s theory for learning outcomes and that their methodology of meta-analysis was
 suspect (Mayer, 1979a, 1979b; Lawton & Wanska, 1977; Stone, 1983; Luiten et al., 1980). Even Ausubel (1978) himself
-published a strongly-worded response to his critics, retorting that his accusers clearly failed to read his previous
-publications in sufficient detail. Since this flurry of activity in the 70s and 80s, there does not appear to have been
-another comprehensive meta-analysis of AOs’ effect on learning. It suffices to say that the evidence as to whether
-or not AOs facilitate meaningful learning remains inconclusive.
+published a strongly-worded response to his critics, retorting that had his accusers read his previous publications
+in sufficient detail, they would not have dared to make such claims. Since this flurry of activity in the 70s and 80s,
+there does not appear to have been another comprehensive meta-analysis of AOs’ effect on learning. It suffices to say
+that the evidence as to whether or not AOs facilitate meaningful learning remains inconclusive.
 
 Regardless of the controversy of Ausubel’s advance organizers, his assimilation theory continued to find
 applications in research and practice, with the most notable example being Novak’s concept mapping tool. Novak and
