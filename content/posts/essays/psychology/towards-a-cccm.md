@@ -10,9 +10,9 @@ category: notes
 ---
 
 In his assimilation theory, Ausubel (1968, 2000) posits that meaningful learning occurs when new ideas are
-substantively incorporated into a learner’s cognitive structure. This process is three-fold: (1) new material is anchored to
-relevant preexisting concepts, (2) the two interact to produce new meanings, and (3) the new meanings are connected
-to their anchoring concepts. Central to his theory is the notion of cognitive structure, or the hierarchically-organized
+substantively incorporated into a learner’s cognitive structure. This process is three-fold: (1) new material is _anchored_ to
+relevant preexisting concepts, (2) the two _interact_ to produce new meanings, and (3) the new meanings are _connected_
+to their anchoring concepts. Central to his theory is this notion of cognitive structure, or the hierarchically-organized
 framework of knowledge that serves as an anchoring site for new ideas. To Ausubel, the availability, stability, clarity,
 and discriminability of concepts in cognitive structure are the principal factors influencing meaningful learning.
 
@@ -20,7 +20,7 @@ One hypothesis resulting from this claim predicts that meaningful learning more 
 structure is clear, stable, and well-organized than if it is vague, unreliable, or disordered (Ausubel, 1968, 2000). This
 hypothesis has been put to the test through studies of Ausubel’s (1960) advance organizers (AOs), with the
 fundamental conjecture being that the organizer provides an anchoring structure for the incorporation of new ideas and
-thus facilitates meaningful learning. The initial outlook for the hypothesis was favorable: in his inaugural paper on
+thus facilitates meaningful learning. The initial outlook for this hypothesis was favorable: in his inaugural paper on
 AOs, Ausubel (1960) reported that undergraduate students who received an expository AO on metallurgy
 outperformed those who were administered a historical passage on the same topic. Four subsequent studies demonstrated
 similar results in favor of AOs (Ausubel & Fitzgerald, 1961, 1962; Fitzgerald & Ausbel, 1963; Ausubel & Youssef, 1965).
@@ -29,7 +29,7 @@ However, as the body of research on the subject expanded, an increasing number o
 these outcomes. In a notable meta-analysis of the research, Barnes & Clawson (1975) found that in 20 of the 32 studies
 under their review, AOs did not produce significant results. They ultimately concluded that “advance organizers, as
 presently constructed, generally do not facilitate learning” (p. 651). These remarks provoked a lively meta-analytic
-defense of AOs in which numerous other authors not only noted that in the studies under their review, significant
+defense of AOs in which numerous other authors not only noted that in the studies under _their_ review, significant
 results outnumbered non-significant ones, but also suggested that Barnes & Clawson had failed to adequately judge
 the implications of Ausubel’s theory for learning outcomes and that their methodology of meta-analysis was
 suspect (Mayer, 1979a, 1979b; Lawton & Wanska, 1977; Stone, 1983; Luiten et al., 1980). Even Ausubel (1978) himself
@@ -43,22 +43,22 @@ applications in research and practice, with the most notable example being Novak
 his team were compelled by three central aspects of Ausubel’s theory: first, that new meanings are built upon prior
 concepts; second, that cognitive structure is hierarchically-organized; and third, that meaningful learning improves
 the precision and clarity of relationships between concepts (Novak & Cañas, 2006). Their resulting tool represents
-concepts as labeled nodes, and their relationships as labeled edges. Two concepts and their relation to each other
-form a meaningful proposition. Several meta-analyses regarding the efficacy of concept maps demonstrate positive
+_concepts_ as labeled nodes, and their _relationships_ as labeled edges. Two concepts and their relation to each other
+form a meaningful _proposition._ Several meta-analyses regarding the efficacy of concept maps demonstrate positive
 effects on learning (Horton et al., 1993; Nesbit & Adesope, 2006; Schroeder et al., 2018).
 
 The notion of representing knowledge as a network of concepts and propositions bears strong similarities to
 methods of representing data in an information ontology (Vickery, 1997), or a formal organization of information in
-a knowledge base. Information ontologies are widely utilized to represent web-based collections of data—such as the
+a knowledge base. Information ontologies are widely utilized to represent web-based collections of data, such as the
 Wikidata database, off of which Wikipedia is partially based. Wikidata’s ontology represents a unit of knowledge as
-an item and relates two items via properties. A meaningful statement can be retrieved from the database through a
-Subject-Predicate-Object query (Erxleben et al., 2014). The bijection with Novak’s set of concepts, relationships,
-and propositions is clear. This design choice affords a potential extension of Novak’s concept mapping tool from an
-individual learner’s—or even individual expert’s—representation of a singular domain, to a collaboratively-constructed
-mapping of all concepts described by what is arguably the largest existing repository of human knowledge.
+an _item_ and relates two items via _properties_. A meaningful statement can be retrieved from the database through a
+`Subject-Predicate-Object` query (Erxleben et al., 2014). The bijection with Novak’s set of _concepts_, _relationships_,
+and _propositions_ is clear. This design choice affords a potential extension of Novak’s concept mapping tool from an
+_individual_ learner’s—or even individual _expert’s_—representation of a _singular_ domain, to a _collaboratively-constructed_
+mapping of _all_ concepts described by what is arguably the largest existing repository of human knowledge.
 
 Two important considerations come to mind. First, Ausubel’s assimilation theory is quite imbued within the
-cognitivist tradition—that is, it deals primarily with the symbolic representation and manipulation of concepts in
+cognitivist tradition—that is, it deals primarily with the _symbolic_ representation and manipulation of concepts in
 cognitive structure. It says little of learning beyond the individual mind. As it is now commonly understood that
 learning is not only cognitive, but also material, social, and cultural in nature (Brown et al., 1989), the limitations of
 Ausubel’s theory must be addressed. Second, as the controversy surrounding Ausubel’s AOs demonstrates, isolating
