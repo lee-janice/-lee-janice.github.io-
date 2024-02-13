@@ -67,7 +67,7 @@ She threw herself to the floor, sobbing, using spit and tears and blood and snot
 to plaster together the splitting walls, smearing the paste over the fractaling gaps—but how
 insurmountably wide they were—and the more fiercely she scraped and prayed and clawed to piece them
 back together, the faster the earthy substance disintegrated under her fingertips. The worst became
-undeniably, horrifically true. This ruin was her own doing.
+undeniably, horrifically true: this ruin was her own doing.
 
 There was no shield from the world now. As far as one’s eye could discern, all structure and form
 and shelter had crumbled away. A bare existence lay strewn on its remains. She numbed herself to
@@ -109,8 +109,10 @@ But just as she was fading away, from all directions, came a resounding golden c
 
 Answering the call, she pushed blindly into the impasse—
 
-—and it burst open, flinging her far out into a void, beyond the known, cast forth on a free-fall
+&nbsp;&nbsp;&nbsp;&nbsp; —and it burst open, flinging her far out into a void, beyond the known, cast forth on a free-fall
 into a vast expanse of potentialities; she saw in a dizzy splendor the tendrils of matter that blossomed
 outwards from the rupture of her cage, and the patterns of chaos and cosmos that intertwined in
-a kaleidoscopic dance. And then, in a speck of dust that chanced to float her by... she saw the
+a kaleidoscopic dance.
+
+And then, in a speck of dust that chanced to float her by... she saw the
 Universe entire. She couldn’t help but laugh.
