@@ -1,6 +1,6 @@
 ---
 title: Ave Solis
-subtitle: A Sapphic ode to the glory of the Sun
+subtitle: A Sapphic ode to the glory of a Sun
 date: 2024-02-13
 lastupdated: 2024-02-13
 published: true

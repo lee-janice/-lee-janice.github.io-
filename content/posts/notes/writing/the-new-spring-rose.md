@@ -26,7 +26,3 @@ and the one act left is for one to feel.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Though Winter will return sure as the tide,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as such is Love, and such is Life besides.
-
-<br>
-<br>
-<br>
