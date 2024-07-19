@@ -1,6 +1,6 @@
 ---
 title: In Memoriam
-subtitle: Salute to Alfred, Lord Tennyson
+subtitle: A salute to two men
 date: 2024-07-16
 lastupdated: 2024-07-16
 published: true
