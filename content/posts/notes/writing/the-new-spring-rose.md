@@ -1,8 +1,8 @@
 ---
 title: the new Spring rose
 subtitle: As such is Love, as such is Life
-date: 2024-02-13
-lastupdated: 2024-02-13
+date: 2024-02-14
+lastupdated: 2024-02-14
 published: true
 layout: post
 topics: ["writing", "poetry", "love"]
